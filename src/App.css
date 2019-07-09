@@ -1,3 +1,18 @@
+.cart_bar {
+  width: 400px;
+  height: 50px;
+  background-color: rgb(255, 238, 0);
+}
+.fixed-bottom {
+  position: fixed;
+  right: 0;
+  bottom: 20px;
+  left: 0;
+  z-index: 1030;
+  width: 400px;
+  margin: 0 auto;
+}
+
 .ui.card.styles {
   margin: 5px auto;
   width: 200px;
