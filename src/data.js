@@ -136,7 +136,28 @@ export const data = [
     price: 40,
     cartQuantity: 0,
     id: 7,
-    images: [{ img1: "" }, { img1: "" }],
+    images: [
+      {
+        img1:
+          "/Users/sa/Desktop/wendor/healthcart/public/Images/yogabar/Yoga bar Multigrain Energy Bar - Chocolate Chunk Nut, 38 g/yogabarmultigrain.jpg"
+      },
+      {
+        img1:
+          "/Users/sa/Desktop/wendor/healthcart/public/Images/yogabar/Yoga bar Multigrain Energy Bar - Chocolate Chunk Nut, 38 g/yogabarmultigrain1.jpg"
+      },
+      {
+        img1:
+          "/Users/sa/Desktop/wendor/healthcart/public/Images/yogabar/Yoga bar Multigrain Energy Bar - Chocolate Chunk Nut, 38 g/yogabarmultigrain2.jpg"
+      },
+      {
+        img1:
+          "/Users/sa/Desktop/wendor/healthcart/public/Images/yogabar/Yoga bar Multigrain Energy Bar - Chocolate Chunk Nut, 38 g/yogabarmultigrain3.jpg"
+      },
+      {
+        img1:
+          "/Users/sa/Desktop/wendor/healthcart/public/Images/yogabar/Yoga bar Multigrain Energy Bar - Chocolate Chunk Nut, 38 g/yogabarmultigrain5.jpg"
+      }
+    ],
     desc:
       "Yogabar’s Energy Bars contain a nutrient dense primary ingredient that is generally whole grains, nuts or seeds. The bar contains 25 - 30% Whole grains & complex carbs, derived from Brown rice, Oats, Buckwheat, etc. 10 - 15% Nuts, that is generally Almonds, Cashews or Peanuts, as they provide all round more protein and fiber. Lastly, it contains 10 - 15% Seeds, which are generally Flax, Chia, Sunflower, etc. The bars contain no corn syrup, artificial sweeteners or hydrogenated oils. It also contains no artificial preservatives, as Yoga Bar chooses to focus on the long term health of their consumers, rather than a product that can last years on the shelf.																						",
     img:
@@ -147,7 +168,24 @@ export const data = [
     author: " Multigrain Energy Bar - Vanilla Almond, 38 g",
     price: 40,
     cartQuantity: 0,
-    images: [{ img1: "" }, { img1: "" }],
+    images: [
+      {
+        img1:
+          "/Users/sa/Desktop/wendor/healthcart/public/Images/yogabar/Yoga bar Multigrain Energy Bar - Vanilla Almond, 38 g/yogabarmultigrainvanalm1.jpg"
+      },
+      {
+        img1:
+          "/Users/sa/Desktop/wendor/healthcart/public/Images/yogabar/Yoga bar Multigrain Energy Bar - Vanilla Almond, 38 g/yogabarmultigrainvanalm2.jpg"
+      },
+      {
+        img1:
+          "/Users/sa/Desktop/wendor/healthcart/public/Images/yogabar/Yoga bar Multigrain Energy Bar - Vanilla Almond, 38 g/yogabarmultigrainvanalm3.jpg"
+      },
+      {
+        img1:
+          "/Users/sa/Desktop/wendor/healthcart/public/Images/yogabar/Yoga bar Multigrain Energy Bar - Vanilla Almond, 38 g/yogabarmultigrainvanalm4.jpg"
+      }
+    ],
     desc:
       "Yogabar’s Energy Bars contain a nutrient dense primary ingredient that is generally whole grains, nuts or seeds. The bar contains 25 - 30% Whole grains & complex carbs, derived from Brown rice, Oats, Buckwheat, etc. 10 - 15% Nuts, that is generally Almonds, Cashews or Peanuts, as they provide all round more protein and fiber. Lastly, it contains 10 - 15% Seeds, which are generally Flax, Chia, Sunflower, etc. The bars contain no corn syrup, artificial sweeteners or hydrogenated oils. It also contains no artificial preservatives, as Yoga Bar chooses to focus on the long term health of their consumers, rather than a product that can last years on the shelf.																						",
     img:
@@ -159,7 +197,20 @@ export const data = [
     author: " Whey Protein Bar - Baked Brownie, 50 g",
     price: 125,
     cartQuantity: 0,
-    images: [{ img1: "" }, { img1: "" }],
+    images: [
+      {
+        img1:
+          "/Users/sa/Desktop/wendor/healthcart/public/Images/yogabar/Yoga bar Whey Protein Bar - Baked Brownie, 50 g/yogabarwheypro1.jpg"
+      },
+      {
+        img1:
+          "/Users/sa/Desktop/wendor/healthcart/public/Images/yogabar/Yoga bar Whey Protein Bar - Baked Brownie, 50 g/yogabarwheypro2.jpg"
+      },
+      {
+        img1:
+          "/Users/sa/Desktop/wendor/healthcart/public/Images/yogabar/Yoga bar Whey Protein Bar - Baked Brownie, 50 g/yogabarwheypro3.jpg"
+      }
+    ],
     desc:
       "Yoga Bar’s Protein Bars are perfect to be relished after a workout, or can be had as a healthy, protein packed mid-day or evening snack. Each bar contains 20 grams of complete Protein from Whey protein concentrate, Lentil protein and Almonds. The bar also has 300 mg of omega 3s from Flax seeds, and 10 grams of prebiotic fibre, which promotes gut microflora and gut health, while containing the lowest net carb content.",
     img:
@@ -171,7 +222,16 @@ export const data = [
     author: "Happilo Trail Mix - Premium International, 35 g",
     price: 70,
     cartQuantity: 0,
-    images: [{ img1: "" }, { img1: "" }],
+    images: [
+      {
+        img1:
+          "/Users/sa/Desktop/wendor/healthcart/public/Images/trailmix/trailmix1.jpg"
+      },
+      {
+        img1:
+          "/Users/sa/Desktop/wendor/healthcart/public/Images/trailmix/trailmix2.jpg"
+      }
+    ],
     desc:
       "If you are looking for a high energy snack which tastes great, then Happilo Trail Mix is perfect for you. A combination of dried fruits, nuts, smarties makes this a true delight and a perfect gift for your loved ones. High in nutrients and healthyness, the mix will certainly keep your mouth shut till you finish eating. Time to be happy, lovely & healthy.",
     img: "/Images/trailmix/trailmix1.jpg",

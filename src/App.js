@@ -25,7 +25,8 @@ class App extends React.Component {
     this.state = {
       obj: [],
       books: data,
-      counter: 1
+      counter: 1,
+      showCart: true
     };
   }
 
@@ -76,6 +77,21 @@ class App extends React.Component {
       obj: list
     });
   }
+  incrementCounter = counter => {
+    console.log(counter);
+    counter = counter + 1;
+    console.log(counter);
+  };
+
+  decrementCounter = counter => {
+    {
+      counter == 1
+        ? this.setState({ showCart: true })
+        : this.setState({ showCart: false });
+    }
+
+    counter = counter - 1;
+  };
   render() {
     const { obj } = this.state;
 
@@ -150,7 +166,13 @@ class App extends React.Component {
         <div style={{ margin: "0 auto" }}>
           <Card.Group style={{ marginTop: "100px" }}>
             {this.state.books.map((book, index) => (
-              <ShowCard book={book} cartHandler={this.cartHandler.bind(this)} />
+              <ShowCard
+                book={book}
+                showCart={this.showCart}
+                cartHandler={this.cartHandler.bind(this)}
+                incrementCounter={this.incrementCounter.bind(this)}
+                decrementCounter={this.decrementCounter.bind(this)}
+              />
             ))}
           </Card.Group>
         </div>

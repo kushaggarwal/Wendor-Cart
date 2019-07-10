@@ -21,29 +21,15 @@ import {
 export default class ShowCard extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {
-      showCart: true
-    };
+    this.state = {};
   }
-
-  incrementCounter = counter => {
-    counter = counter + 1;
-    console.log(counter);
-  };
-
-  decrementCounter = counter => {
-    {
-      counter == 1
-        ? this.setState({ showCart: true })
-        : this.setState({ showCart: false });
-    }
-
-    counter = counter - 1;
-  };
 
   render() {
     const book = this.props.book;
     const cartHandler = this.props.cartHandler;
+    const incrementCounter = this.props.incrementCounter;
+    const decrementCounter = this.props.decrementCounter;
+    const showCart = this.props.showCart;
     return (
       <Card className="styles">
         <Modal
@@ -88,7 +74,7 @@ export default class ShowCard extends React.Component {
           <div style={{ textAlign: "center" }} />
         </Card.Content>
         <Card.Content extra>
-          {this.state.showCart ? (
+          {showCart ? (
             <Button
               onClick={() => {
                 cartHandler(book);
@@ -105,7 +91,7 @@ export default class ShowCard extends React.Component {
                 icon="minus"
                 color="red"
                 onClick={() => {
-                  this.decrementCounter(book.cartQuantity);
+                  decrementCounter(book.cartQuantity);
                 }}
               />
               <Label size="large">{book.cartQuantity + 1}</Label>
@@ -113,7 +99,7 @@ export default class ShowCard extends React.Component {
                 icon="plus"
                 color="green"
                 onClick={() => {
-                  this.incrementCounter(book.cartQuantity);
+                  incrementCounter(book.cartQuantity);
                 }}
               />
             </Button.Group>
