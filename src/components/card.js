@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../logo.svg";
 import "../App.css";
+import Carousel from "nuka-carousel";
 
 import { data } from "../data";
 import AwesomeSlider from "react-awesome-slider";
@@ -21,26 +22,23 @@ export default class ShowCard extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      showCart: true,
-      counter: 1
+      showCart: true
     };
   }
 
-  incrementCounter = () => {
-    this.setState({
-      counter: this.state.counter + 1
-    });
+  incrementCounter = counter => {
+    counter = counter + 1;
+    console.log(counter);
   };
 
-  decrementCounter = () => {
+  decrementCounter = counter => {
     {
-      this.state.counter == 1
+      counter == 1
         ? this.setState({ showCart: true })
         : this.setState({ showCart: false });
     }
-    this.setState({
-      counter: this.state.counter - 1
-    });
+
+    counter = counter - 1;
   };
 
   render() {
@@ -55,11 +53,11 @@ export default class ShowCard extends React.Component {
         >
           <Modal.Header>Select a Photo</Modal.Header>
           <Modal.Content image>
-            <AwesomeSlider>
-              <div data-src="/Images/alofrutjuice/Alofrut Kiwi Aloevera Juice 300ml/afj2.jpg" />
-              <div data-src="/Images/oreo/Cadbury Oreo Vanilla Crème Biscuit, 120 gm/oreov1.jpg" />
-              <div data-src="/Images/alofrutjuice/Alofrut Kiwi Aloevera Juice 300ml/afj2.jpg" />
-            </AwesomeSlider>
+            <Carousel>
+              <img src="/Images/alofrutjuice/Alofrut Kiwi Aloevera Juice 300ml/afj2.jpg" />
+              <img src="/Images/oreo/Cadbury Oreo Vanilla Crème Biscuit, 120 gm/oreov1.jpg" />
+              <img src="/Images/alofrutjuice/Alofrut Kiwi Aloevera Juice 300ml/afj2.jpg" />
+            </Carousel>
           </Modal.Content>
         </Modal>
         <Card.Content>
@@ -70,7 +68,8 @@ export default class ShowCard extends React.Component {
               fontSize: "12pt",
               fontFamily: "'Quicksand', sans-serif",
               color: "grey",
-              textDecoration: "bold"
+              textDecoration: "bold",
+              margin: "0 auto"
             }}
           >
             {book.author}
@@ -106,15 +105,15 @@ export default class ShowCard extends React.Component {
                 icon="minus"
                 color="red"
                 onClick={() => {
-                  this.decrementCounter();
+                  this.decrementCounter(book.cartQuantity);
                 }}
               />
-              <Label size="large">{this.state.counter}</Label>
+              <Label size="large">{book.cartQuantity + 1}</Label>
               <Button
                 icon="plus"
                 color="green"
                 onClick={() => {
-                  this.incrementCounter();
+                  this.incrementCounter(book.cartQuantity);
                 }}
               />
             </Button.Group>
