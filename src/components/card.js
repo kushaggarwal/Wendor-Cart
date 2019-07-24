@@ -2,6 +2,7 @@ import React from "react";
 import logo from "../logo.svg";
 import "../App.css";
 import Carousel from "nuka-carousel";
+import Cart from "./cart";
 
 import { data } from "../data";
 import AwesomeSlider from "react-awesome-slider";
@@ -21,15 +22,61 @@ import {
 export default class ShowCard extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      showCart: true,
+      counter: 0
+    };
+  }
+
+  storageHandler(item) {
+    var array = this.cartShow();
+    console.log(array);
+    var list = [];
+    var value = item;
+    console.log(value);
+    var alert;
+    for (item in array) {
+      list.push(JSON.parse(array[item]));
+    }
+    for (var i = 0; i < list.length; i++) {
+      var data = list[i];
+      console.log(data.id);
+      console.log(value.id);
+      if (data.id === value.id) {
+        console.log(true);
+        list.splice(i, 1);
+      }
+    }
+    return list;
+  }
+  pushCart(item) {
+    var list = this.storageHandler(item);
+    list.push(item);
+    this.localSet(list);
+  }
+
+  cartShow() {
+    return { ...window.localStorage };
+  }
+  deleteHandler(item) {
+    this.setState({ showCart: true, counter: 0 });
+    var list = this.storageHandler(item);
+
+    this.localSet(list);
+  }
+  localSet(items) {
+    localStorage.clear();
+
+    for (var i = 0; i < items.length; i++) {
+      localStorage.setItem("item" + i, JSON.stringify(items[i]));
+    }
   }
 
   render() {
     const book = this.props.book;
     const cartHandler = this.props.cartHandler;
-    const incrementCounter = this.props.incrementCounter;
-    const decrementCounter = this.props.decrementCounter;
-    const showCart = this.props.showCart;
+    const deleteitem = this.props.deleteitem;
+
     return (
       <Card className="styles">
         <Modal
@@ -37,12 +84,12 @@ export default class ShowCard extends React.Component {
             <img src={book.img} wrapped ui={false} className="img_styles" />
           }
         >
-          <Modal.Header>Select a Photo</Modal.Header>
+          <Modal.Header>Photo Gallery</Modal.Header>
           <Modal.Content image>
             <Carousel>
-              <img src="/Images/alofrutjuice/Alofrut Kiwi Aloevera Juice 300ml/afj2.jpg" />
-              <img src="/Images/oreo/Cadbury Oreo Vanilla Crème Biscuit, 120 gm/oreov1.jpg" />
-              <img src="/Images/alofrutjuice/Alofrut Kiwi Aloevera Juice 300ml/afj2.jpg" />
+              {book.images.map((image, index) => {
+                return <img src={image.img1} style={{ height: "300px" }} />;
+              })}
             </Carousel>
           </Modal.Content>
         </Modal>
@@ -74,13 +121,20 @@ export default class ShowCard extends React.Component {
           <div style={{ textAlign: "center" }} />
         </Card.Content>
         <Card.Content extra>
-          {showCart ? (
+          {this.state.showCart ? (
             <Button
               onClick={() => {
+                this.setState({
+                  counter: this.state.counter + 1
+                });
+                book.cartQuantity = this.state.counter + 1;
+
+                this.setState({
+                  showCart: false
+                });
                 cartHandler(book);
-                this.setState({ showCart: false });
               }}
-              color="orange"
+              color="blue"
               fluid
             >
               Add to cart
@@ -91,15 +145,37 @@ export default class ShowCard extends React.Component {
                 icon="minus"
                 color="red"
                 onClick={() => {
-                  decrementCounter(book.cartQuantity);
+                  this.setState({
+                    counter: this.state.counter - 1
+                  });
+                  book.cartQuantity = this.state.counter - 1;
+                  this.pushCart(book);
+                  {
+                    book.cartQuantity === 0
+                      ? this.deleteHandler(book)
+                      : this.setState({
+                          showCart: false
+                        });
+                  }
                 }}
               />
-              <Label size="large">{book.cartQuantity + 1}</Label>
+              <Label size="large">{book.cartQuantity}</Label>
               <Button
                 icon="plus"
                 color="green"
                 onClick={() => {
-                  incrementCounter(book.cartQuantity);
+                  this.setState({
+                    counter: this.state.counter + 1
+                  });
+
+                  console.log(this.state.counter);
+                  console.log(book.cartQuantity);
+                  if (book.cartQuantity < 3) {
+                    book.cartQuantity = this.state.counter + 1;
+                    this.pushCart(book);
+                  } else {
+                    alert("You cannot add more than 3 items");
+                  }
                 }}
               />
             </Button.Group>

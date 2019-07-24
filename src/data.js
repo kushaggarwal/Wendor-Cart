@@ -11,11 +11,11 @@ export const data = [
     images: [
       {
         img1:
-          "/Users/sa/Desktop/wendor/healthcart/public/Images/popcorn/Classic Butter Popcorn/popcornbutter1.jpg"
+          "/Images/popcorn/Classic Butter Popcorn/popcornbutter1.jpg"
       },
       {
         img1:
-          "/Users/sa/Desktop/wendor/healthcart/public/Images/popcorn/Classic Butter Popcorn/popcornbutter2.jpg"
+          "/Images/popcorn/Classic Butter Popcorn/popcornbutter2.jpg"
       }
     ]
   },
@@ -31,11 +31,11 @@ export const data = [
     images: [
       {
         img1:
-          "/Users/sa/Desktop/wendor/healthcart/public/Images/popcorn/Simply Salt Popcorn/popcornsalt1.jpg"
+          "/Images/popcorn/Simply Salt Popcorn/popcornsalt1.jpg"
       },
       {
         img1:
-          "/Users/sa/Desktop/wendor/healthcart/public/Images/popcorn/Simply Salt Popcorn/popcornsalt2.jpg"
+          "/Images/popcorn/Simply Salt Popcorn/popcornsalt2.jpg"
       }
     ]
   },
@@ -47,19 +47,19 @@ export const data = [
     images: [
       {
         img1:
-          "/Users/sa/Desktop/wendor/healthcart/public/Images/tooyumm/Too Yumm! Multigrain Chips, Dahi Papdi Chaat 54gm/tooyummmultidahi1.jpg"
+          "/Images/tooyumm/Too Yumm! Multigrain Chips, Dahi Papdi Chaat 54gm/tooyummmultidahi1.jpg"
       },
       {
         img1:
-          "/Users/sa/Desktop/wendor/healthcart/public/Images/tooyumm/Too Yumm! Multigrain Chips, Dahi Papdi Chaat 54gm/tooyummmultidahi2.jpg"
+          "/Images/tooyumm/Too Yumm! Multigrain Chips, Dahi Papdi Chaat 54gm/tooyummmultidahi2.jpg"
       },
       {
         img1:
-          "/Users/sa/Desktop/wendor/healthcart/public/Images/tooyumm/Too Yumm! Multigrain Chips, Dahi Papdi Chaat 54gm/tooyummmultidahi3.jpg"
+          "/Images/tooyumm/Too Yumm! Multigrain Chips, Dahi Papdi Chaat 54gm/tooyummmultidahi3.jpg"
       },
       {
         img1:
-          "/Users/sa/Desktop/wendor/healthcart/public/Images/tooyumm/Too Yumm! Multigrain Chips, Dahi Papdi Chaat 54gm/tooyummmultidahi4.jpg"
+          "/Images/tooyumm/Too Yumm! Multigrain Chips, Dahi Papdi Chaat 54gm/tooyummmultidahi4.jpg"
       }
     ],
     id: 3,
@@ -89,11 +89,11 @@ export const data = [
     images: [
       {
         img1:
-          "/Users/sa/Desktop/wendor/healthcart/public/Images/tooyumm/Too Yumm Quinoa Puffs Tikka Masala, 46g/tooyummquinoapuffs1.jpg"
+          "/Images/tooyumm/Too Yumm Quinoa Puffs Tikka Masala, 46g/tooyummquinoapuffs1.jpg"
       },
       {
         img1:
-          "/Users/sa/Desktop/wendor/healthcart/public/Images/tooyumm/Too Yumm Quinoa Puffs Tikka Masala, 46g/tooyummquinoapuffs1.jpg"
+          "/Images/tooyumm/Too Yumm Quinoa Puffs Tikka Masala, 46g/tooyummquinoapuffs1.jpg"
       }
     ],
     desc:
@@ -110,19 +110,19 @@ export const data = [
     images: [
       {
         img1:
-          "/Users/sa/Desktop/wendor/healthcart/public/Images/tooyumm/TooYumm! Chatpata Masala Foxnuts 19g/tooyummfoxnuts1.jpg"
+          "/Images/tooyumm/TooYumm! Chatpata Masala Foxnuts 19g/tooyummfoxnuts1.jpg"
       },
       {
         img1:
-          "/Users/sa/Desktop/wendor/healthcart/public/Images/tooyumm/TooYumm! Chatpata Masala Foxnuts 19g/tooyummfoxnuts2.jpg"
+          "/Images/tooyumm/TooYumm! Chatpata Masala Foxnuts 19g/tooyummfoxnuts2.jpg"
       },
       {
         img1:
-          "/Users/sa/Desktop/wendor/healthcart/public/Images/tooyumm/TooYumm! Chatpata Masala Foxnuts 19g/tooyummfoxnuts3.jpg"
+          "/Images/tooyumm/TooYumm! Chatpata Masala Foxnuts 19g/tooyummfoxnuts3.jpg"
       },
       {
         img1:
-          "/Users/sa/Desktop/wendor/healthcart/public/Images/tooyumm/TooYumm! Chatpata Masala Foxnuts 19g/tooyummfoxnuts4.jpg"
+          "/Images/tooyumm/TooYumm! Chatpata Masala Foxnuts 19g/tooyummfoxnuts4.jpg"
       }
     ],
     desc:
@@ -139,23 +139,23 @@ export const data = [
     images: [
       {
         img1:
-          "/Users/sa/Desktop/wendor/healthcart/public/Images/yogabar/Yoga bar Multigrain Energy Bar - Chocolate Chunk Nut, 38 g/yogabarmultigrain.jpg"
+          "/Images/yogabar/Yoga bar Multigrain Energy Bar - Chocolate Chunk Nut, 38 g/yogabarmultigrain.jpg"
       },
       {
         img1:
-          "/Users/sa/Desktop/wendor/healthcart/public/Images/yogabar/Yoga bar Multigrain Energy Bar - Chocolate Chunk Nut, 38 g/yogabarmultigrain1.jpg"
+          "/Images/yogabar/Yoga bar Multigrain Energy Bar - Chocolate Chunk Nut, 38 g/yogabarmultigrain1.jpg"
       },
       {
         img1:
-          "/Users/sa/Desktop/wendor/healthcart/public/Images/yogabar/Yoga bar Multigrain Energy Bar - Chocolate Chunk Nut, 38 g/yogabarmultigrain2.jpg"
+          "/Images/yogabar/Yoga bar Multigrain Energy Bar - Chocolate Chunk Nut, 38 g/yogabarmultigrain2.jpg"
       },
       {
         img1:
-          "/Users/sa/Desktop/wendor/healthcart/public/Images/yogabar/Yoga bar Multigrain Energy Bar - Chocolate Chunk Nut, 38 g/yogabarmultigrain3.jpg"
+          "/Images/yogabar/Yoga bar Multigrain Energy Bar - Chocolate Chunk Nut, 38 g/yogabarmultigrain3.jpg"
       },
       {
         img1:
-          "/Users/sa/Desktop/wendor/healthcart/public/Images/yogabar/Yoga bar Multigrain Energy Bar - Chocolate Chunk Nut, 38 g/yogabarmultigrain5.jpg"
+          "/Images/yogabar/Yoga bar Multigrain Energy Bar - Chocolate Chunk Nut, 38 g/yogabarmultigrain5.jpg"
       }
     ],
     desc:
@@ -171,19 +171,19 @@ export const data = [
     images: [
       {
         img1:
-          "/Users/sa/Desktop/wendor/healthcart/public/Images/yogabar/Yoga bar Multigrain Energy Bar - Vanilla Almond, 38 g/yogabarmultigrainvanalm1.jpg"
+          "/Images/yogabar/Yoga bar Multigrain Energy Bar - Vanilla Almond, 38 g/yogabarmultigrainvanalm1.jpg"
       },
       {
         img1:
-          "/Users/sa/Desktop/wendor/healthcart/public/Images/yogabar/Yoga bar Multigrain Energy Bar - Vanilla Almond, 38 g/yogabarmultigrainvanalm2.jpg"
+          "/Images/yogabar/Yoga bar Multigrain Energy Bar - Vanilla Almond, 38 g/yogabarmultigrainvanalm2.jpg"
       },
       {
         img1:
-          "/Users/sa/Desktop/wendor/healthcart/public/Images/yogabar/Yoga bar Multigrain Energy Bar - Vanilla Almond, 38 g/yogabarmultigrainvanalm3.jpg"
+          "/Images/yogabar/Yoga bar Multigrain Energy Bar - Vanilla Almond, 38 g/yogabarmultigrainvanalm3.jpg"
       },
       {
         img1:
-          "/Users/sa/Desktop/wendor/healthcart/public/Images/yogabar/Yoga bar Multigrain Energy Bar - Vanilla Almond, 38 g/yogabarmultigrainvanalm4.jpg"
+          "/Images/yogabar/Yoga bar Multigrain Energy Bar - Vanilla Almond, 38 g/yogabarmultigrainvanalm4.jpg"
       }
     ],
     desc:
@@ -200,15 +200,15 @@ export const data = [
     images: [
       {
         img1:
-          "/Users/sa/Desktop/wendor/healthcart/public/Images/yogabar/Yoga bar Whey Protein Bar - Baked Brownie, 50 g/yogabarwheypro1.jpg"
+          "/Images/yogabar/Yoga bar Whey Protein Bar - Baked Brownie, 50 g/yogabarwheypro1.jpg"
       },
       {
         img1:
-          "/Users/sa/Desktop/wendor/healthcart/public/Images/yogabar/Yoga bar Whey Protein Bar - Baked Brownie, 50 g/yogabarwheypro2.jpg"
+          "/Images/yogabar/Yoga bar Whey Protein Bar - Baked Brownie, 50 g/yogabarwheypro2.jpg"
       },
       {
         img1:
-          "/Users/sa/Desktop/wendor/healthcart/public/Images/yogabar/Yoga bar Whey Protein Bar - Baked Brownie, 50 g/yogabarwheypro3.jpg"
+          "/Images/yogabar/Yoga bar Whey Protein Bar - Baked Brownie, 50 g/yogabarwheypro3.jpg"
       }
     ],
     desc:
@@ -225,11 +225,11 @@ export const data = [
     images: [
       {
         img1:
-          "/Users/sa/Desktop/wendor/healthcart/public/Images/trailmix/trailmix1.jpg"
+          "/Images/trailmix/trailmix1.jpg"
       },
       {
         img1:
-          "/Users/sa/Desktop/wendor/healthcart/public/Images/trailmix/trailmix2.jpg"
+          "/Images/trailmix/trailmix2.jpg"
       }
     ],
     desc:
@@ -242,7 +242,24 @@ export const data = [
     author: "Cornitos Nachos Peri Peri, 60g",
     price: 35,
     cartQuantity: 0,
-    images: [{ img1: "" }, { img1: "" }],
+    images: [
+      {
+        img1:
+          "/Images/cornitos/periperi/cornitosperi1.jpg"
+      },
+      {
+        img1:
+          "/Images/cornitos/periperi/cornitosperi2.jpg"
+      },
+      {
+        img1:
+          "/Images/cornitos/periperi/cornitosperi3.jpg"
+      },
+      {
+        img1:
+          "/Images/cornitos/periperi/cornitosperi4.jpg"
+      }
+    ],
     desc:
       "Nacho Crisps with the unique combination of African chili and tangy lemon in 60g Pack. Adding New Spice to the Occasion. Cornitos New Flavour Peri Peri.							",
     img: "/Images/cornitos/periperi/cornitosperi1.jpg",
@@ -253,7 +270,24 @@ export const data = [
     author: "Cornitos Nachos Crisps, Barbeque, 60g",
     price: 35,
     cartQuantity: 0,
-    images: [{ img1: "" }, { img1: "" }],
+    images: [
+      {
+        img1:
+          "/Images/cornitos/barbeque/cornitosbarb1.jpg"
+      },
+      {
+        img1:
+          "/Images/cornitos/barbeque/cornitosbarb2.jpg"
+      },
+      {
+        img1:
+          "/Images/cornitos/barbeque/cornitosbarb3.jpg"
+      },
+      {
+        img1:
+          "/Images/cornitos/barbeque/cornitosbarb4.jpg"
+      }
+    ],
     desc:
       "Cornitos nacho crisps is a mexican snack in international flavors catering to the indian palate. These flavored tortilla corn chips are made by the traditional mexican lime-treatment process, along with the contract farming of special food grade non-gmo corn.												",
     img: "/Images/cornitos/barbeque/cornitosbarb1.jpg",
@@ -264,7 +298,12 @@ export const data = [
     author: "Unibic Chocolate Chip Cookies, 75g",
     price: 30,
     cartQuantity: 0,
-    images: [{ img1: "" }, { img1: "" }],
+    images: [
+      {
+        img1:
+          "/Images/unibic/Unibic Chocolate Chip Cookies, 75g/unibicchoco1.jpg"
+      }
+    ],
     desc:
       "These delightful cookies blend the richness of butter, coconut and chocolate in every bite. Warning: These Cookies are known to induce euphoria and in some cases you can’t put the pack down if there is a cookie remaining.",
     img: "/Images/unibic/Unibic Chocolate Chip Cookies, 75g/unibicchoco1.jpg",
@@ -275,7 +314,20 @@ export const data = [
     author: "Unibic Multigrain Breakfast, 75g",
     price: 30,
     cartQuantity: 0,
-    images: [{ img1: "" }, { img1: "" }],
+    images: [
+      {
+        img1:
+          "/Images/unibic/Unibic Multigrain Breakfast, 75g/unibicbreakfast1.jpg"
+      },
+      {
+        img1:
+          "/Images/unibic/Unibic Multigrain Breakfast, 75g/unibicbreakfast1.jpg"
+      },
+      {
+        img1:
+          "/Images/unibic/Unibic Multigrain Breakfast, 75g/unibicbreakfast3.jpg"
+      }
+    ],
     desc:
       "An exotic blend of 5 grains coupled with natural richness of cranberry, black currant, almond, dates and honey. So that you don’t need to have them at breakfast; these cookies are breakfast.",
     img: "/Images/unibic/Unibic Multigrain Breakfast, 75g/unibicbreakfast1.jpg",
@@ -286,7 +338,12 @@ export const data = [
     author: "Unibic Honey Oatmeal, 75g",
     price: 30,
     cartQuantity: 0,
-    images: [{ img1: "" }, { img1: "" }],
+    images: [
+      {
+        img1:
+          "/Images/unibic/Unibic Honey Oatmeal, 75g/unibichoney1.jpg"
+      }
+    ],
     desc:
       "These delightful cookies blend the richness of honey and oats in every bite. Warning: These Cookies are known to induce euphoria and in some cases you can’t put the pack down if there is a cookie remaining.										",
     img: "/Images/unibic/Unibic Honey Oatmeal, 75g/unibichoney1.jpg",
@@ -297,7 +354,24 @@ export const data = [
     author: "Epigamia Greek Yogurt - Alphonso Mango, 90 g",
     price: 40,
     cartQuantity: 0,
-    images: [{ img1: "" }, { img1: "" }],
+    images: [
+      {
+        img1:
+          "/Images/epigamia/Epigamia Greek Yogurt - Alphonso Mango, 90 g/epigamiamango1.jpeg"
+      },
+      {
+        img1:
+          "/Images/epigamia/Epigamia Greek Yogurt - Alphonso Mango, 90 g/epigamiamango2.jpeg"
+      },
+      {
+        img1:
+          "/Images/epigamia/Epigamia Greek Yogurt - Alphonso Mango, 90 g/epigamiamango3.jpeg"
+      },
+      {
+        img1:
+          "/Images/epigamia/Epigamia Greek Yogurt - Alphonso Mango, 90 g/epigamiamango4.jpeg"
+      }
+    ],
     desc:
       "In the quest for healthy eating, people have finally discovered Greek yoghurt which is known to be quite nutritious and has numerous benefits for the body, hair and skin. With so many health benefits to offer, ‘Greek Yogurt’ is rightly touted as a superfood. Greek Yogurt is actually quite similar to our traditional dahi but Greek yoghurt is thicker and creamy with the extra whey being drained out. Greek Yogurt is also more nutritious than our curd and while a single medium-sized bowl of curd contains 3 – 4 gms of protein, the same quantity of Greek Yoghurt contains around 8 – 10 gms of protein. )",
     img:
@@ -309,7 +383,24 @@ export const data = [
     author: "Epigamia Greek Yogurt - Vanilla Bean, 90 g",
     price: 40,
     cartQuantity: 0,
-    images: [{ img1: "" }, { img1: "" }],
+    images: [
+      {
+        img1:
+          "/Images/epigamia/Epigamia Greek Yogurt - Vanilla Bean, 90 g/epigamiavanilla1.jpg"
+      },
+      {
+        img1:
+          "/Images/epigamia/Epigamia Greek Yogurt - Vanilla Bean, 90 g/epigamiavanilla2.jpg"
+      },
+      {
+        img1:
+          "/Images/epigamia/Epigamia Greek Yogurt - Vanilla Bean, 90 g/epigamiavanilla3.jpg"
+      },
+      {
+        img1:
+          "/Images/epigamia/Epigamia Greek Yogurt - Vanilla Bean, 90 g/epigamiavanilla4.jpg"
+      }
+    ],
     desc:
       "In the quest for healthy eating, people have finally discovered Greek yoghurt which is known to be quite nutritious and has numerous benefits for the body, hair and skin. With so many health benefits to offer, ‘Greek Yogurt’ is rightly touted as a superfood. Greek Yogurt is actually quite similar to our traditional dahi but Greek yoghurt is thicker and creamy with the extra whey being drained out. Greek Yogurt is also more nutritious than our curd and while a single medium-sized bowl of curd contains 3 – 4 gms of protein, the same quantity of Greek Yoghurt contains around 8 – 10 gms of protein. )",
     img:
@@ -318,10 +409,27 @@ export const data = [
   },
   {
     name: "Epigamia Yogurt",
-    author: "Epigamia Greek Yogurt - Vanilla Bean, 90 g",
+    author: "Epigamia Greek Yogurt - Wild Rasberry, 90 g",
     price: 40,
     cartQuantity: 0,
-    images: [{ img1: "" }, { img1: "" }],
+    images: [
+      {
+        img1:
+          "/Images/epigamia/Epigamia Greek Yogurt - Wild, Raspberry, 90 g/epigamiarasp1.jpg"
+      },
+      {
+        img1:
+          "/Images/epigamia/Epigamia Greek Yogurt - Wild, Raspberry, 90 g/epigamiarasp2.jpg"
+      },
+      {
+        img1:
+          "/Images/epigamia/Epigamia Greek Yogurt - Wild, Raspberry, 90 g/epigamiarasp3.jpg"
+      },
+      {
+        img1:
+          "/Images/epigamia/Epigamia Greek Yogurt - Wild, Raspberry, 90 g/epigamiarasp5.jpg"
+      }
+    ],
     desc:
       "In the quest for healthy eating, people have finally discovered Greek yoghurt which is known to be quite nutritious and has numerous benefits for the body, hair and skin. With so many health benefits to offer, ‘Greek Yogurt’ is rightly touted as a superfood. Greek Yogurt is actually quite similar to our traditional dahi but Greek yoghurt is thicker and creamy with the extra whey being drained out. Greek Yogurt is also more nutritious than our curd and while a single medium-sized bowl of curd contains 3 – 4 gms of protein, the same quantity of Greek Yoghurt contains around 8 – 10 gms of protein. )",
     img:
@@ -333,7 +441,32 @@ export const data = [
     author: "Snickers Chocolate Bar, 50g",
     price: 35,
     cartQuantity: 0,
-    images: [{ img1: "" }, { img1: "" }],
+    images: [
+      {
+        img1:
+          "/Images/snickers/snickers.jpg"
+      },
+      {
+        img1:
+          "/Images/snickers/snickers1.jpg"
+      },
+      {
+        img1:
+          "/Images/snickers/snickers2.jpg"
+      },
+      {
+        img1:
+          "/Images/snickers/snickers3.jpg"
+      },
+      {
+        img1:
+          "/Images/snickers/snickers4.jpg"
+      },
+      {
+        img1:
+          "/Images/snickers/snickers5.jpg"
+      }
+    ],
     desc:
       "Add some peanut power to your day with a Snickers Chocolate Bar. Made with real crunchy peanuts and milk chocolate, this peanut candy perfectly satisfies your taste buds and helps you fuel up during a busy day. Serving as an energy bar, Snickers keeps hunger away, so you can rather concentrate on what matters. Snickers bar also contains nougat and caramel to add to its delicious and wholesome taste, creating a flavour that’s enough to rock your taste buds and power up your mind! Reach out for a Snickers hunger bar to tackle snack time in the bus. Do not let hunger change you, have a Snickers!																						",
     img: "/Images/snickers/snickers.jpg",
@@ -344,7 +477,28 @@ export const data = [
     author: "Cadbury Oreo Vanilla Crème Biscuit, 120 gm",
     price: 30,
     cartQuantity: 0,
-    images: [{ img1: "" }, { img1: "" }],
+    images: [
+      {
+        img1:
+          "/Images/oreo/Cadbury Oreo Vanilla Crème Biscuit, 120 gm/oreov1.jpg"
+      },
+      {
+        img1:
+          "/Images/oreo/Cadbury Oreo Vanilla Crème Biscuit, 120 gm/oreov2.jpg"
+      },
+      {
+        img1:
+          "/Images/oreo/Cadbury Oreo Vanilla Crème Biscuit, 120 gm/oreov3.jpg"
+      },
+      {
+        img1:
+          "/Images/oreo/Cadbury Oreo Vanilla Crème Biscuit, 120 gm/oreov4.jpg"
+      },
+      {
+        img1:
+          "/Images/oreo/Cadbury Oreo Vanilla Crème Biscuit, 120 gm/oreov5.jpg"
+      }
+    ],
     desc:
       "Oreo sandwich creme biscuit brings together the rich, smooth taste of chocolate creme filling with the bold taste of two crunchy chocolate wafers. Take a delicious break with an Oreo cookie, the perfect anytime snack.",
     img: "/Images/oreo/Cadbury Oreo Vanilla Crème Biscuit, 120 gm/oreov1.jpg",
@@ -355,7 +509,24 @@ export const data = [
     author: "Cadbury Oreo Chocolate Crème Biscuit, 120 gm",
     price: 30,
     cartQuantity: 0,
-    images: [{ img1: "" }, { img1: "" }],
+    images: [
+      {
+        img1:
+          "/Images/oreo/Cadbury Oreo Chocolate Crème Biscuit, 120 gm/oreoc1.jpg"
+      },
+      {
+        img1:
+          "/Images/oreo/Cadbury Oreo Chocolate Crème Biscuit, 120 gm/oreoc2.jpg"
+      },
+      {
+        img1:
+          "/Images/oreo/Cadbury Oreo Chocolate Crème Biscuit, 120 gm/oreoc3.jpg"
+      },
+      {
+        img1:
+          "/Images/oreo/Cadbury Oreo Chocolate Crème Biscuit, 120 gm/oreoc4.jpg"
+      }
+    ],
     desc:
       "Oreo sandwich creme biscuit brings together the rich, smooth taste of chocolate creme filling with the bold taste of two crunchy chocolate wafers. Take a delicious break with an Oreo cookie, the perfect anytime snack.",
     img: "/Images/oreo/Cadbury Oreo Chocolate Crème Biscuit, 120 gm/oreoc1.jpg",
@@ -367,7 +538,20 @@ export const data = [
     author: "Red Bull Energy Drink, 250 ml Can",
     price: 99,
     cartQuantity: 0,
-    images: [{ img1: "" }, { img1: "" }],
+    images: [
+      {
+        img1:
+          "/Images/redbull/redbull1.jpg"
+      },
+      {
+        img1:
+          "/Images/redbull/redbull2.jpg"
+      },
+      {
+        img1:
+          "/Images/redbull/redbull3.jpg"
+      }
+    ],
     desc:
       "Red Bull Energy Drink is a functional beverage that vitalizes body and mind. With billions of cans consumed all across the world, Red Bull is appreciated by top athletes, busy professionals, college students and travelers on long journeys. For those who have to stay on top of their game during intesnse meetings or creative brainstorming sessions, in action with teammates or competitors, or simply want to get the most out of life, a chilled can of Red Bull Energy Drink gives you wings when you need them.																						",
     img: "/Images/redbull/redbull1.jpg",
@@ -378,7 +562,28 @@ export const data = [
     author: "Brewhouse Classic Lemon Ice Tea 350 ML",
     price: 60,
     cartQuantity: 0,
-    images: [{ img1: "" }, { img1: "" }],
+    images: [
+      {
+        img1:
+          "/Images/brewhouseicetea/Brewhouse Classic Lemon Ice Tea 350 ML/brewicetealemon1.jpg"
+      },
+      {
+        img1:
+          "/Images/brewhouseicetea/Brewhouse Classic Lemon Ice Tea 350 ML/brewicetealemon2.jpg"
+      },
+      {
+        img1:
+          "/Images/brewhouseicetea/Brewhouse Classic Lemon Ice Tea 350 ML/brewicetealemon3.jpg"
+      },
+      {
+        img1:
+          "/Images/brewhouseicetea/Brewhouse Classic Lemon Ice Tea 350 ML/brewicetealemon4.jpg"
+      },
+      {
+        img1:
+          "/Images/brewhouseicetea/Brewhouse Classic Lemon Ice Tea 350 ML/brewicetealemon5.jpg"
+      }
+    ],
     desc:
       "Refresh and re-energize with Brewhouse Classic Lemon Ice Tea! Made with fresh lemon juice, real tea leaves and just the right amount of sugar. Their Classic Lemon Ice Tea is an all-time favorite.									",
     img:
@@ -390,7 +595,28 @@ export const data = [
     author: "Brewhouse Classic Peach Ice Tea 350 ML",
     price: 60,
     cartQuantity: 0,
-    images: [{ img1: "" }, { img1: "" }],
+    images: [
+      {
+        img1:
+          "/Images/brewhouseicetea/Brewhouse Classic Peach Ice Tea 350 ML/brewiceteapeach1.jpg"
+      },
+      {
+        img1:
+          "/Images/brewhouseicetea/Brewhouse Classic Peach Ice Tea 350 ML/brewiceteapeach2.jpg"
+      },
+      {
+        img1:
+          "/Images/brewhouseicetea/Brewhouse Classic Peach Ice Tea 350 ML/brewiceteapeach3.jpg"
+      },
+      {
+        img1:
+          "/Images/brewhouseicetea/Brewhouse Classic Peach Ice Tea 350 ML/brewiceteapeach4.jpg"
+      },
+      {
+        img1:
+          "/Images/brewhouseicetea/Brewhouse Classic Peach Ice Tea 350 ML/brewiceteapeach5.jpg"
+      }
+    ],
     desc:
       "Made with fresh peach juice, whole tea leaves from the Nilgiris and just the perfect level of sweetness to it, their Classic Peach Ice Tea will get you addicted to its taste in a snap!								",
     img:
@@ -402,7 +628,12 @@ export const data = [
     author: "Nescafe Coffee Can - Latte, 240ml",
     price: 60,
     cartQuantity: 0,
-    images: [{ img1: "" }, { img1: "" }],
+    images: [
+      {
+        img1:
+          "/Images/nescafe cold coffee/ncf1.jpg"
+      }
+    ],
     desc:
       "NESCAFÉ Chilled latte brings out a delicious coffee indulgence with an extra creamy flavour, perfect for those who enjoy their coffee light and milky. Discover this exciting range of Ready-to-Drink coffees from one of the world’s biggest coffee brands, NESCAFÉ. This range of deliciously brewed cold coffees comes in a convenient ready to drink format in Intense Café and Chilled Latte flavours, and tastes best when chilled.",
     img: "/Images/nescafe cold coffee/ncf1.jpg",
@@ -413,7 +644,16 @@ export const data = [
     author: "Nescafe Hazelnut Cold Coffee, 180ml Tetra Pack",
     price: 30,
     cartQuantity: 0,
-    images: [{ img1: "" }, { img1: "" }],
+    images: [
+      {
+        img1:
+          "/Images/nescafe cold coffee/ncf2.jpg"
+      },
+      {
+        img1:
+          "/Images/nescafe cold coffee/ncf21.jpg"
+      }
+    ],
     desc:
       "NESCAFÉ Chilled latte brings out a delicious coffee indulgence with an extra creamy flavour, perfect for those who enjoy their coffee light and milky. Discover this exciting range of Ready-to-Drink coffees from one of the world’s biggest coffee brands, NESCAFÉ. This range of deliciously brewed cold coffees comes in a convenient ready to drink format in Intense Café and Chilled Latte flavours, and tastes best when chilled.",
     img: "/Images/nescafe cold coffee/ncf2.jpg",
@@ -424,7 +664,12 @@ export const data = [
     author: "Alofrut Orange Aloevera Juice 300ml",
     price: 30,
     cartQuantity: 0,
-    images: [{ img1: "" }, { img1: "" }],
+    images: [
+      {
+        img1:
+          "/Images/alofrutjuice/Alofrut Orange Aloevera Juice 300ml/afj1.jpg"
+      }
+    ],
     desc:
       "It is most refreshing and healthy fusion of aloevera gel, juice, pulp and fruit blends. Aloevera is known worldwide as a rich source of vitamins, minerals and essential amino acids. This is unique fusion of health and taste. Extracted from the finest of fruit pulp. Perfect thirst quencher, full of awesomeness, amalgamated with nutriments of aloevera, made for curious tongues.",
     img: "/Images/alofrutjuice/Alofrut Orange Aloevera Juice 300ml/afj1.jpg",
@@ -435,7 +680,12 @@ export const data = [
     author: "Alofrut Kiwi Aloevera Juice 300ml",
     price: 30,
     cartQuantity: 0,
-    images: [{ img1: "" }, { img1: "" }],
+    images: [
+      {
+        img1:
+          "/Images/alofrutjuice/Alofrut Kiwi Aloevera Juice 300ml/afj2.jpg"
+      }
+    ],
     desc:
       "It is most refreshing and healthy fusion of aloevera gel, juice, pulp and fruit blends. Aloevera is known worldwide as a rich source of vitamins, minerals and essential amino acids. This is unique fusion of health and taste. Extracted from the finest of fruit pulp. Perfect thirst quencher, full of awesomeness, amalgamated with nutriments of aloevera, made for curious tongues.",
     img: "/Images/alofrutjuice/Alofrut Kiwi Aloevera Juice 300ml/afj2.jpg",
@@ -446,7 +696,16 @@ export const data = [
     author: "Alofrut Mango Aloevera Juice 300ml",
     price: 30,
     cartQuantity: 0,
-    images: [{ img1: "" }, { img1: "" }],
+    images: [
+      {
+        img1:
+          "/Images/alofrutjuice/Alofrut Mango Aloevera Juice 300ml/afj3.jpg"
+      },
+      {
+        img1:
+          "/Images/alofrutjuice/Alofrut Mango Aloevera Juice 300ml/afj31.jpg"
+      }
+    ],
     desc:
       "It is most refreshing and healthy fusion of aloevera gel, juice, pulp and fruit blends. Aloevera is known worldwide as a rich source of vitamins, minerals and essential amino acids. This is unique fusion of health and taste. Extracted from the finest of fruit pulp. Perfect thirst quencher, full of awesomeness, amalgamated with nutriments of aloevera, made for curious tongues.",
     img: "/Images/alofrutjuice/Alofrut Mango Aloevera Juice 300ml/afj3.jpg",
@@ -459,7 +718,12 @@ export const data = [
       "Orbit is a brand of sugarless chewing gum from the Wrigley Company.With Orbit Sugar-free Gum, there is no need to second-guess; you have the confidence to show the world what you're made of. The smooth and refreshing flavour of sugar-free Orbit gum provides just the right clean mouth feeling that prepares you to engage in what’s next.",
     price: 30,
     cartQuantity: 0,
-    images: [{ img1: "" }, { img1: "" }],
+    images: [
+      {
+        img1:
+          "/Images/orbit/Orbit Wrigleys Spearmint Sugar-free Chewing Gum/orbit1.jpg"
+      }
+    ],
     img:
       "/Images/orbit/Orbit Wrigleys Spearmint Sugar-free Chewing Gum/orbit1.jpg",
     id: 30
@@ -469,7 +733,12 @@ export const data = [
     author: "Orbit Wrigleys Peppermint Sugar-free Chewing Gum",
     price: 30,
     cartQuantity: 0,
-    images: [{ img1: "" }, { img1: "" }],
+    images: [
+      {
+        img1:
+          "/Images/orbit/Orbit Wrigleys Peppermint Sugar-free Chewing Gum/orbit2.jpg"
+      }
+    ],
     desc:
       "Orbit is a brand of sugarless chewing gum from the Wrigley Company.With Orbit Sugar-free Gum, there is no need to second-guess; you have the confidence to show the world what you're made of. The smooth and refreshing flavour of sugar-free Orbit gum provides just the right clean mouth feeling that prepares you to engage in what’s next.",
     img:
@@ -481,7 +750,12 @@ export const data = [
     author: "Orbit Wrigleys Mixed Fruit Sugar-free Chewing Gum",
     price: 30,
     cartQuantity: 0,
-    images: [{ img1: "" }, { img1: "" }],
+    images: [
+      {
+        img1:
+          "/Images/orbit/Orbit Wrigleys Mixed Fruit Sugar-free Chewing Gum/orbit3.jpg"
+      }
+    ],
     desc:
       "Orbit is a brand of sugarless chewing gum from the Wrigley Company.With Orbit Sugar-free Gum, there is no need to second-guess; you have the confidence to show the world what you're made of. The smooth and refreshing flavour of sugar-free Orbit gum provides just the right clean mouth feeling that prepares you to engage in what’s next.",
     img:
@@ -493,7 +767,7 @@ export const data = [
     author: "Himalaya Moisturising Aloe Vera Facial Wipes",
     price: 50,
     cartQuantity: 0,
-    images: [{ img1: "" }, { img1: "" }],
+    images: [{ img1: "/Images/wetwipes/ww1.jpg" }],
     desc:
       "Cleansing your face can be a challenge while you are on the go.No matter where you are, enjoy a fresh look in just a minute.Packed with the goodness of aloe vera, kara moisturizing aloe vera facial wipes help moisturize and soothe your skin while effectively removing dirt.The natural, gentle formulation instantly refreshes your skin and helps maintain the moisture balance.In addition to keeping your face moisturized, kara moisturizing aloe vera facial wipes are a boon for those wearing makeup.Now, no more struggles to remove your makeup.Enriched with natural ingredients, our facial wipes help cleanse your skin gently.kara moisturizing aloe vera facial wipes are soft and do not contain alcohol.The convenient, resealable, packaging prevents the wipes from drying, locks-in moisture and helps retain freshness.- Quantity: 10 Count",
     img: "/Images/wetwipes/ww1.jpg",
@@ -505,7 +779,16 @@ export const data = [
     author: "Lifebuoy Total 10 Hand Sanitizer",
     price: 59,
     cartQuantity: 0,
-    images: [{ img1: "" }, { img1: "" }],
+    images: [
+      {
+        img1:
+          "/Images/hand sanitizer/hs1.jpg"
+      },
+      {
+        img1:
+          "/Images/hand sanitizer/hs2.jpg"
+      }
+    ],
     desc:
       "Keep germs at bay with this on the go pack of total 10 hand sanitizer from Lifebuoy. It is made with a gel formula enriched with vitamin E and natural moisturizers that clean your hands thoroughly while also leaving them feeling soft and fresh. This sanitizer is formulated with an anti bacterial solution that eliminates all bacteria, leaving your hands healthy and germ free. Just rub onto your hands and this non sticky hand sanitizer can eliminate up to 99.9 percent germs in 10 seconds. The perfect disinfectant to add to your travel and cosmetics kits, it comes in a convenient 55 ml pack that is easy to carry, especially for out of town trips.",
     img: "/Images/hand sanitizer/hs1.jpg",
@@ -516,7 +799,28 @@ export const data = [
     author: "Skittles Bite-Size Fruit Candies Pouch",
     price: 70,
     cartQuantity: 0,
-    images: [{ img1: "" }, { img1: "" }],
+    images: [
+      {
+        img1:
+          "/Images/Candy/candy1.jpg"
+      },
+      {
+        img1:
+          "/Images/Candy/candy2.jpg"
+      },
+      {
+        img1:
+          "/Images/Candy/candy3.jpg"
+      },
+      {
+        img1:
+          "/Images/Candy/candy4.jpg"
+      },
+      {
+        img1:
+          "/Images/Candy/candy5.jpg"
+      }
+    ],
     desc:
       "Everyday life is a surprisingly endless source of entertainment and you just need some Skittles to see it. Wild berry flavoured Skittles, with their vibrant colours and fruity flavours, are enough to make your dull moments, fun and your mood, comic. Every lentil has a distinct flavour, delighting every person in different ways to stimulate a source of joy for everyone. Each candy lentil is made of a crisp sugar shell and is flavoured in raspberry, strawberry, cherry, berry punch and melon berry tangs. We bet you won’t be able to choose one from these irresistible flavours. So, grab your pack of fruit flavoured Skittles and transform ordinary moments to vibrant fun. Skittles are best enjoyed by sharing with friends and family, just like you share a joke. Pop out these bite-size fruit candies anywhere and anytime and experience the joy that a shared moment brings.																						",
     img: "/Images/Candy/candy1.jpg",
@@ -527,7 +831,36 @@ export const data = [
     author: "MI Earphones Basic with Mic (Black)",
     price: 399,
     cartQuantity: 0,
-    images: [{ img1: "" }, { img1: "" }],
+    images: [
+      {
+        img1:
+          "/Images/earphones/earphonesmi/earmi1.jpg"
+      },
+      {
+        img1:
+          "/Images/earphones/earphonesmi/earmi2.jpg"
+      },
+      {
+        img1:
+          "/Images/earphones/earphonesmi/earmi3.jpg"
+      },
+      {
+        img1:
+          "/Images/earphones/earphonesmi/earmi4.jpg"
+      },
+      {
+        img1:
+          "/Images/earphones/earphonesmi/earmi5.jpg"
+      },
+      {
+        img1:
+          "/Images/earphones/earphonesmi/earmi6.jpg"
+      },
+      {
+        img1:
+          "/Images/earphones/earphonesmi/earmi7.jpg"
+      }
+    ],
     desc: `"Xiaomi has customized Mi Earphones Basic just for India, giving customers what they were looking for- Ultra deep bass and tangle free wires. The Headphones come with silicone earbuds that are specifically designed to ensure it fits snugly without compromising comfort.
 
 - Tangle free cable
@@ -545,7 +878,28 @@ export const data = [
     author: "boAt BassHeads 152 with HD Sound, in-line mic",
     price: 499,
     cartQuantity: 0,
-    images: [{ img1: "" }, { img1: "" }],
+    images: [
+      {
+        img1:
+          "/Images/earphones/earphonesboat/earboat1.jpg"
+      },
+      {
+        img1:
+          "/Images/earphones/earphonesboat/earboat2.jpg"
+      },
+      {
+        img1:
+          "/Images/earphones/earphonesboat/earboat3.jpg"
+      },
+      {
+        img1:
+          "/Images/earphones/earphonesboat/earboat4.jpg"
+      },
+      {
+        img1:
+          "/Images/earphones/earphonesboat/earboat55.jpg"
+      }
+    ],
     desc: `"Serenade the scene with the boAt Basshead's 152, the bass oasis to your Nirvana. Equipped with 10mm Drivers, experience audio Nirvana to take the pace of your surroundings with a quick in step and a motivated mind-set. Get ready to turn the place over with that heavy bass. A smooth vibrant design available in colours active black, jazzy blue and raging Red; step into the fashion game. The perfect on hand earphones to possess, always stay a step ahead. Take calls using the inbuilt microphone and tune out freely with the tangle free braided cable. It’s been made for your comfort. Durable to the max, get ready to rock the rhythm with heavy bass tunes, because the private party just got started. Just plug In with the 3.5mm angled jack. The sound you’ve been looking for has been found.
 
 - Premium audio with 10mm drivers- break away from old habits through HD sound via 10mm drivers, crystal clear sound to your ears helps you execute what you have visualized perfectly, enhance your senses with the basshead's 152
@@ -561,7 +915,36 @@ export const data = [
     author: "Mi 10000mAH Li-Polymer Power Bank 2i (Black)",
     price: 899,
     cartQuantity: 0,
-    images: [{ img1: "" }, { img1: "" }],
+    images: [
+      {
+        img1:
+          "/Images/power bank/mi/pb1.jpg"
+      },
+      {
+        img1:
+          "/Images/power bank/mi/pb2.jpg"
+      },
+      {
+        img1:
+          "/Images/power bank/mi/pb3.jpg"
+      },
+      {
+        img1:
+          "/Images/power bank/mi/pb4.jpg"
+      },
+      {
+        img1:
+          "/Images/power bank/mi/pb5.jpg"
+      },
+      {
+        img1:
+          "/Images/power bank/mi/pb6.jpg"
+      },
+      {
+        img1:
+          "/Images/power bank/mi/pb7.jpg"
+      }
+    ],
     desc: `"The all-new 10000mAh Mi Power Bank 2i is a portable powerhouse that offers two-way fast charging and ensures that your devices make it through the busiest and longest days. The all-new design now features Dual USB output without compromising on the size, extending your power to share with others in need.
 - 10000mAH lithium-polymer battery, Mi Bluetooth Headset – 0.06 A and Mi Band – 0.025 A
 - Dual USB Output, Two- way Quick Charge, Input limit:: 4.4V ; Working temperature: 0℃ ~ 45℃ ; Charging time: 4.2 hours ( 18W charger, standard USB cable ), 6.2 hours ( 10W charger, standard USB cable )
@@ -577,7 +960,24 @@ export const data = [
     author: "Lenovo 13000mAH Lithium-ion Power Bank",
     price: 999,
     cartQuantity: 0,
-    images: [{ img1: "" }, { img1: "" }],
+    images: [
+      {
+        img1:
+          "/Images/power bank/lenovo/pbo1.jpg"
+      },
+      {
+        img1:
+          "/Images/power bank/lenovo/pbo2.jpg"
+      },
+      {
+        img1:
+          "/Images/power bank/lenovo/pbo3.jpg"
+      },
+      {
+        img1:
+          "/Images/power bank/lenovo/pbo4.jpg"
+      }
+    ],
     desc: `"Never run out of charge. Running late for work and don’t have time to charge your phone’s battery. Don’t worry and trust Lenovo PA13000 13000mAH power bank. Today’s lifestyle is incomplete without cellophanes and we just cannot manage without our handsets even for a day. To ensure that we never face such type situation, buying a power bank becomes important. Lenovo power bank is stylish and sleek, so that you can easily carry it along on your way to work or anywhere on-the-go. This portable charging device comes with a capacity of 13000mAH and can be easily charged with micro USB type connector. With such a long battery life, you can keep your device on charge multiple times in a day. Easy to use, feature-loaded device. Lenovo portable power bank is compatible with all smartphones and can charge two phones at the same time. It is extremely easy to operate, as you just need to connect your dive with charger with the help of 5v/2A type USB input connector. As soon as you start charging your phone, it will not take much time to reach the full battery sign, due to its very high conversion rate. The device also has smart power control chip system that enhances its performance big time. There is one power switch button and led light intact in the charger, which simplifies its usage further. Manufactured with high quality matte plastic, this lenovo device is high on durability and sturdiness. Lastly, the power bank comes with 1-year manufacturer warranty from the dare of its purchase.
 - Full recharge of Power Bank takes 10 hours using 2A wall charger
 - Included Items: 1 Power Bank; 1 Year Warranty
@@ -595,7 +995,16 @@ export const data = [
     author: "Comfort Neck Pillow",
     price: 249,
     cartQuantity: 0,
-    images: [{ img1: "" }, { img1: "" }],
+    images: [
+      {
+        img1:
+          "/Images/neck pillow/np1.jpg"
+      },
+      {
+        img1:
+          "/Images/neck pillow/np2.jpg"
+      }
+    ],
     desc: `"- Its a Multipurpose pillow.
 - Perfect for those who travel for long hours in buses and cars.
 - It relieves muscles and allows the cervical vertebrae to remain in a position close to the anatomic position good for travel.

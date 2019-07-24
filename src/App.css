@@ -3,6 +3,7 @@
   height: 50px;
   background-color: rgb(255, 238, 0);
 }
+
 .fixed-bottom {
   position: fixed;
   right: 0;
@@ -15,7 +16,11 @@
 
 .ui.card.styles {
   margin: 5px auto;
-  width: 200px;
+  width: 180px;
+}
+.ui.card.cart {
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
 .central {
   margin: 0 auto;

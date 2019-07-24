@@ -1,12 +1,17 @@
 import React from "react";
-
+import Home from "./components/home";
+import About from "./components/about";
 import "./App.css";
 import Cart from "./components/cart";
 import ShowCard from "./components/card";
+import Bill from "./components/bill";
+import Main from "./main";
 import { data } from "./data";
+import AOS from "aos";
 import AwesomeSlider from "react-awesome-slider";
 import "react-awesome-slider/dist/styles.css";
-
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 import {
   Card,
   Image,
@@ -16,166 +21,99 @@ import {
   Header,
   Label,
   Popup,
-  Sticky
+  Sticky,
+  Menu,
+  Segment,
+  Grid
 } from "semantic-ui-react";
 
 class App extends React.Component {
   constructor(props) {
     super(props);
+    AOS.init();
     this.state = {
       obj: [],
       books: data,
-      counter: 1,
-      showCart: true
+      counter: 1
     };
   }
-
-  componentWillMount() {
-    localStorage.clear();
+  componentDidMount() {
+    AOS.refresh();
   }
 
-  cartHandler(e) {
-    localStorage.setItem("item" + e.id, JSON.stringify(e));
-    console.log(localStorage.length);
-  }
-
-  cartShow() {
-    return { ...window.localStorage };
-  }
-
-  deleteitem(item) {
-    var array = [...this.state.obj];
-
-    const index = array.indexOf(item);
-    array.splice(index, 1);
-    this.setState({
-      obj: array
-    });
-    //console.log(this.state.obj);
-    this.localSet(array);
-  }
-  localSet(items) {
-    localStorage.clear();
-
-    for (var i = 0; i < items.length; i++) {
-      localStorage.setItem("item" + i, JSON.stringify(items[i]));
-    }
-  }
-
-  addCart() {
-    var cart = this.cartShow();
-    var list = [];
-    var item;
-    var alert;
-    for (item in cart) {
-      list.push(JSON.parse(cart[item]));
-    }
-
-    console.log(cart.item2);
-    console.log(list);
-    this.setState({
-      obj: list
-    });
-  }
-  incrementCounter = counter => {
-    console.log(counter);
-    counter = counter + 1;
-    console.log(counter);
-  };
-
-  decrementCounter = counter => {
-    {
-      counter == 1
-        ? this.setState({ showCart: true })
-        : this.setState({ showCart: false });
-    }
-
-    counter = counter - 1;
-  };
   render() {
     const { obj } = this.state;
 
     return (
-      <div className="ui  container">
-        <div>
-          <h1
-            className="header"
-            style={{ marginTop: "20px", textDecoration: "underline" }}
-          >
-            Our Products
-          </h1>
-
-          <Modal
-            size="small"
-            trigger={
-              <div className="fixed-bottom">
-                <Button
-                  icon
-                  labelPosition="left"
-                  fluid
-                  color="light yellow"
-                  size="big"
-                  onClick={() => {
-                    this.addCart();
-                  }}
-                >
-                  <div
-                    id="box"
-                    style={{
-                      width: "30px",
-                      height: "30px",
-                      backgroundColor: "green",
-                      position: "fixed",
-                      left: "50px",
-                      bottom: "50px",
-                      borderRadius: "20px",
-                      color: "white"
-                    }}
-                  >
-                    <p id="number">{localStorage.length}</p>
-                  </div>
-                  <Icon name="cart" size="large" />
-                  Go to Cart
-                </Button>
+      <div>
+        <h3
+          className="dropdown container left floated"
+          style={{
+            textAlign: "center",
+            marginTop: "20px",
+            height: "40px"
+          }}
+          onClick={() => {
+            this.setState({
+              show: !this.state.show
+            });
+          }}
+        >
+          <Image
+            src="https://img.icons8.com/color/48/000000/menu.png"
+            size="mini"
+            floated="left"
+          />
+        </h3>
+        <Router>
+          <div className="components">
+            {this.state.show ? (
+              <div style={{ textAlign: "center", marginBottom: "20px" }}>
+                <Grid>
+                  <Grid.Column mobile={8} component={8} tablet={8}>
+                    <h3 data-aos="fade-left">
+                      <Link to={"/"}>Home</Link>
+                    </h3>
+                    <h3 data-aos="fade-left">
+                      <Link to={"/#why"}>Why Happy Trip</Link>
+                    </h3>
+                    <h3 data-aos="fade-left">
+                      <Link to={"/products"}>Products</Link>
+                    </h3>
+                    <h3 data-aos="fade-left">
+                      <Link to={"/#how"}>How It Works</Link>
+                    </h3>
+                    <h3 data-aos="fade-left">
+                      <Link to={"/#customer"}>Customers</Link>
+                    </h3>
+                  </Grid.Column>
+                  <Grid.Column mobile={8} component={8} tablet={8}>
+                    <h3 data-aos="fade-right">
+                      <Link to={"/#testimonials"}>Testimonials</Link>
+                    </h3>
+                    <h3 data-aos="fade-right">
+                      <Link to={"/#partner"}>Brands</Link>
+                    </h3>
+                    <h3 data-aos="fade-right">
+                      <Link to={"/about"}>About</Link>
+                    </h3>
+                    <h3 data-aos="fade-right">
+                      <Link to={"/#FAQ"}>FAQ</Link>
+                    </h3>
+                    <h3 data-aos="fade-right">
+                      <Link to={"/#contact"}>Contact Us</Link>
+                    </h3>
+                  </Grid.Column>
+                </Grid>
               </div>
-            }
-            closeIcon
-          >
-            <Header icon="cart" content="Your Shopping Cart" />
-            <Modal.Content>
-              <Card.Group>
-                {obj.length != 0 ? (
-                  obj.map((item, index) => {
-                    return (
-                      <Cart
-                        obj={item}
-                        array={obj}
-                        deleteHandler={this.deleteitem.bind(this)}
-                      />
-                    );
-                  })
-                ) : (
-                  <div className="header">
-                    <h3>Your Cart is Empty</h3>
-                  </div>
-                )}
-              </Card.Group>
-            </Modal.Content>
-          </Modal>
-        </div>
-        <div style={{ margin: "0 auto" }}>
-          <Card.Group style={{ marginTop: "100px" }}>
-            {this.state.books.map((book, index) => (
-              <ShowCard
-                book={book}
-                showCart={this.showCart}
-                cartHandler={this.cartHandler.bind(this)}
-                incrementCounter={this.incrementCounter.bind(this)}
-                decrementCounter={this.decrementCounter.bind(this)}
-              />
-            ))}
-          </Card.Group>
-        </div>
+            ) : null}
+          </div>
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/about" component={About} />
+            <Route path="/products" component={Main} />
+          </Switch>
+        </Router>
       </div>
     );
   }
