@@ -28,7 +28,7 @@ class Main extends React.Component {
     this.state = {
       obj: [],
       books: data,
-      counter: 1
+      counter: 0
     };
   }
 
@@ -39,7 +39,16 @@ class Main extends React.Component {
   cartShow() {
     return { ...window.localStorage };
   }
-
+  add() {
+    this.setState({
+      counter: this.state.counter + 1
+    });
+  }
+  subtract() {
+    this.setState({
+      counter: this.state.counter - 1
+    });
+  }
   deleteitem(item) {
     var array = [...this.state.obj];
 
@@ -110,13 +119,15 @@ class Main extends React.Component {
                       height: "30px",
                       backgroundColor: "#0099ff",
                       position: "fixed",
-                      left: "50px",
+                      marginleft: "10px",
                       bottom: "90px",
                       borderRadius: "20px",
                       color: "white"
                     }}
                   >
-                    <p id="number">{localStorage.length}</p>
+                    <p id="number" style={{ paddingBottom: "10px" }}>
+                      {this.state.counter}
+                    </p>
                   </div>
                   <Icon name="cart" size="large" />
                   Go to Cart
@@ -151,7 +162,12 @@ class Main extends React.Component {
         <div style={{ margin: "0 auto" }}>
           <Card.Group style={{ marginTop: "100px" }}>
             {this.state.books.map((book, index) => (
-              <ShowCard book={book} cartHandler={this.cartHandler.bind(this)} />
+              <ShowCard
+                book={book}
+                cartHandler={this.cartHandler.bind(this)}
+                add={this.add.bind(this)}
+                subtract={this.subtract.bind(this)}
+              />
             ))}
           </Card.Group>
         </div>

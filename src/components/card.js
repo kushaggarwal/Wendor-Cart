@@ -61,7 +61,7 @@ export default class ShowCard extends React.Component {
   deleteHandler(item) {
     this.setState({ showCart: true, counter: 0 });
     var list = this.storageHandler(item);
-
+    this.props.subtract();
     this.localSet(list);
   }
   localSet(items) {
@@ -76,6 +76,8 @@ export default class ShowCard extends React.Component {
     const book = this.props.book;
     const cartHandler = this.props.cartHandler;
     const deleteitem = this.props.deleteitem;
+    const add = this.props.add;
+    const subtract = this.props.subtract;
 
     return (
       <Card className="styles">
@@ -88,7 +90,16 @@ export default class ShowCard extends React.Component {
           <Modal.Content image>
             <Carousel>
               {book.images.map((image, index) => {
-                return <img src={image.img1} style={{ height: "300px" }} />;
+                return (
+                  <img
+                    src={image.img1}
+                    style={{
+                      height: "300px",
+                      width: "300px",
+                      margin: "0 auto"
+                    }}
+                  />
+                );
               })}
             </Carousel>
           </Modal.Content>
@@ -96,8 +107,8 @@ export default class ShowCard extends React.Component {
         <Card.Content>
           <div
             style={{
-              width: "172px",
-              height: "69px",
+              textAlign: "center",
+              //height: "69px",
               fontSize: "12pt",
               fontFamily: "'Quicksand', sans-serif",
               color: "grey",
@@ -128,7 +139,7 @@ export default class ShowCard extends React.Component {
                   counter: this.state.counter + 1
                 });
                 book.cartQuantity = this.state.counter + 1;
-
+                add();
                 this.setState({
                   showCart: false
                 });

@@ -51,7 +51,8 @@ class App extends React.Component {
           style={{
             textAlign: "center",
             marginTop: "20px",
-            height: "40px"
+            height: "40px",
+            marginBottom: "50px"
           }}
           onClick={() => {
             this.setState({
@@ -62,8 +63,16 @@ class App extends React.Component {
           <Image
             src="https://img.icons8.com/color/48/000000/menu.png"
             size="mini"
-            floated="left"
+            floated="right"
           />
+          {!this.state.show ? (
+            <Image
+              src="/Images/logo.jpg"
+              size="tiny"
+              //style={{ margin: "0 auto" }}
+              floated="left"
+            />
+          ) : null}
         </h3>
         <Router>
           <div className="components">
