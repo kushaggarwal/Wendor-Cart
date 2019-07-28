@@ -70,7 +70,7 @@ class App extends React.Component {
               size="medium"
               color="orange"
               floated="left"
-              style={{ fontFamily: "'Lora'" }}
+              style={{ fontFamily: "'Lora', serif" }}
             >
               Happytrip
             </Header>
