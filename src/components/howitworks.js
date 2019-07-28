@@ -15,7 +15,6 @@ class How extends Component {
       <div>
         <h1
           data-aos="fade-down"
-          data-aos-anchor-placement="top-center"
           style={{
             textAlign: "center",
             marginBottom: "30px",
@@ -30,11 +29,7 @@ class How extends Component {
           <br />
           HOW IT WORKS
         </h1>
-        <Grid
-          style={{ marginTop: "70px" }}
-          data-aos="zoom-in"
-          data-aos-anchor-placement="top-center"
-        >
+        <Grid style={{ marginTop: "70px" }} data-aos="zoom-in">
           <Grid.Column mobile={8} computer={4}>
             <Image
               src="https://www.qr-code-generator.com/wp-content/themes/qr/new_structure/generator/dist/generator/assets/images/websiteQRCode_noFrame.png"

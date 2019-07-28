@@ -27,7 +27,7 @@ class Test extends Component {
           CUSTOMER'S TESTIMONIAL
         </h1>
 
-        <Carousel data-aos="zoom-in" data-aos-duration="900">
+        <Carousel data-aos="zoom-in">
           <div>
             <p style={{ textAlign: "center", fontSize: "12pt" }}>
               Experiencing this kind of service inside bus is really great. It

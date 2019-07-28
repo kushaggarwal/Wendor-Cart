@@ -15,7 +15,6 @@ class Why extends Component {
       <div>
         <h1
           data-aos="fade-down"
-          data-aos-duration="500"
           style={{
             textAlign: "center",
             marginBottom: "30px",
@@ -26,7 +25,7 @@ class Why extends Component {
           <img src="https://img.icons8.com/officel/60/000000/why-us-male.png" />
           <br /> WHY HAPPY TRIP?
         </h1>
-        <Grid data-aos="zoom-in" data-duration="500">
+        <Grid data-aos="zoom-in">
           <GridColumn mobile={0} computer={2} tablet={2} />
 
           <Grid.Column
@@ -44,7 +43,7 @@ class Why extends Component {
               size="medium"
               centered
             />
-            <h2 style={{ fontFamily: "Helvetica" }}>Hungry!!</h2>
+            <h2 style={{ fontFamily: "Avenir" }}>Hungry!!</h2>
             <p>
               Why wait hours for your bus to stop when you can get quality food
               to satisfy your hunger right at your seat in the bus.

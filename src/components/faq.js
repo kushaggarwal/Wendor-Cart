@@ -27,7 +27,6 @@ class Faq extends Component {
       <div>
         <h1
           data-aos="zoom-in"
-          data-aos-duration="400"
           data-aos-anchor-placement="top-center"
           style={{
             textAlign: "center",
@@ -42,7 +41,6 @@ class Faq extends Component {
         </h1>
         <Accordion
           data-aos="fade-right"
-          data-aos-duration="400"
           data-aos-anchor-placement="top-center"
           style={{ fontFamily: "Helvetica" }}
         >
