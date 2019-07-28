@@ -27,7 +27,6 @@ class Faq extends Component {
       <div>
         <h1
           data-aos="zoom-in"
-          data-aos-anchor-placement="top-center"
           style={{
             textAlign: "center",
             marginBottom: "30px",
@@ -39,12 +38,7 @@ class Faq extends Component {
           <br />
           FAQ'S
         </h1>
-        <Accordion
-          data-aos="fade-right"
-          data-aos-anchor-placement="top-center"
-          data-aos-anchor-placement="top-center"
-          style={{ fontFamily: "Helvetica" }}
-        >
+        <Accordion data-aos="fade-right" style={{ fontFamily: "Helvetica" }}>
           <Accordion.Title
             active={activeIndex === 12}
             index={12}

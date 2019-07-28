@@ -15,7 +15,6 @@ class Partner extends Component {
       <div>
         <h1
           data-aos="fade-down"
-          data-aos-anchor-placement="top-center"
           style={{
             textAlign: "center",
             marginBottom: "30px",
@@ -27,7 +26,7 @@ class Partner extends Component {
           <br />
           PARTNERED BRANDS
         </h1>
-        <Grid data-aos="zoom-in" data-aos-anchor-placement="top-center">
+        <Grid data-aos="zoom-in">
           <GridColumn mobile={1} tablet={4} computer={4} />
           <Grid.Column
             mobile={7}

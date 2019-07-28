@@ -17,7 +17,6 @@ class Contact extends Component {
       <div>
         <h1
           data-aos="fade-down"
-          data-aos-anchor-placement="top-center"
           style={{
             margin: "20px 0",
             fontFamily: "Avenir"
@@ -27,7 +26,7 @@ class Contact extends Component {
           <br />
           CONTACT US
         </h1>
-        <div data-aos="flip-up" data-aos-anchor-placement="top-center">
+        <div data-aos="flip-up">
           <p style={{ fontFamily: "Helvetica" }}>
             Feel free to reach us in case of any queries at
             <br />
