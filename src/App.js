@@ -54,24 +54,26 @@ class App extends React.Component {
             height: "40px",
             marginBottom: "50px"
           }}
-          onClick={() => {
-            this.setState({
-              show: !this.state.show
-            });
-          }}
         >
           <Image
             src="https://img.icons8.com/color/48/000000/menu.png"
             size="mini"
             floated="right"
+            onClick={() => {
+              this.setState({
+                show: !this.state.show
+              });
+            }}
           />
           {!this.state.show ? (
-            <Image
-              src="/Images/logo.jpg"
-              size="tiny"
-              //style={{ margin: "0 auto" }}
+            <Header
+              size="medium"
+              color="orange"
               floated="left"
-            />
+              style={{ fontFamily: "'Lora'" }}
+            >
+              Happytrip
+            </Header>
           ) : null}
         </h3>
         <Router>

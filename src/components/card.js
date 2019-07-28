@@ -49,10 +49,17 @@ export default class ShowCard extends React.Component {
     }
     return list;
   }
-  pushCart(item) {
+  pushCart(item, flag) {
     var list = this.storageHandler(item);
     list.push(item);
     this.localSet(list);
+    if (flag == 1) {
+      console.log("this is flag" + flag);
+      this.props.subtract();
+    } else if (flag == 0) {
+      console.log("this is flag" + flag);
+      this.props.add();
+    }
   }
 
   cartShow() {
@@ -145,7 +152,7 @@ export default class ShowCard extends React.Component {
                 });
                 cartHandler(book);
               }}
-              color="blue"
+              color="orange"
               fluid
             >
               Add to cart
@@ -160,7 +167,7 @@ export default class ShowCard extends React.Component {
                     counter: this.state.counter - 1
                   });
                   book.cartQuantity = this.state.counter - 1;
-                  this.pushCart(book);
+                  this.pushCart(book, 1);
                   {
                     book.cartQuantity === 0
                       ? this.deleteHandler(book)
@@ -175,15 +182,15 @@ export default class ShowCard extends React.Component {
                 icon="plus"
                 color="green"
                 onClick={() => {
-                  this.setState({
-                    counter: this.state.counter + 1
-                  });
-
-                  console.log(this.state.counter);
-                  console.log(book.cartQuantity);
                   if (book.cartQuantity < 3) {
                     book.cartQuantity = this.state.counter + 1;
-                    this.pushCart(book);
+                    this.pushCart(book, 0);
+                    this.setState({
+                      counter: this.state.counter + 1
+                    });
+
+                    console.log(this.state.counter);
+                    console.log(book.cartQuantity);
                   } else {
                     alert("You cannot add more than 3 items");
                   }

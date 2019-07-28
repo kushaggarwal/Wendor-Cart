@@ -22,7 +22,7 @@ class Contact extends Component {
           data-aos-anchor-placement="top-center"
           style={{
             margin: "20px 0",
-            fontFamily: " 'Bree Serif', serif"
+            fontFamily: "Avenir"
           }}
         >
           <img src="https://img.icons8.com/office/40/000000/contact-card.png" />
@@ -34,7 +34,7 @@ class Contact extends Component {
           data-aos-duration="400"
           data-aos-anchor-placement="top-center"
         >
-          <p style={{ fontFamily: " 'Literata', serif" }}>
+          <p style={{ fontFamily: "Helvetica" }}>
             Feel free to reach us in case of any queries at
             <br />
             <img src="https://img.icons8.com/material-outlined/24/000000/composing-mail.png" />

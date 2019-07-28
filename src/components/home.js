@@ -80,7 +80,7 @@ class Home extends Component {
 
         <div className="container">
           <div style={{ marginTop: "50px" }}>
-            <div id="why" data-aos-delay="500">
+            <div id="why">
               <Why />
             </div>
             <hr
@@ -89,7 +89,7 @@ class Home extends Component {
               size="18"
               style={{ marginTop: "60px" }}
             />
-            <div id="how" data-aos-delay="500">
+            <div id="how">
               <How />
             </div>
             <hr
@@ -107,7 +107,7 @@ class Home extends Component {
               size="18"
               style={{ marginTop: "60px" }}
             />
-            <div id="FAQ" data-aos-delay="500">
+            <div id="FAQ">
               <Faq />
             </div>
             <hr
@@ -116,11 +116,7 @@ class Home extends Component {
               size="18"
               style={{ marginTop: "60px" }}
             />
-            <div
-              id="partner"
-              style={{ marginTop: "50px" }}
-              data-aos-delay="500"
-            >
+            <div id="partner" style={{ marginTop: "50px" }}>
               <Partner />
             </div>
             <hr
@@ -135,7 +131,6 @@ class Home extends Component {
                 textAlign: "center",
                 marginTop: "40px"
               }}
-              data-aos-delay="500"
             >
               <Contact />
             </div>
@@ -146,7 +141,7 @@ class Home extends Component {
               style={{ marginTop: "60px" }}
             />
 
-            <div id="testimonials" data-aos-delay="500">
+            <div id="testimonials">
               <Test />
             </div>
           </div>

@@ -93,7 +93,7 @@ class Main extends React.Component {
         <div>
           <h1
             className="header"
-            style={{ marginTop: "20px", textDecoration: "underline" }}
+            style={{ marginTop: "20px", fontFamily: "Avenir" }}
           >
             Our Products
           </h1>

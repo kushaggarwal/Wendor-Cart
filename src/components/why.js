@@ -20,7 +20,7 @@ class Why extends Component {
             textAlign: "center",
             marginBottom: "30px",
             marginTop: "100px",
-            fontFamily: " 'Bree Serif', serif"
+            fontFamily: " Avenir"
           }}
         >
           <img src="https://img.icons8.com/officel/60/000000/why-us-male.png" />
@@ -36,7 +36,7 @@ class Why extends Component {
             style={{
               textAlign: "center",
               marginTop: "10px",
-              fontFamily: "'Amiri', serif;"
+              fontFamily: "Helvetica"
             }}
           >
             <Image
@@ -44,7 +44,7 @@ class Why extends Component {
               size="medium"
               centered
             />
-            <h2 style={{ fontFamily: "'Zilla Slab', serif" }}>Hungry!!</h2>
+            <h2 style={{ fontFamily: "Helvetica" }}>Hungry!!</h2>
             <p>
               Why wait hours for your bus to stop when you can get quality food
               to satisfy your hunger right at your seat in the bus.
@@ -57,13 +57,11 @@ class Why extends Component {
             style={{
               textAlign: "center",
               marginTop: "10px",
-              fontFamily: "'Amiri', serif;"
+              fontFamily: "Helvetica"
             }}
           >
             <Image src="/Images/snackbox.jpg" size="small" centered />
-            <h2 style={{ fontFamily: "'Zilla Slab', serif" }}>
-              Choose your best pick.
-            </h2>
+            <h2 style={{ fontFamily: "Avenir" }}>Choose your best pick.</h2>
             <p>
               Variety of healthy snacking options available ranging from
               eatables to drinks.
@@ -76,7 +74,7 @@ class Why extends Component {
             style={{
               textAlign: "center",
               marginTop: "10px",
-              fontFamily: "'Amiri', serif;"
+              fontFamily: "Helvetica"
             }}
           >
             <Image
@@ -84,7 +82,7 @@ class Why extends Component {
               size="small"
               centered
             />
-            <h2 style={{ fontFamily: "'Zilla Slab', serif" }}>
+            <h2 style={{ fontFamily: "Avenir" }}>
               Longing for a comfortable trip ?
             </h2>
             <p>

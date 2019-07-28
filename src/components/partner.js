@@ -21,7 +21,7 @@ class Partner extends Component {
             textAlign: "center",
             marginBottom: "30px",
             marginTop: "100px",
-            fontFamily: "'Bree Serif', serif"
+            fontFamily: "Avenir"
           }}
         >
           <img src="https://img.icons8.com/doodle/48/000000/handshake.png" />
@@ -35,7 +35,7 @@ class Partner extends Component {
             tablet={4}
             computer={4}
             style={{
-              fontFamily: "'Bitter', serif"
+              fontFamily: "Helvetica"
             }}
           >
             <ul style={{ fontSize: "15pt" }}>
@@ -54,13 +54,17 @@ class Partner extends Component {
             tablet={4}
             computer={4}
             style={{
-              fontFamily: "'Bitter', serif"
+              fontFamily: "Helvetica"
             }}
           >
             <ul style={{ fontSize: "15pt" }}>
               <li style={{ marginBottom: "10px" }}>Unibic</li>
               <li style={{ marginBottom: "10px" }}>Cornitos</li>
-              <li style={{ marginBottom: "10px" }}>Snickers </li>
+              <li style={{ marginBottom: "10px" }}>
+                Snickers
+                <br />
+                Mars
+              </li>
               <li style={{ marginBottom: "10px" }}>Cadbury</li>
               <li style={{ marginBottom: "10px" }}>Yoga Bar</li>
               <li style={{ marginBottom: "10px" }}>Orbit</li>

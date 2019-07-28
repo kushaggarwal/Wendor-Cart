@@ -20,7 +20,7 @@ class How extends Component {
             textAlign: "center",
             marginBottom: "30px",
             marginTop: "100px",
-            fontFamily: "'Bree Serif', serif"
+            fontFamily: "Avenir"
           }}
         >
           <img
@@ -46,13 +46,13 @@ class How extends Component {
           <Grid.Column mobile={8} computer={4}>
             <h3
               style={{
-                fontFamily: " 'Amaranth', sans-serif",
+                fontFamily: "Helvetica",
                 fontSize: "24px"
               }}
             >
               STEP 1
             </h3>
-            <p style={{ fontFamily: "'Literata', serif" }}>
+            <p style={{ fontFamily: "Helvetica" }}>
               Scan the QR code or enter the given URL on the back of the seat to
               open the Happybox menu.
             </p>
@@ -61,13 +61,13 @@ class How extends Component {
           <Grid.Column mobile={8} computer={4}>
             <h3
               style={{
-                fontFamily: " 'Amaranth', sans-serif",
+                fontFamily: "Helvetica",
                 fontSize: "24px"
               }}
             >
               STEP 2
             </h3>
-            <p style={{ fontFamily: "'Literata', serif" }}>
+            <p style={{ fontFamily: "Helvetica" }}>
               Select the products and add to cart.
             </p>
           </Grid.Column>
@@ -88,13 +88,13 @@ class How extends Component {
           <Grid.Column mobile={8} computer={4}>
             <h3
               style={{
-                fontFamily: " 'Amaranth', sans-serif",
+                fontFamily: "Helvetica",
                 fontSize: "24px"
               }}
             >
               STEP 3
             </h3>
-            <p style={{ fontFamily: "'Literata', serif" }}>
+            <p style={{ fontFamily: "Helvetica" }}>
               Check out the cart and complete the payment through UPI, Paytm.
             </p>
           </Grid.Column>
@@ -102,13 +102,13 @@ class How extends Component {
           <Grid.Column mobile={8} computer={4}>
             <h3
               style={{
-                fontFamily: " 'Amaranth', sans-serif",
+                fontFamily: "Helvetica",
                 fontSize: "24px"
               }}
             >
               STEP 4
             </h3>
-            <p style={{ fontFamily: "'Literata', serif" }}>
+            <p style={{ fontFamily: "Helvetica" }}>
               Go and collect items from the Conductor ( Batman of the bus ) and
               enjoy snacking.
             </p>

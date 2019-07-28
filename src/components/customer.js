@@ -20,7 +20,7 @@ class Customer extends Component {
             textAlign: "center",
             marginBottom: "30px",
             marginTop: "100px",
-            fontFamily: "'Bree Serif', serif"
+            fontFamily: "Avenir"
           }}
         >
           <img src="https://img.icons8.com/officel/80/000000/conference-call.png" />

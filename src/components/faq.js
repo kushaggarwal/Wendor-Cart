@@ -33,7 +33,7 @@ class Faq extends Component {
             textAlign: "center",
             marginBottom: "30px",
             marginTop: "100px",
-            fontFamily: "'Bree Serif', serif"
+            fontFamily: "Avenir"
           }}
         >
           <img src="https://img.icons8.com/cute-clipart/64/000000/faq.png" />
@@ -44,6 +44,7 @@ class Faq extends Component {
           data-aos="fade-right"
           data-aos-duration="400"
           data-aos-anchor-placement="top-center"
+          style={{ fontFamily: "Helvetica" }}
         >
           <Accordion.Title
             active={activeIndex === 12}
