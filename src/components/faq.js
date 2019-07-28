@@ -42,6 +42,7 @@ class Faq extends Component {
         <Accordion
           data-aos="fade-right"
           data-aos-anchor-placement="top-center"
+          data-aos-anchor-placement="top-center"
           style={{ fontFamily: "Helvetica" }}
         >
           <Accordion.Title

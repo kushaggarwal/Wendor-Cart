@@ -15,6 +15,7 @@ class Customer extends Component {
       <div>
         <h1
           data-aos="fade-down"
+          data-aos-anchor-placement="top-center"
           style={{
             textAlign: "center",
             marginBottom: "30px",
@@ -28,6 +29,7 @@ class Customer extends Component {
         </h1>
         <Grid
           data-aos="flip-left"
+          data-aos-anchor-placement="top-center"
           style={{
             margin: "20px 20px",
             textAlign: "center"

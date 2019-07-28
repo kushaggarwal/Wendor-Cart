@@ -15,6 +15,7 @@ class Test extends Component {
       <div>
         <h1
           data-aos="fade-down"
+          data-aos-anchor-placement="top-center"
           style={{
             textAlign: "center",
             marginBottom: "30px",
@@ -27,7 +28,7 @@ class Test extends Component {
           CUSTOMER'S TESTIMONIAL
         </h1>
 
-        <Carousel data-aos="zoom-in">
+        <Carousel data-aos="zoom-in" data-aos-anchor-placement="top-center">
           <div>
             <p style={{ textAlign: "center", fontSize: "12pt" }}>
               Experiencing this kind of service inside bus is really great. It
