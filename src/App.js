@@ -8,6 +8,8 @@ import Bill from "./components/bill";
 import Main from "./main";
 import { data } from "./data";
 import AOS from "aos";
+import "aos/dist/aos.css";
+import "aos/dist/aos.js";
 import AwesomeSlider from "react-awesome-slider";
 import "react-awesome-slider/dist/styles.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -36,9 +38,6 @@ class App extends React.Component {
       books: data,
       counter: 1
     };
-  }
-  componentDidMount() {
-    AOS.refresh();
   }
 
   render() {
@@ -82,36 +81,106 @@ class App extends React.Component {
               <div style={{ textAlign: "center", marginBottom: "20px" }}>
                 <Grid>
                   <Grid.Column mobile={8} component={8} tablet={8}>
-                    <h3 data-aos="fade-left">
+                    <h3
+                      data-aos="fade-left"
+                      onClick={() => {
+                        this.setState({
+                          show: !this.state.show
+                        });
+                      }}
+                    >
                       <Link to={"/"}>Home</Link>
                     </h3>
-                    <h3 data-aos="fade-left">
+                    <h3
+                      data-aos="fade-left"
+                      onClick={() => {
+                        this.setState({
+                          show: !this.state.show
+                        });
+                      }}
+                    >
                       <Link to={"/#why"}>Why Happy Trip</Link>
                     </h3>
-                    <h3 data-aos="fade-left">
+                    <h3
+                      data-aos="fade-left"
+                      onClick={() => {
+                        this.setState({
+                          show: !this.state.show
+                        });
+                      }}
+                    >
                       <Link to={"/products"}>Products</Link>
                     </h3>
-                    <h3 data-aos="fade-left">
+                    <h3
+                      data-aos="fade-left"
+                      onClick={() => {
+                        this.setState({
+                          show: !this.state.show
+                        });
+                      }}
+                    >
                       <Link to={"/#how"}>How It Works</Link>
                     </h3>
-                    <h3 data-aos="fade-left">
+                    <h3
+                      data-aos="fade-left"
+                      onClick={() => {
+                        this.setState({
+                          show: !this.state.show
+                        });
+                      }}
+                    >
                       <Link to={"/#customer"}>Customers</Link>
                     </h3>
                   </Grid.Column>
                   <Grid.Column mobile={8} component={8} tablet={8}>
-                    <h3 data-aos="fade-right">
+                    <h3
+                      data-aos="fade-right"
+                      onClick={() => {
+                        this.setState({
+                          show: !this.state.show
+                        });
+                      }}
+                    >
                       <Link to={"/#testimonials"}>Testimonials</Link>
                     </h3>
-                    <h3 data-aos="fade-right">
+                    <h3
+                      data-aos="fade-right"
+                      onClick={() => {
+                        this.setState({
+                          show: !this.state.show
+                        });
+                      }}
+                    >
                       <Link to={"/#partner"}>Brands</Link>
                     </h3>
-                    <h3 data-aos="fade-right">
+                    <h3
+                      data-aos="fade-right"
+                      onClick={() => {
+                        this.setState({
+                          show: !this.state.show
+                        });
+                      }}
+                    >
                       <Link to={"/about"}>About</Link>
                     </h3>
-                    <h3 data-aos="fade-right">
+                    <h3
+                      data-aos="fade-right"
+                      onClick={() => {
+                        this.setState({
+                          show: !this.state.show
+                        });
+                      }}
+                    >
                       <Link to={"/#FAQ"}>FAQ</Link>
                     </h3>
-                    <h3 data-aos="fade-right">
+                    <h3
+                      data-aos="fade-right"
+                      onClick={() => {
+                        this.setState({
+                          show: !this.state.show
+                        });
+                      }}
+                    >
                       <Link to={"/#contact"}>Contact Us</Link>
                     </h3>
                   </Grid.Column>

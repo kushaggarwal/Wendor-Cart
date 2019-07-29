@@ -5,16 +5,14 @@ import { Grid, GridColumn, Image, Statistic } from "semantic-ui-react";
 class Customer extends Component {
   constructor(props) {
     super(props);
-    AOS.init();
   }
-  componentDidMount() {
-    AOS.refresh();
-  }
+
   render() {
     return (
       <div>
         <h1
           data-aos="fade-down"
+          data-aos-duration="400"
           style={{
             textAlign: "center",
             marginBottom: "30px",
@@ -28,6 +26,7 @@ class Customer extends Component {
         </h1>
         <Grid
           data-aos="flip-left"
+          data-aos-duration="400"
           style={{
             margin: "20px 20px",
             textAlign: "center"

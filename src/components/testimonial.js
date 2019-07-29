@@ -5,11 +5,8 @@ import Carousel from "nuka-carousel";
 class Test extends Component {
   constructor(props) {
     super(props);
-    AOS.init();
   }
-  componentDidMount() {
-    AOS.refresh();
-  }
+
   render() {
     return (
       <div>
@@ -24,10 +21,14 @@ class Test extends Component {
         >
           <img src="https://img.icons8.com/cotton/64/000000/certificate.png" />
           <br />
-          CUSTOMER'S TESTIMONIAL
+          CUSTOMER'S TESTIMONIALS
         </h1>
 
-        <Carousel data-aos="zoom-in">
+        <Carousel
+          data-aos="zoom-in"
+          data-aos-duration="900"
+          style={{ fontFamily: "Helvetica" }}
+        >
           <div>
             <p style={{ textAlign: "center", fontSize: "12pt" }}>
               Experiencing this kind of service inside bus is really great. It

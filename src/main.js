@@ -136,7 +136,12 @@ class Main extends React.Component {
             }
             closeIcon
           >
-            <Header icon="cart" content="Your Shopping Cart" />
+            <Header
+              style={{ textAlign: "center", font: "bold 20px  Avenir" }}
+              inverted
+              color="orange"
+              content="KINDLY COLLECT YOUR PRODUCTS FROM THE CONDUCTOR"
+            />
             <Modal.Content>
               {obj.length != 0 ? <Bill obj={obj} /> : null}
               <Card.Group>

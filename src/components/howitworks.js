@@ -1,20 +1,19 @@
 import React, { Component } from "react";
 import AOS from "aos";
 import { Grid, GridColumn, Image } from "semantic-ui-react";
+import "./home.css";
 
 class How extends Component {
   constructor(props) {
     super(props);
-    AOS.init();
   }
-  componentDidMount() {
-    AOS.refresh();
-  }
+
   render() {
     return (
       <div>
         <h1
           data-aos="fade-down"
+          //data-aos-anchor-placement="top-center"
           style={{
             textAlign: "center",
             marginBottom: "30px",
@@ -29,7 +28,11 @@ class How extends Component {
           <br />
           HOW IT WORKS
         </h1>
-        <Grid style={{ marginTop: "70px" }} data-aos="zoom-in">
+        <Grid
+          style={{ marginTop: "70px" }}
+          data-aos="zoom-in"
+          //data-aos-anchor-placement="top-center"
+        >
           <Grid.Column mobile={8} computer={4}>
             <Image
               src="https://www.qr-code-generator.com/wp-content/themes/qr/new_structure/generator/dist/generator/assets/images/websiteQRCode_noFrame.png"
@@ -38,7 +41,7 @@ class How extends Component {
             />
           </Grid.Column>
 
-          <Grid.Column mobile={8} computer={4}>
+          <Grid.Column mobile={8} computer={4} className="HW_position">
             <h3
               style={{
                 fontFamily: "Helvetica",
@@ -47,24 +50,24 @@ class How extends Component {
             >
               STEP 1
             </h3>
-            <p style={{ fontFamily: "Helvetica" }}>
+            <h4 style={{ fontFamily: "'Helvetica'" }}>
               Scan the QR code or enter the given URL on the back of the seat to
               open the Happybox menu.
-            </p>
+            </h4>
           </Grid.Column>
 
-          <Grid.Column mobile={8} computer={4}>
+          <Grid.Column mobile={8} computer={4} className="HW_position">
             <h3
               style={{
-                fontFamily: "Helvetica",
+                fontFamily: "'Helvetica'",
                 fontSize: "24px"
               }}
             >
               STEP 2
             </h3>
-            <p style={{ fontFamily: "Helvetica" }}>
+            <h4 style={{ fontFamily: "'Helvetica'" }}>
               Select the products and add to cart.
-            </p>
+            </h4>
           </Grid.Column>
 
           <Grid.Column mobile={8} computer={4}>
@@ -80,33 +83,33 @@ class How extends Component {
             />
           </Grid.Column>
 
-          <Grid.Column mobile={8} computer={4}>
+          <Grid.Column mobile={8} computer={4} className="HW_position">
             <h3
               style={{
-                fontFamily: "Helvetica",
+                fontFamily: " 'Helvetica'",
                 fontSize: "24px"
               }}
             >
               STEP 3
             </h3>
-            <p style={{ fontFamily: "Helvetica" }}>
+            <h4 style={{ fontFamily: "Helvetica" }}>
               Check out the cart and complete the payment through UPI, Paytm.
-            </p>
+            </h4>
           </Grid.Column>
 
-          <Grid.Column mobile={8} computer={4}>
+          <Grid.Column mobile={8} computer={4} className="HW_position">
             <h3
               style={{
-                fontFamily: "Helvetica",
+                fontFamily: "'Helvetica'",
                 fontSize: "24px"
               }}
             >
               STEP 4
             </h3>
-            <p style={{ fontFamily: "Helvetica" }}>
+            <h4 style={{ fontFamily: "Helvetica" }}>
               Go and collect items from the Conductor ( Batman of the bus ) and
               enjoy snacking.
-            </p>
+            </h4>
           </Grid.Column>
           <Grid.Column mobile={8} computer={4}>
             <Image src="Images/delivery.jpg" size="small" centered />

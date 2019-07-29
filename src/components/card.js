@@ -115,7 +115,7 @@ export default class ShowCard extends React.Component {
           <div
             style={{
               textAlign: "center",
-              //height: "69px",
+              height: "50px",
               fontSize: "12pt",
               fontFamily: "'Quicksand', sans-serif",
               color: "grey",
@@ -126,7 +126,6 @@ export default class ShowCard extends React.Component {
             {book.author}
           </div>
           <Popup
-            content={book.desc}
             trigger={
               <Header
                 as="h5"
@@ -134,6 +133,9 @@ export default class ShowCard extends React.Component {
                 content={"Rs " + book.price}
               />
             }
+            content={book.desc}
+            on="click"
+            position="top right"
           />
 
           <div style={{ textAlign: "center" }} />

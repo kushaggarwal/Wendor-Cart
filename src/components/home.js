@@ -32,14 +32,11 @@ import {
 class Home extends Component {
   constructor(props) {
     super(props);
-    AOS.init();
+
     this.state = {
       show: false,
       activeIndex: 0
     };
-  }
-  componentDidMount() {
-    AOS.refresh();
   }
 
   render() {
@@ -50,8 +47,10 @@ class Home extends Component {
         <div
           className="jumbotron"
           style={{
+            margin: "0 auto",
             textAlign: "center",
-            backgroundImage: "url(/Images/0001.jpg)"
+            backgroundImage: "url(/Images/0001.jpg)",
+            backgroundColor: "#CFEEF7  "
           }}
         >
           <Grid>
@@ -60,7 +59,11 @@ class Home extends Component {
               computer={6}
               style={{ margin: "auto auto" }}
             >
-              <Image src="/Images/0001.jpg" size="large" />
+              <Image
+                src="/Images/0001.jpg"
+                size="large"
+                //style={{ margin: "0 auto" }}
+              />
             </Grid.Column>
             <Grid.Column
               mobile={16}

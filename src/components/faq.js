@@ -5,15 +5,13 @@ import { Grid, GridColumn, Image, Accordion, Icon } from "semantic-ui-react";
 class Faq extends Component {
   constructor(props) {
     super(props);
-    AOS.init();
+
     this.state = {
       show: false,
       activeIndex: 0
     };
   }
-  componentDidMount() {
-    AOS.refresh();
-  }
+
   handleClick = (e, titleProps) => {
     const { index } = titleProps;
     const { activeIndex } = this.state;
@@ -27,6 +25,8 @@ class Faq extends Component {
       <div>
         <h1
           data-aos="zoom-in"
+          data-aos-duration="400"
+          data-aos-anchor-placement="top-center"
           style={{
             textAlign: "center",
             marginBottom: "30px",
@@ -38,7 +38,12 @@ class Faq extends Component {
           <br />
           FAQ'S
         </h1>
-        <Accordion data-aos="fade-right" style={{ fontFamily: "Helvetica" }}>
+        <Accordion
+          data-aos="fade-right"
+          data-aos-duration="400"
+          data-aos-anchor-placement="top-center"
+          style={{ fontFamily: "Helvetica" }}
+        >
           <Accordion.Title
             active={activeIndex === 12}
             index={12}
@@ -141,8 +146,8 @@ class Faq extends Component {
           </Accordion.Title>
           <Accordion.Content active={activeIndex === 6}>
             <p>
-              Contact team@happytrip.store or you can even call directly at +91
-              8800964026.
+              Contact support@happytrip.store or you can even call directly at
+              +91 8800964026.
             </p>
           </Accordion.Content>
           <Accordion.Title
@@ -220,8 +225,8 @@ class Faq extends Component {
           </Accordion.Title>
           <Accordion.Content active={activeIndex === 11}>
             <p>
-              Contact team@happytrip.store or you can even call directly at +91
-              8800964026.
+              Contact support@happytrip.store or you can even call directly at
+              +91 8800964026.
             </p>
           </Accordion.Content>
         </Accordion>

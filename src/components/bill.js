@@ -27,10 +27,9 @@ export default class Bill extends React.Component {
     return (
       <div style={{ marginBottom: "30px" }}>
         <div style={{ textAlign: "center", width: "100%" }}>
-          <h3>Total Bill</h3>
           <h3>
-            <Icon name="rupee" />
-            {this.state.price}
+            Total Bill : <Icon name="rupee" />
+            {this.state.price}{" "}
           </h3>
         </div>
 
