@@ -8,7 +8,7 @@ class About extends Component {
         <h2
           data-aos="fade-up"
           style={{
-            fontFamily: "Bree Serif serif",
+            fontFamily: "Avenir",
             textAlign: "center",
             marginTop: "100px"
           }}
@@ -22,7 +22,8 @@ class About extends Component {
           data-aos-duration="900"
           style={{
             textAlign: "center",
-            marginTop: "40px"
+            marginTop: "40px",
+            fontFamily: "Helvetica"
           }}
         >
           Hii! It is our pleasure to have made you smile and satisfy your hunger
@@ -33,7 +34,8 @@ class About extends Component {
           data-aos-duration="900"
           style={{
             textAlign: "center",
-            marginTop: "40px"
+            marginTop: "40px",
+            fontFamily: "Helvetica"
           }}
         >
           Happytrip is a team of dynamic youngsters who believe that snacks
@@ -46,7 +48,8 @@ class About extends Component {
           data-aos-duration="900"
           style={{
             textAlign: "center",
-            marginTop: "40px"
+            marginTop: "40px",
+            fontFamily: "Helvetica"
           }}
         >
           We at happy trip strive to provide quality service to people
@@ -61,7 +64,8 @@ class About extends Component {
           data-aos-duration="900"
           style={{
             textAlign: "center",
-            marginTop: "40px"
+            marginTop: "40px",
+            fontFamily: "Helvetica"
           }}
         >
           We believe in providing consistent excellent services to our customers
@@ -75,7 +79,8 @@ class About extends Component {
           data-aos-duration="900"
           style={{
             textAlign: "center",
-            marginTop: "40px"
+            marginTop: "40px",
+            fontFamily: "Helvetica"
           }}
         >
           Our mission is to bridge the gap between travelling in a bus and

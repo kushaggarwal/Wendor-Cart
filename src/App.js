@@ -45,37 +45,40 @@ class App extends React.Component {
 
     return (
       <div>
-        <h3
-          className="dropdown container left floated"
-          style={{
-            textAlign: "center",
-            marginTop: "20px",
-            height: "40px",
-            marginBottom: "50px"
-          }}
-        >
-          <Image
-            src="https://img.icons8.com/color/48/000000/menu.png"
-            size="mini"
-            floated="right"
-            onClick={() => {
-              this.setState({
-                show: !this.state.show
-              });
-            }}
-          />
-          {!this.state.show ? (
-            <Header
-              size="medium"
-              color="orange"
-              floated="left"
-              style={{ fontFamily: "'Lora', serif" }}
-            >
-              Happytrip
-            </Header>
-          ) : null}
-        </h3>
         <Router>
+          <h3
+            className="dropdown container left floated"
+            style={{
+              textAlign: "center",
+              marginTop: "20px",
+              height: "40px",
+              marginBottom: "50px"
+            }}
+          >
+            <Image
+              src="https://img.icons8.com/color/48/000000/menu.png"
+              size="mini"
+              floated="right"
+              onClick={() => {
+                this.setState({
+                  show: !this.state.show
+                });
+              }}
+            />
+            {!this.state.show ? (
+              <Link to={"/"}>
+                <Header
+                  size="medium"
+                  color="orange"
+                  floated="left"
+                  style={{ fontFamily: "'Lora', serif" }}
+                >
+                  Happytrip
+                </Header>
+              </Link>
+            ) : null}
+          </h3>
+
           <div className="components">
             {this.state.show ? (
               <div style={{ textAlign: "center", marginBottom: "20px" }}>

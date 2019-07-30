@@ -10,12 +10,10 @@ export const data = [
     img: "/Images/popcorn/Classic Butter Popcorn/popcornbutter1.jpg",
     images: [
       {
-        img1:
-          "/Images/popcorn/Classic Butter Popcorn/popcornbutter1.jpg"
+        img1: "/Images/popcorn/Classic Butter Popcorn/popcornbutter1.jpg"
       },
       {
-        img1:
-          "/Images/popcorn/Classic Butter Popcorn/popcornbutter2.jpg"
+        img1: "/Images/popcorn/Classic Butter Popcorn/popcornbutter2.jpg"
       }
     ]
   },
@@ -30,12 +28,10 @@ export const data = [
     img: "/Images/popcorn/Simply Salt Popcorn/popcornsalt1.jpg",
     images: [
       {
-        img1:
-          "/Images/popcorn/Simply Salt Popcorn/popcornsalt1.jpg"
+        img1: "/Images/popcorn/Simply Salt Popcorn/popcornsalt1.jpg"
       },
       {
-        img1:
-          "/Images/popcorn/Simply Salt Popcorn/popcornsalt2.jpg"
+        img1: "/Images/popcorn/Simply Salt Popcorn/popcornsalt2.jpg"
       }
     ]
   },
@@ -73,7 +69,20 @@ export const data = [
     author: "Veggie Stix, Chilly Chataka 56g",
     price: 25,
     cartQuantity: 0,
-    images: [{ img1: "" }, { img1: "" }],
+    images: [
+      {
+        img1:
+          "/Images/tooyumm/TooYumm! Veggie Stix, Chilly Chataka 56g/tooyummveggiechilly1.jpg"
+      },
+      {
+        img1:
+          "/Images/tooyumm/TooYumm! Veggie Stix, Chilly Chataka 56g/tooyummveggiechilly2.jpg"
+      },
+      {
+        img1:
+          "/Images/tooyumm/TooYumm! Veggie Stix, Chilly Chataka 56g/tooyummveggiechilly3.jpg"
+      }
+    ],
     id: 4,
     desc:
       "Introducing guilt-free snacking with Too Yumm wheat thins. Once you begin, you’ll eat with no sharam. Wondering why? This roasted super snack is filled with fibre, protein and the mouth-watering taste of desi tadka. So yummy and healthy that you’ll eat with no qualms and no sharam. Anytime, anywhere and as much as your heart (and taste buds) desires. So before this pack reaches you, get ready for no sharam eating.",
@@ -224,12 +233,10 @@ export const data = [
     cartQuantity: 0,
     images: [
       {
-        img1:
-          "/Images/trailmix/trailmix1.jpg"
+        img1: "/Images/trailmix/trailmix1.jpg"
       },
       {
-        img1:
-          "/Images/trailmix/trailmix2.jpg"
+        img1: "/Images/trailmix/trailmix2.jpg"
       }
     ],
     desc:
@@ -244,20 +251,16 @@ export const data = [
     cartQuantity: 0,
     images: [
       {
-        img1:
-          "/Images/cornitos/periperi/cornitosperi1.jpg"
+        img1: "/Images/cornitos/periperi/cornitosperi1.jpg"
       },
       {
-        img1:
-          "/Images/cornitos/periperi/cornitosperi2.jpg"
+        img1: "/Images/cornitos/periperi/cornitosperi2.jpg"
       },
       {
-        img1:
-          "/Images/cornitos/periperi/cornitosperi3.jpg"
+        img1: "/Images/cornitos/periperi/cornitosperi3.jpg"
       },
       {
-        img1:
-          "/Images/cornitos/periperi/cornitosperi4.jpg"
+        img1: "/Images/cornitos/periperi/cornitosperi4.jpg"
       }
     ],
     desc:
@@ -272,20 +275,16 @@ export const data = [
     cartQuantity: 0,
     images: [
       {
-        img1:
-          "/Images/cornitos/barbeque/cornitosbarb1.jpg"
+        img1: "/Images/cornitos/barbeque/cornitosbarb1.jpg"
       },
       {
-        img1:
-          "/Images/cornitos/barbeque/cornitosbarb2.jpg"
+        img1: "/Images/cornitos/barbeque/cornitosbarb2.jpg"
       },
       {
-        img1:
-          "/Images/cornitos/barbeque/cornitosbarb3.jpg"
+        img1: "/Images/cornitos/barbeque/cornitosbarb3.jpg"
       },
       {
-        img1:
-          "/Images/cornitos/barbeque/cornitosbarb4.jpg"
+        img1: "/Images/cornitos/barbeque/cornitosbarb4.jpg"
       }
     ],
     desc:
@@ -340,8 +339,7 @@ export const data = [
     cartQuantity: 0,
     images: [
       {
-        img1:
-          "/Images/unibic/Unibic Honey Oatmeal, 75g/unibichoney1.jpg"
+        img1: "/Images/unibic/Unibic Honey Oatmeal, 75g/unibichoney1.jpg"
       }
     ],
     desc:
@@ -443,28 +441,22 @@ export const data = [
     cartQuantity: 0,
     images: [
       {
-        img1:
-          "/Images/snickers/snickers.jpg"
+        img1: "/Images/snickers/snickers.jpg"
       },
       {
-        img1:
-          "/Images/snickers/snickers1.jpg"
+        img1: "/Images/snickers/snickers1.jpg"
       },
       {
-        img1:
-          "/Images/snickers/snickers2.jpg"
+        img1: "/Images/snickers/snickers2.jpg"
       },
       {
-        img1:
-          "/Images/snickers/snickers3.jpg"
+        img1: "/Images/snickers/snickers3.jpg"
       },
       {
-        img1:
-          "/Images/snickers/snickers4.jpg"
+        img1: "/Images/snickers/snickers4.jpg"
       },
       {
-        img1:
-          "/Images/snickers/snickers5.jpg"
+        img1: "/Images/snickers/snickers5.jpg"
       }
     ],
     desc:
@@ -540,16 +532,13 @@ export const data = [
     cartQuantity: 0,
     images: [
       {
-        img1:
-          "/Images/redbull/redbull1.jpg"
+        img1: "/Images/redbull/redbull1.jpg"
       },
       {
-        img1:
-          "/Images/redbull/redbull2.jpg"
+        img1: "/Images/redbull/redbull2.jpg"
       },
       {
-        img1:
-          "/Images/redbull/redbull3.jpg"
+        img1: "/Images/redbull/redbull3.jpg"
       }
     ],
     desc:
@@ -630,8 +619,7 @@ export const data = [
     cartQuantity: 0,
     images: [
       {
-        img1:
-          "/Images/nescafe cold coffee/ncf1.jpg"
+        img1: "/Images/nescafe cold coffee/ncf1.jpg"
       }
     ],
     desc:
@@ -646,12 +634,10 @@ export const data = [
     cartQuantity: 0,
     images: [
       {
-        img1:
-          "/Images/nescafe cold coffee/ncf2.jpg"
+        img1: "/Images/nescafe cold coffee/ncf2.jpg"
       },
       {
-        img1:
-          "/Images/nescafe cold coffee/ncf21.jpg"
+        img1: "/Images/nescafe cold coffee/ncf21.jpg"
       }
     ],
     desc:
@@ -682,8 +668,7 @@ export const data = [
     cartQuantity: 0,
     images: [
       {
-        img1:
-          "/Images/alofrutjuice/Alofrut Kiwi Aloevera Juice 300ml/afj2.jpg"
+        img1: "/Images/alofrutjuice/Alofrut Kiwi Aloevera Juice 300ml/afj2.jpg"
       }
     ],
     desc:
@@ -698,8 +683,7 @@ export const data = [
     cartQuantity: 0,
     images: [
       {
-        img1:
-          "/Images/alofrutjuice/Alofrut Mango Aloevera Juice 300ml/afj3.jpg"
+        img1: "/Images/alofrutjuice/Alofrut Mango Aloevera Juice 300ml/afj3.jpg"
       },
       {
         img1:
@@ -781,12 +765,10 @@ export const data = [
     cartQuantity: 0,
     images: [
       {
-        img1:
-          "/Images/hand sanitizer/hs1.jpg"
+        img1: "/Images/hand sanitizer/hs1.jpg"
       },
       {
-        img1:
-          "/Images/hand sanitizer/hs2.jpg"
+        img1: "/Images/hand sanitizer/hs2.jpg"
       }
     ],
     desc:
@@ -801,24 +783,19 @@ export const data = [
     cartQuantity: 0,
     images: [
       {
-        img1:
-          "/Images/Candy/candy1.jpg"
+        img1: "/Images/Candy/candy1.jpg"
       },
       {
-        img1:
-          "/Images/Candy/candy2.jpg"
+        img1: "/Images/Candy/candy2.jpg"
       },
       {
-        img1:
-          "/Images/Candy/candy3.jpg"
+        img1: "/Images/Candy/candy3.jpg"
       },
       {
-        img1:
-          "/Images/Candy/candy4.jpg"
+        img1: "/Images/Candy/candy4.jpg"
       },
       {
-        img1:
-          "/Images/Candy/candy5.jpg"
+        img1: "/Images/Candy/candy5.jpg"
       }
     ],
     desc:
@@ -833,32 +810,25 @@ export const data = [
     cartQuantity: 0,
     images: [
       {
-        img1:
-          "/Images/earphones/earphonesmi/earmi1.jpg"
+        img1: "/Images/earphones/earphonesmi/earmi1.jpg"
       },
       {
-        img1:
-          "/Images/earphones/earphonesmi/earmi2.jpg"
+        img1: "/Images/earphones/earphonesmi/earmi2.jpg"
       },
       {
-        img1:
-          "/Images/earphones/earphonesmi/earmi3.jpg"
+        img1: "/Images/earphones/earphonesmi/earmi3.jpg"
       },
       {
-        img1:
-          "/Images/earphones/earphonesmi/earmi4.jpg"
+        img1: "/Images/earphones/earphonesmi/earmi4.jpg"
       },
       {
-        img1:
-          "/Images/earphones/earphonesmi/earmi5.jpg"
+        img1: "/Images/earphones/earphonesmi/earmi5.jpg"
       },
       {
-        img1:
-          "/Images/earphones/earphonesmi/earmi6.jpg"
+        img1: "/Images/earphones/earphonesmi/earmi6.jpg"
       },
       {
-        img1:
-          "/Images/earphones/earphonesmi/earmi7.jpg"
+        img1: "/Images/earphones/earphonesmi/earmi7.jpg"
       }
     ],
     desc: `"Xiaomi has customized Mi Earphones Basic just for India, giving customers what they were looking for- Ultra deep bass and tangle free wires. The Headphones come with silicone earbuds that are specifically designed to ensure it fits snugly without compromising comfort.
@@ -880,24 +850,19 @@ export const data = [
     cartQuantity: 0,
     images: [
       {
-        img1:
-          "/Images/earphones/earphonesboat/earboat1.jpg"
+        img1: "/Images/earphones/earphonesboat/earboat1.jpg"
       },
       {
-        img1:
-          "/Images/earphones/earphonesboat/earboat2.jpg"
+        img1: "/Images/earphones/earphonesboat/earboat2.jpg"
       },
       {
-        img1:
-          "/Images/earphones/earphonesboat/earboat3.jpg"
+        img1: "/Images/earphones/earphonesboat/earboat3.jpg"
       },
       {
-        img1:
-          "/Images/earphones/earphonesboat/earboat4.jpg"
+        img1: "/Images/earphones/earphonesboat/earboat4.jpg"
       },
       {
-        img1:
-          "/Images/earphones/earphonesboat/earboat55.jpg"
+        img1: "/Images/earphones/earphonesboat/earboat55.jpg"
       }
     ],
     desc: `"Serenade the scene with the boAt Basshead's 152, the bass oasis to your Nirvana. Equipped with 10mm Drivers, experience audio Nirvana to take the pace of your surroundings with a quick in step and a motivated mind-set. Get ready to turn the place over with that heavy bass. A smooth vibrant design available in colours active black, jazzy blue and raging Red; step into the fashion game. The perfect on hand earphones to possess, always stay a step ahead. Take calls using the inbuilt microphone and tune out freely with the tangle free braided cable. It’s been made for your comfort. Durable to the max, get ready to rock the rhythm with heavy bass tunes, because the private party just got started. Just plug In with the 3.5mm angled jack. The sound you’ve been looking for has been found.
@@ -917,32 +882,25 @@ export const data = [
     cartQuantity: 0,
     images: [
       {
-        img1:
-          "/Images/power bank/mi/pb1.jpg"
+        img1: "/Images/power bank/mi/pb1.jpg"
       },
       {
-        img1:
-          "/Images/power bank/mi/pb2.jpg"
+        img1: "/Images/power bank/mi/pb2.jpg"
       },
       {
-        img1:
-          "/Images/power bank/mi/pb3.jpg"
+        img1: "/Images/power bank/mi/pb3.jpg"
       },
       {
-        img1:
-          "/Images/power bank/mi/pb4.jpg"
+        img1: "/Images/power bank/mi/pb4.jpg"
       },
       {
-        img1:
-          "/Images/power bank/mi/pb5.jpg"
+        img1: "/Images/power bank/mi/pb5.jpg"
       },
       {
-        img1:
-          "/Images/power bank/mi/pb6.jpg"
+        img1: "/Images/power bank/mi/pb6.jpg"
       },
       {
-        img1:
-          "/Images/power bank/mi/pb7.jpg"
+        img1: "/Images/power bank/mi/pb7.jpg"
       }
     ],
     desc: `"The all-new 10000mAh Mi Power Bank 2i is a portable powerhouse that offers two-way fast charging and ensures that your devices make it through the busiest and longest days. The all-new design now features Dual USB output without compromising on the size, extending your power to share with others in need.
@@ -962,20 +920,16 @@ export const data = [
     cartQuantity: 0,
     images: [
       {
-        img1:
-          "/Images/power bank/lenovo/pbo1.jpg"
+        img1: "/Images/power bank/lenovo/pbo1.jpg"
       },
       {
-        img1:
-          "/Images/power bank/lenovo/pbo2.jpg"
+        img1: "/Images/power bank/lenovo/pbo2.jpg"
       },
       {
-        img1:
-          "/Images/power bank/lenovo/pbo3.jpg"
+        img1: "/Images/power bank/lenovo/pbo3.jpg"
       },
       {
-        img1:
-          "/Images/power bank/lenovo/pbo4.jpg"
+        img1: "/Images/power bank/lenovo/pbo4.jpg"
       }
     ],
     desc: `"Never run out of charge. Running late for work and don’t have time to charge your phone’s battery. Don’t worry and trust Lenovo PA13000 13000mAH power bank. Today’s lifestyle is incomplete without cellophanes and we just cannot manage without our handsets even for a day. To ensure that we never face such type situation, buying a power bank becomes important. Lenovo power bank is stylish and sleek, so that you can easily carry it along on your way to work or anywhere on-the-go. This portable charging device comes with a capacity of 13000mAH and can be easily charged with micro USB type connector. With such a long battery life, you can keep your device on charge multiple times in a day. Easy to use, feature-loaded device. Lenovo portable power bank is compatible with all smartphones and can charge two phones at the same time. It is extremely easy to operate, as you just need to connect your dive with charger with the help of 5v/2A type USB input connector. As soon as you start charging your phone, it will not take much time to reach the full battery sign, due to its very high conversion rate. The device also has smart power control chip system that enhances its performance big time. There is one power switch button and led light intact in the charger, which simplifies its usage further. Manufactured with high quality matte plastic, this lenovo device is high on durability and sturdiness. Lastly, the power bank comes with 1-year manufacturer warranty from the dare of its purchase.
@@ -997,12 +951,10 @@ export const data = [
     cartQuantity: 0,
     images: [
       {
-        img1:
-          "/Images/neck pillow/np1.jpg"
+        img1: "/Images/neck pillow/np1.jpg"
       },
       {
-        img1:
-          "/Images/neck pillow/np2.jpg"
+        img1: "/Images/neck pillow/np2.jpg"
       }
     ],
     desc: `"- Its a Multipurpose pillow.

@@ -27,6 +27,7 @@ import {
   Label,
   GridColumn,
   Statistic,
+  Loader,
   Item
 } from "semantic-ui-react";
 class Home extends Component {
@@ -35,128 +36,136 @@ class Home extends Component {
 
     this.state = {
       show: false,
-      activeIndex: 0
+      activeIndex: 0,
+      Loader: true
     };
+  }
+
+  componentDidMount() {
+    this.setState({ Loader: false });
   }
 
   render() {
     const { activeIndex } = this.state;
+    if (this.state.Loader) {
+      return <Loader active inline="centered" />;
+    } else if (!this.state.Loader) {
+      return (
+        <div>
+          <div
+            className="jumbotron"
+            style={{
+              margin: "0 auto",
+              textAlign: "center",
+              backgroundImage: "url(/Images/0001.jpg)",
+              backgroundColor: "#CFEEF7  "
+            }}
+          >
+            <Grid>
+              <Grid.Column
+                mobile={16}
+                computer={6}
+                style={{ margin: "auto auto" }}
+              >
+                <Image
+                  src="/Images/0001.jpg"
+                  size="large"
+                  //style={{ margin: "0 auto" }}
+                />
+              </Grid.Column>
+              <Grid.Column
+                mobile={16}
+                computer={10}
+                style={{ margin: "auto auto" }}
+              >
+                <h1>Hungry during bus journey?</h1>
+                <h3>Your favourite snacks available right at your seat</h3>
+                <Button color="orange">
+                  <Link to="/products" style={{ color: "white" }}>
+                    View Our Products
+                  </Link>
+                </Button>
+              </Grid.Column>
+            </Grid>
+          </div>
 
-    return (
-      <div>
-        <div
-          className="jumbotron"
-          style={{
-            margin: "0 auto",
-            textAlign: "center",
-            backgroundImage: "url(/Images/0001.jpg)",
-            backgroundColor: "#CFEEF7  "
-          }}
-        >
-          <Grid>
-            <Grid.Column
-              mobile={16}
-              computer={6}
-              style={{ margin: "auto auto" }}
-            >
-              <Image
-                src="/Images/0001.jpg"
-                size="large"
-                //style={{ margin: "0 auto" }}
+          <div className="container">
+            <div style={{ marginTop: "50px" }}>
+              <div id="why">
+                <Why />
+              </div>
+              <hr
+                width="50%"
+                color="#f37010 "
+                size="18"
+                style={{ marginTop: "60px" }}
               />
-            </Grid.Column>
-            <Grid.Column
-              mobile={16}
-              computer={10}
-              style={{ margin: "auto auto" }}
-            >
-              <h1>Hungry during bus journey?</h1>
-              <h3>Your favourite snacks available right at your seat</h3>
-              <Button color="orange">
-                <Link to="/products" style={{ color: "white" }}>
-                  View Our Products
-                </Link>
-              </Button>
-            </Grid.Column>
-          </Grid>
-        </div>
+              <div id="how">
+                <How />
+              </div>
+              <hr
+                width="50%"
+                color="#f37010 "
+                size="18"
+                style={{ marginTop: "60px" }}
+              />
+              <div id="customer">
+                <Customer />
+              </div>
+              <hr
+                width="50%"
+                color="#f37010 "
+                size="18"
+                style={{ marginTop: "60px" }}
+              />
+              <div id="FAQ">
+                <Faq />
+              </div>
+              <hr
+                width="50%"
+                color="#f37010 "
+                size="18"
+                style={{ marginTop: "60px" }}
+              />
+              <div id="partner" style={{ marginTop: "50px" }}>
+                <Partner />
+              </div>
+              <hr
+                width="50%"
+                color="#f37010 "
+                size="18"
+                style={{ marginTop: "60px" }}
+              />
+              <div
+                id="contact"
+                style={{
+                  textAlign: "center",
+                  marginTop: "40px"
+                }}
+              >
+                <Contact />
+              </div>
+              <hr
+                width="50%"
+                color="#f37010 "
+                size="18"
+                style={{ marginTop: "60px" }}
+              />
 
-        <div className="container">
-          <div style={{ marginTop: "50px" }}>
-            <div id="why">
-              <Why />
-            </div>
-            <hr
-              width="50%"
-              color="#f37010 "
-              size="18"
-              style={{ marginTop: "60px" }}
-            />
-            <div id="how">
-              <How />
-            </div>
-            <hr
-              width="50%"
-              color="#f37010 "
-              size="18"
-              style={{ marginTop: "60px" }}
-            />
-            <div id="customer">
-              <Customer />
-            </div>
-            <hr
-              width="50%"
-              color="#f37010 "
-              size="18"
-              style={{ marginTop: "60px" }}
-            />
-            <div id="FAQ">
-              <Faq />
-            </div>
-            <hr
-              width="50%"
-              color="#f37010 "
-              size="18"
-              style={{ marginTop: "60px" }}
-            />
-            <div id="partner" style={{ marginTop: "50px" }}>
-              <Partner />
-            </div>
-            <hr
-              width="50%"
-              color="#f37010 "
-              size="18"
-              style={{ marginTop: "60px" }}
-            />
-            <div
-              id="contact"
-              style={{
-                textAlign: "center",
-                marginTop: "40px"
-              }}
-            >
-              <Contact />
-            </div>
-            <hr
-              width="50%"
-              color="#f37010 "
-              size="18"
-              style={{ marginTop: "60px" }}
-            />
-
-            <div id="testimonials">
-              <Test />
+              <div id="testimonials">
+                <Test />
+              </div>
             </div>
           </div>
+          <hr
+            width="50%"
+            color="#f37010 "
+            size="18"
+            style={{ marginTop: "60px" }}
+          />
         </div>
-        <hr
-          width="50%"
-          color="#f37010 "
-          size="18"
-          style={{ marginTop: "60px" }}
-        />
-      </div>
-    );
+      );
+    }
   }
 }
 

@@ -16,6 +16,7 @@ import {
   Icon,
   Modal,
   Header,
+  Loader,
   Label,
   Popup,
   Sticky,
@@ -28,7 +29,9 @@ class Main extends React.Component {
     this.state = {
       obj: [],
       books: data,
-      counter: 0
+      counter: 0,
+      showLabel: true,
+      Loader: true
     };
   }
 
@@ -70,6 +73,7 @@ class Main extends React.Component {
   }
   componentDidMount() {
     localStorage.clear();
+    this.setState({ Loader: false });
   }
 
   addCart() {
@@ -87,97 +91,114 @@ class Main extends React.Component {
   }
   render() {
     const { obj } = this.state;
+    if (this.state.Loader) {
+      return <Loader active inline="centered" />;
+    } else if (!this.state.Loader) {
+      return (
+        <div className="ui" style={{ padding: "20px" }}>
+          <div>
+            <h1
+              className="header"
+              style={{ marginTop: "20px", fontFamily: "Avenir" }}
+            >
+              Our Products
+            </h1>
 
-    return (
-      <div className="ui" style={{ padding: "20px" }}>
-        <div>
-          <h1
-            className="header"
-            style={{ marginTop: "20px", fontFamily: "Avenir" }}
-          >
-            Our Products
-          </h1>
-
-          <Modal
-            size="small"
-            trigger={
-              <div style={{ marginBottom: "40px" }} className="fixed-bottom">
-                <Button
-                  icon
-                  labelPosition="left"
-                  fluid
-                  color="green"
-                  size="big"
-                  onClick={() => {
-                    this.addCart();
-                  }}
-                >
+            <Modal
+              size="small"
+              trigger={
+                this.state.showLabel && this.state.counter > 0 ? (
                   <div
-                    id="box"
-                    style={{
-                      width: "30px",
-                      height: "30px",
-                      backgroundColor: "#0099ff",
-                      position: "fixed",
-                      marginleft: "10px",
-                      bottom: "90px",
-                      borderRadius: "20px",
-                      color: "white"
-                    }}
+                    style={{ marginBottom: "40px" }}
+                    className="fixed-bottom"
                   >
-                    <p id="number" style={{ paddingBottom: "10px" }}>
-                      {this.state.counter}
-                    </p>
+                    <Button
+                      icon
+                      labelPosition="left"
+                      fluid
+                      color="green"
+                      size="big"
+                      onClick={() => {
+                        this.addCart();
+                        this.setState({
+                          showLabel: false
+                        });
+                      }}
+                    >
+                      <div
+                        id="box"
+                        className="notifier"
+                        style={{
+                          width: "30px",
+                          height: "30px",
+                          backgroundColor: "#3498DB",
+                          position: "fixed",
+                          marginLeft: "10px",
+                          bottom: "90px",
+                          borderRadius: "20px",
+                          color: "white"
+                        }}
+                      >
+                        <p id="number" style={{ paddingBottom: "10px" }}>
+                          {this.state.counter}
+                        </p>
+                      </div>
+                      <Icon name="cart" size="large" />
+                      Go to Cart
+                    </Button>
                   </div>
-                  <Icon name="cart" size="large" />
-                  Go to Cart
-                </Button>
-              </div>
-            }
-            closeIcon
-          >
-            <Header
-              style={{ textAlign: "center", font: "bold 20px  Avenir" }}
-              inverted
-              color="orange"
-              content="KINDLY COLLECT YOUR PRODUCTS FROM THE CONDUCTOR"
-            />
-            <Modal.Content>
-              {obj.length != 0 ? <Bill obj={obj} /> : null}
-              <Card.Group>
-                {obj.length != 0 ? (
-                  obj.map((item, index) => {
-                    return (
-                      <Cart
-                        obj={item}
-                        array={obj}
-                        deleteHandler={this.deleteitem.bind(this)}
-                      />
-                    );
-                  })
-                ) : (
-                  <div className="header">
-                    <h3>Your Cart is Empty</h3>
-                  </div>
-                )}
-              </Card.Group>
-            </Modal.Content>
-          </Modal>
-        </div>
-        <div style={{ margin: "0 auto" }}>
-          <Card.Group style={{ marginTop: "100px" }}>
-            {this.state.books.map((book, index) => (
-              <ShowCard
-                book={book}
-                cartHandler={this.cartHandler.bind(this)}
-                add={this.add.bind(this)}
-                subtract={this.subtract.bind(this)}
+                ) : null
+              }
+              closeIcon
+              onClose={() => {
+                this.setState({
+                  showLabel: true
+                });
+              }}
+            >
+              <Header
+                style={{ textAlign: "center", font: "bold 20px  Avenir" }}
+                inverted
+                color="orange"
+                content="KINDLY COLLECT YOUR PRODUCTS FROM THE CONDUCTOR"
               />
-            ))}
-          </Card.Group>
+              <Modal.Content>
+                {obj.length != 0 ? <Bill obj={obj} /> : null}
+                <Card.Group>
+                  {obj.length != 0 ? (
+                    obj.map((item, index) => {
+                      return (
+                        <Cart
+                          obj={item}
+                          array={obj}
+                          deleteHandler={this.deleteitem.bind(this)}
+                        />
+                      );
+                    })
+                  ) : (
+                    <div className="header">
+                      <h3>Your Cart is Empty</h3>
+                    </div>
+                  )}
+                </Card.Group>
+              </Modal.Content>
+            </Modal>
+          </div>
+          <div style={{ margin: "0 auto" }}>
+            <Card.Group style={{ marginTop: "100px" }}>
+              {this.state.books.map((book, index) => (
+                <ShowCard
+                  book={book}
+                  cartHandler={this.cartHandler.bind(this)}
+                  add={this.add.bind(this)}
+                  subtract={this.subtract.bind(this)}
+                />
+              ))}
+            </Card.Group>
+          </div>
         </div>
-      </div>
-    );
+      );
+    }
   }
 }
 

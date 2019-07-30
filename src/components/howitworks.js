@@ -35,6 +35,7 @@ class How extends Component {
         >
           <Grid.Column mobile={8} computer={4}>
             <Image
+              style={{ marginTop: "25px" }}
               src="https://www.qr-code-generator.com/wp-content/themes/qr/new_structure/generator/dist/generator/assets/images/websiteQRCode_noFrame.png"
               size="small"
               centered
@@ -52,7 +53,7 @@ class How extends Component {
             </h3>
             <h4 style={{ fontFamily: "'Helvetica'" }}>
               Scan the QR code or enter the given URL on the back of the seat to
-              open the Happybox menu.
+              open the HappyTrip menu.
             </h4>
           </Grid.Column>
 
