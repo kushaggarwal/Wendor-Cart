@@ -74,8 +74,8 @@ class Home extends Component {
               >
                 <Image
                   data-aos="zoom-in"
-                  data-aos-delay="800"
-                  src="/Images/0001.jpg"
+                  //data-aos-delay="800"
+                  src="/Images/Tour-Bus.svg"
                   size="large"
                   //style={{ margin: "0 auto" }}
                 />
