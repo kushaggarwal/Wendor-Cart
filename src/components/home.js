@@ -68,7 +68,7 @@ class Home extends Component {
                 style={{ margin: "auto auto" }}
               >
                 <Image
-                  src="/Images/0001.jpg"
+                  src="/Images/0001-min.jpg"
                   size="large"
                   //style={{ margin: "0 auto" }}
                 />

@@ -3,6 +3,7 @@ import logo from "../logo.svg";
 import "../App.css";
 import Carousel from "nuka-carousel";
 import Cart from "./cart";
+import AOS from "aos";
 
 import { data } from "../data";
 import AwesomeSlider from "react-awesome-slider";

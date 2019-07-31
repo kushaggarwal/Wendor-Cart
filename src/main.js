@@ -4,6 +4,7 @@ import About from "./components/about";
 import "./App.css";
 import Cart from "./components/cart";
 import ShowCard from "./components/card";
+import AOS from "aos";
 import Bill from "./components/bill";
 import { data } from "./data";
 import AwesomeSlider from "react-awesome-slider";
@@ -98,6 +99,7 @@ class Main extends React.Component {
         <div className="ui" style={{ padding: "20px" }}>
           <div>
             <h1
+              data-aos="fade-right"
               className="header"
               style={{ marginTop: "20px", fontFamily: "Avenir" }}
             >
@@ -185,7 +187,7 @@ class Main extends React.Component {
             </Modal>
           </div>
           <div style={{ margin: "0 auto" }}>
-            <Card.Group style={{ marginTop: "100px" }}>
+            <Card.Group style={{ marginTop: "100px" }} data-aos="zoom-in">
               {this.state.books.map((book, index) => (
                 <ShowCard
                   book={book}
