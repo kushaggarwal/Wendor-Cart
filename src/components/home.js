@@ -66,10 +66,16 @@ class Home extends Component {
               <Grid.Column
                 mobile={16}
                 computer={6}
-                style={{ margin: "auto auto" }}
+                style={{
+                  margin: "auto auto",
+                  height: "430px",
+                  width: "288px"
+                }}
               >
                 <Image
-                  src="https://cdn1.imggmi.com/uploads/2019/7/31/8d52719c3ebab55fc8d470d1984d66a2-full.jpg"
+                  data-aos="zoom-in"
+                  data-aos-delay="800"
+                  src="/Images/0001.jpg"
                   size="large"
                   //style={{ margin: "0 auto" }}
                 />
