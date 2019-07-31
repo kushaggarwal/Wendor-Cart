@@ -185,6 +185,12 @@ class Main extends React.Component {
                   )}
                 </Card.Group>
               </Modal.Content>
+              <Header
+                style={{ textAlign: "center", font: "bold 20px  Avenir" }}
+                inverted
+                color="orange"
+                content="KINDLY COLLECT YOUR PRODUCTS FROM THE CONDUCTOR"
+              />
             </Modal>
           </div>
           <div style={{ margin: "0 auto" }}>

@@ -67,9 +67,7 @@ class Home extends Component {
                 mobile={16}
                 computer={6}
                 style={{
-                  margin: "auto auto",
-                  height: "430px",
-                  width: "288px"
+                  margin: "auto auto"
                 }}
               >
                 <Image
