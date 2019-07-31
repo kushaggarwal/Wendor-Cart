@@ -97,6 +97,7 @@ class Main extends React.Component {
     } else if (!this.state.Loader) {
       return (
         <div className="ui" style={{ padding: "20px" }}>
+          <div className="loader" />
           <div>
             <h1
               data-aos="fade-right"

@@ -52,6 +52,7 @@ class Home extends Component {
     } else if (!this.state.Loader) {
       return (
         <div>
+          <div className="loader" />
           <div
             className="jumbotron"
             style={{
@@ -68,7 +69,7 @@ class Home extends Component {
                 style={{ margin: "auto auto" }}
               >
                 <Image
-                  src="/Images/0001-min.jpg"
+                  src="https://cdn1.imggmi.com/uploads/2019/7/31/8d52719c3ebab55fc8d470d1984d66a2-full.jpg"
                   size="large"
                   //style={{ margin: "0 auto" }}
                 />

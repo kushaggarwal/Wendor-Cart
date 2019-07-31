@@ -9,7 +9,27 @@
 .HW_position {
   margin-top: 20px;
 }
+.loader {
+  width: 100%;
+  background-color: white;
+  height: 5px;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: loader;
+  animation-duration: 1s;
+}
 
+@keyframes loader {
+  0% {
+    width: 0%;
+    background-color: rgb(251, 101, 0);
+  }
+
+  100% {
+    width: 100%;
+    background-color: rgb(251, 101, 0);
+  }
+}
 .container {
   width: 100%;
   padding-right: 15px;
