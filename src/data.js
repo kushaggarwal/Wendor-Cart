@@ -33,6 +33,198 @@ export const data = [
     ]
   },*/
   {
+    name: "Alo Frut Juice",
+    author: "Alofrut Orange Aloevera Juice 300ml",
+    price: 40,
+    cartQuantity: 0,
+    images: [
+      {
+        img1:
+          "/Images/alofrutjuice/Alofrut Orange Aloevera Juice 300ml/afj1.jpg"
+      }
+    ],
+    desc:
+      "It is most refreshing and healthy fusion of aloevera gel, juice, pulp and fruit blends. Aloevera is known worldwide as a rich source of vitamins, minerals and essential amino acids. This is unique fusion of health and taste. Extracted from the finest of fruit pulp. Perfect thirst quencher, full of awesomeness, amalgamated with nutriments of aloevera, made for curious tongues.",
+    img: "/Images/alofrutjuice/Alofrut Orange Aloevera Juice 300ml/afj1.jpg",
+    id: 31
+  },
+  {
+    name: "Alo Frut Juice",
+    author: "Alofrut Kiwi Aloevera Juice 300ml",
+    price: 40,
+    cartQuantity: 0,
+    images: [
+      {
+        img1: "/Images/alofrutjuice/Alofrut Kiwi Aloevera Juice 300ml/afj2.jpg"
+      }
+    ],
+    desc:
+      "It is most refreshing and healthy fusion of aloevera gel, juice, pulp and fruit blends. Aloevera is known worldwide as a rich source of vitamins, minerals and essential amino acids. This is unique fusion of health and taste. Extracted from the finest of fruit pulp. Perfect thirst quencher, full of awesomeness, amalgamated with nutriments of aloevera, made for curious tongues.",
+    img: "/Images/alofrutjuice/Alofrut Kiwi Aloevera Juice 300ml/afj2.jpg",
+    id: 32
+  },
+  {
+    name: "Alo Frut Juice",
+    author: "Alofrut Mango Aloevera Juice 300ml",
+    price: 40,
+    cartQuantity: 0,
+    images: [
+      {
+        img1: "/Images/alofrutjuice/Alofrut Mango Aloevera Juice 300ml/afj3.jpg"
+      },
+      {
+        img1:
+          "/Images/alofrutjuice/Alofrut Mango Aloevera Juice 300ml/afj31.jpg"
+      }
+    ],
+    desc:
+      "It is most refreshing and healthy fusion of aloevera gel, juice, pulp and fruit blends. Aloevera is known worldwide as a rich source of vitamins, minerals and essential amino acids. This is unique fusion of health and taste. Extracted from the finest of fruit pulp. Perfect thirst quencher, full of awesomeness, amalgamated with nutriments of aloevera, made for curious tongues.",
+    img: "/Images/alofrutjuice/Alofrut Mango Aloevera Juice 300ml/afj3.jpg",
+    id: 33
+  },
+  {
+    name: "Alo Frut Juice",
+    author: "Alofrut Anar Aloevera Juice 300ml",
+    price: 40,
+    cartQuantity: 0,
+    images: [
+      {
+        img1:
+          "/Images/alo frut anar/alofrut-anaar-aloevera-juice-200ml-851592403.jpg"
+      }
+    ],
+    desc:
+      "It is most refreshing and healthy fusion of aloevera gel, juice, pulp and fruit blends. Aloevera is known worldwide as a rich source of vitamins, minerals and essential amino acids. This is unique fusion of health and taste. Extracted from the finest of fruit pulp. Perfect thirst quencher, full of awesomeness, amalgamated with nutriments of aloevera, made for curious tongues.",
+    img:
+      "/Images/alo frut anar/alofrut-anaar-aloevera-juice-200ml-851592403.jpg",
+    id: 34
+  },
+  {
+    name: "Red Bull",
+    author: "Red Bull Energy Drink, 250 ml Can",
+    price: 99,
+    cartQuantity: 0,
+    images: [
+      {
+        img1: "/Images/redbull/redbull1.jpg"
+      },
+      {
+        img1: "/Images/redbull/redbull2.jpg"
+      },
+      {
+        img1: "/Images/redbull/redbull3.jpg"
+      }
+    ],
+    desc:
+      "Red Bull Energy Drink is a functional beverage that vitalizes body and mind. With billions of cans consumed all across the world, Red Bull is appreciated by top athletes, busy professionals, college students and travelers on long journeys. For those who have to stay on top of their game during intesnse meetings or creative brainstorming sessions, in action with teammates or competitors, or simply want to get the most out of life, a chilled can of Red Bull Energy Drink gives you wings when you need them.																						",
+    img: "/Images/redbull/redbull1.jpg",
+    id: 27
+  },
+  /*
+  {
+    name: "Brewhouse Ice Tea",
+    author: "Brewhouse Classic Lemon Ice Tea 350 ML",
+    price: 60,
+    cartQuantity: 0,
+    images: [
+      {
+        img1:
+          "/Images/brewhouseicetea/Brewhouse Classic Lemon Ice Tea 350 ML/brewicetealemon1.jpg"
+      },
+      {
+        img1:
+          "/Images/brewhouseicetea/Brewhouse Classic Lemon Ice Tea 350 ML/brewicetealemon2.jpg"
+      },
+      {
+        img1:
+          "/Images/brewhouseicetea/Brewhouse Classic Lemon Ice Tea 350 ML/brewicetealemon3.jpg"
+      },
+      {
+        img1:
+          "/Images/brewhouseicetea/Brewhouse Classic Lemon Ice Tea 350 ML/brewicetealemon4.jpg"
+      },
+      {
+        img1:
+          "/Images/brewhouseicetea/Brewhouse Classic Lemon Ice Tea 350 ML/brewicetealemon5.jpg"
+      }
+    ],
+    desc:
+      "Refresh and re-energize with Brewhouse Classic Lemon Ice Tea! Made with fresh lemon juice, real tea leaves and just the right amount of sugar. Their Classic Lemon Ice Tea is an all-time favorite.									",
+    img:
+      "/Images/brewhouseicetea/Brewhouse Classic Lemon Ice Tea 350 ML/brewicetealemon2.jpg",
+    id: 28
+  },
+  */
+  {
+    name: "Brewhouse Ice Tea",
+    author: "Brewhouse Classic Mint Ice Tea 350 ML",
+    price: 60,
+    cartQuantity: 0,
+    images: [
+      {
+        img1: "/Images/Brewhouse mint ice tea/mint ice tea.jpg"
+      },
+      {
+        img1: "/Images/Brewhouse mint ice tea/mint tea.jpg"
+      }
+    ],
+    desc:
+      "Made with fresh peach juice, whole tea leaves from the Nilgiris and just the perfect level of sweetness to it, their Classic Peach Ice Tea will get you addicted to its taste in a snap!								",
+    img: "/Images/Brewhouse mint ice tea/mint ice tea.jpg",
+    id: 29
+  },
+  /*{
+    name: "Nescafe Cold Coffee",
+    author: "Nescafe Coffee Can - Latte, 240ml",
+    price: 60,
+    cartQuantity: 0,
+    images: [
+      {
+        img1: "/Images/nescafe cold coffee/ncf1.jpg"
+      }
+    ],
+    desc:
+      "NESCAFÉ Chilled latte brings out a delicious coffee indulgence with an extra creamy flavour, perfect for those who enjoy their coffee light and milky. Discover this exciting range of Ready-to-Drink coffees from one of the world’s biggest coffee brands, NESCAFÉ. This range of deliciously brewed cold coffees comes in a convenient ready to drink format in Intense Café and Chilled Latte flavours, and tastes best when chilled.",
+    img: "/Images/nescafe cold coffee/ncf1.jpg",
+    id: 25
+  },*/
+  {
+    name: "Amul Cold Coffee",
+    author: "Amul Kool Cafe, Cold Coffee",
+    price: 25,
+    cartQuantity: 0,
+    images: [
+      {
+        img1: "/Images/Amul Cold coffee/51ULGCDCZKL.jpg"
+      },
+      {
+        img1: "/Images/Amul Cold coffee/612KQ5bqEsL._SL1500_.jpg"
+      }
+    ],
+    desc: "Refreshing tasty coldcoffee by amul",
+    img: "/Images/Amul Cold coffee/51ULGCDCZKL.jpg",
+    id: 30
+  },
+  /*{
+    name: "Nescafe Cold Coffee",
+    author: "Nescafe Hazelnut Cold Coffee, 180ml Tetra Pack",
+    price: 30,
+    cartQuantity: 0,
+    images: [
+      {
+        img1: "/Images/nescafe cold coffee/ncf2.jpg"
+      },
+      {
+        img1: "/Images/nescafe cold coffee/ncf21.jpg"
+      }
+    ],
+    desc:
+      "NESCAFÉ Chilled latte brings out a delicious coffee indulgence with an extra creamy flavour, perfect for those who enjoy their coffee light and milky. Discover this exciting range of Ready-to-Drink coffees from one of the world’s biggest coffee brands, NESCAFÉ. This range of deliciously brewed cold coffees comes in a convenient ready to drink format in Intense Café and Chilled Latte flavours, and tastes best when chilled.",
+    img: "/Images/nescafe cold coffee/ncf2.jpg",
+    id: 26
+  },*/
+
+  {
     name: "Popcorn",
     author: "Popicorn Piri Masala",
     price: 20,
@@ -547,197 +739,6 @@ export const data = [
     id: 26
   },
 
-  {
-    name: "Red Bull",
-    author: "Red Bull Energy Drink, 250 ml Can",
-    price: 99,
-    cartQuantity: 0,
-    images: [
-      {
-        img1: "/Images/redbull/redbull1.jpg"
-      },
-      {
-        img1: "/Images/redbull/redbull2.jpg"
-      },
-      {
-        img1: "/Images/redbull/redbull3.jpg"
-      }
-    ],
-    desc:
-      "Red Bull Energy Drink is a functional beverage that vitalizes body and mind. With billions of cans consumed all across the world, Red Bull is appreciated by top athletes, busy professionals, college students and travelers on long journeys. For those who have to stay on top of their game during intesnse meetings or creative brainstorming sessions, in action with teammates or competitors, or simply want to get the most out of life, a chilled can of Red Bull Energy Drink gives you wings when you need them.																						",
-    img: "/Images/redbull/redbull1.jpg",
-    id: 27
-  },
-  /*
-  {
-    name: "Brewhouse Ice Tea",
-    author: "Brewhouse Classic Lemon Ice Tea 350 ML",
-    price: 60,
-    cartQuantity: 0,
-    images: [
-      {
-        img1:
-          "/Images/brewhouseicetea/Brewhouse Classic Lemon Ice Tea 350 ML/brewicetealemon1.jpg"
-      },
-      {
-        img1:
-          "/Images/brewhouseicetea/Brewhouse Classic Lemon Ice Tea 350 ML/brewicetealemon2.jpg"
-      },
-      {
-        img1:
-          "/Images/brewhouseicetea/Brewhouse Classic Lemon Ice Tea 350 ML/brewicetealemon3.jpg"
-      },
-      {
-        img1:
-          "/Images/brewhouseicetea/Brewhouse Classic Lemon Ice Tea 350 ML/brewicetealemon4.jpg"
-      },
-      {
-        img1:
-          "/Images/brewhouseicetea/Brewhouse Classic Lemon Ice Tea 350 ML/brewicetealemon5.jpg"
-      }
-    ],
-    desc:
-      "Refresh and re-energize with Brewhouse Classic Lemon Ice Tea! Made with fresh lemon juice, real tea leaves and just the right amount of sugar. Their Classic Lemon Ice Tea is an all-time favorite.									",
-    img:
-      "/Images/brewhouseicetea/Brewhouse Classic Lemon Ice Tea 350 ML/brewicetealemon2.jpg",
-    id: 28
-  },
-  */
-  {
-    name: "Brewhouse Ice Tea",
-    author: "Brewhouse Classic Mint Ice Tea 350 ML",
-    price: 60,
-    cartQuantity: 0,
-    images: [
-      {
-        img1: "/Images/Brewhouse mint ice tea/mint ice tea.jpg"
-      },
-      {
-        img1: "/Images/Brewhouse mint ice tea/mint tea.jpg"
-      }
-    ],
-    desc:
-      "Made with fresh peach juice, whole tea leaves from the Nilgiris and just the perfect level of sweetness to it, their Classic Peach Ice Tea will get you addicted to its taste in a snap!								",
-    img: "/Images/Brewhouse mint ice tea/mint ice tea.jpg",
-    id: 29
-  },
-  /*{
-    name: "Nescafe Cold Coffee",
-    author: "Nescafe Coffee Can - Latte, 240ml",
-    price: 60,
-    cartQuantity: 0,
-    images: [
-      {
-        img1: "/Images/nescafe cold coffee/ncf1.jpg"
-      }
-    ],
-    desc:
-      "NESCAFÉ Chilled latte brings out a delicious coffee indulgence with an extra creamy flavour, perfect for those who enjoy their coffee light and milky. Discover this exciting range of Ready-to-Drink coffees from one of the world’s biggest coffee brands, NESCAFÉ. This range of deliciously brewed cold coffees comes in a convenient ready to drink format in Intense Café and Chilled Latte flavours, and tastes best when chilled.",
-    img: "/Images/nescafe cold coffee/ncf1.jpg",
-    id: 25
-  },*/
-  {
-    name: "Amul Cold Coffee",
-    author: "Amul Kool Cafe, Cold Coffee",
-    price: 25,
-    cartQuantity: 0,
-    images: [
-      {
-        img1: "/Images/Amul Cold coffee/51ULGCDCZKL.jpg"
-      },
-      {
-        img1: "/Images/Amul Cold coffee/612KQ5bqEsL._SL1500_.jpg"
-      }
-    ],
-    desc: "Refreshing tasty coldcoffee by amul",
-    img: "/Images/Amul Cold coffee/51ULGCDCZKL.jpg",
-    id: 30
-  },
-  /*{
-    name: "Nescafe Cold Coffee",
-    author: "Nescafe Hazelnut Cold Coffee, 180ml Tetra Pack",
-    price: 30,
-    cartQuantity: 0,
-    images: [
-      {
-        img1: "/Images/nescafe cold coffee/ncf2.jpg"
-      },
-      {
-        img1: "/Images/nescafe cold coffee/ncf21.jpg"
-      }
-    ],
-    desc:
-      "NESCAFÉ Chilled latte brings out a delicious coffee indulgence with an extra creamy flavour, perfect for those who enjoy their coffee light and milky. Discover this exciting range of Ready-to-Drink coffees from one of the world’s biggest coffee brands, NESCAFÉ. This range of deliciously brewed cold coffees comes in a convenient ready to drink format in Intense Café and Chilled Latte flavours, and tastes best when chilled.",
-    img: "/Images/nescafe cold coffee/ncf2.jpg",
-    id: 26
-  },*/
-  {
-    name: "Alo Frut Juice",
-    author: "Alofrut Orange Aloevera Juice 300ml",
-    price: 40,
-    cartQuantity: 0,
-    images: [
-      {
-        img1:
-          "/Images/alofrutjuice/Alofrut Orange Aloevera Juice 300ml/afj1.jpg"
-      }
-    ],
-    desc:
-      "It is most refreshing and healthy fusion of aloevera gel, juice, pulp and fruit blends. Aloevera is known worldwide as a rich source of vitamins, minerals and essential amino acids. This is unique fusion of health and taste. Extracted from the finest of fruit pulp. Perfect thirst quencher, full of awesomeness, amalgamated with nutriments of aloevera, made for curious tongues.",
-    img: "/Images/alofrutjuice/Alofrut Orange Aloevera Juice 300ml/afj1.jpg",
-    id: 31
-  },
-  {
-    name: "Alo Frut Juice",
-    author: "Alofrut Kiwi Aloevera Juice 300ml",
-    price: 40,
-    cartQuantity: 0,
-    images: [
-      {
-        img1: "/Images/alofrutjuice/Alofrut Kiwi Aloevera Juice 300ml/afj2.jpg"
-      }
-    ],
-    desc:
-      "It is most refreshing and healthy fusion of aloevera gel, juice, pulp and fruit blends. Aloevera is known worldwide as a rich source of vitamins, minerals and essential amino acids. This is unique fusion of health and taste. Extracted from the finest of fruit pulp. Perfect thirst quencher, full of awesomeness, amalgamated with nutriments of aloevera, made for curious tongues.",
-    img: "/Images/alofrutjuice/Alofrut Kiwi Aloevera Juice 300ml/afj2.jpg",
-    id: 32
-  },
-  {
-    name: "Alo Frut Juice",
-    author: "Alofrut Mango Aloevera Juice 300ml",
-    price: 40,
-    cartQuantity: 0,
-    images: [
-      {
-        img1: "/Images/alofrutjuice/Alofrut Mango Aloevera Juice 300ml/afj3.jpg"
-      },
-      {
-        img1:
-          "/Images/alofrutjuice/Alofrut Mango Aloevera Juice 300ml/afj31.jpg"
-      }
-    ],
-    desc:
-      "It is most refreshing and healthy fusion of aloevera gel, juice, pulp and fruit blends. Aloevera is known worldwide as a rich source of vitamins, minerals and essential amino acids. This is unique fusion of health and taste. Extracted from the finest of fruit pulp. Perfect thirst quencher, full of awesomeness, amalgamated with nutriments of aloevera, made for curious tongues.",
-    img: "/Images/alofrutjuice/Alofrut Mango Aloevera Juice 300ml/afj3.jpg",
-    id: 33
-  },
-  {
-    name: "Alo Frut Juice",
-    author: "Alofrut Anar Aloevera Juice 300ml",
-    price: 40,
-    cartQuantity: 0,
-    images: [
-      {
-        img1:
-          "/Images/alo frut anar/alofrut-anaar-aloevera-juice-200ml-851592403.jpg"
-      }
-    ],
-    desc:
-      "It is most refreshing and healthy fusion of aloevera gel, juice, pulp and fruit blends. Aloevera is known worldwide as a rich source of vitamins, minerals and essential amino acids. This is unique fusion of health and taste. Extracted from the finest of fruit pulp. Perfect thirst quencher, full of awesomeness, amalgamated with nutriments of aloevera, made for curious tongues.",
-    img:
-      "/Images/alo frut anar/alofrut-anaar-aloevera-juice-200ml-851592403.jpg",
-    id: 34
-  },
   {
     name: "Orbit",
     author: "Orbit Wrigleys Spearmint Sugar-free Chewing Gum",
