@@ -48,6 +48,24 @@ export const data = [
     ]
   },
   {
+    name: "Brownie",
+    author: "Chocolate Walnut Brownie",
+    price: 70,
+    cartQuantity: 0,
+    images: [
+      {
+        img1: "/Images/brownie/brownie 2.jpg"
+      },
+      {
+        img1: "/Images/brownie/brownie.jpg"
+      }
+    ],
+    desc:
+      "The Popular Brownie is a unique handcrafted chocolate dessert, where the smooth taste marries the right blend of cakey and gooey to create an experience that reflects your own sense of pleasure and richness. The very first bite revels the bold blend of coca with rich walnuts leaving your palate enhanced with aromatic notes giving you a completely satisfying experience. Prepare yourself to experience this outstanding Chocolate walnut Brownie elevating you to a higher level of self-satisfaction",
+    img: "/Images/brownie/brownie 2.jpg",
+    id: 4
+  },
+  {
     name: "Too Yumm Chips ",
     author: "Multigrain Chips, Dahi Papdi Chaat 54gm",
     price: 20,
@@ -70,7 +88,7 @@ export const data = [
           "/Images/tooyumm/Too Yumm! Multigrain Chips, Dahi Papdi Chaat 54gm/tooyummmultidahi4.jpg"
       }
     ],
-    id: 4,
+    id: 5,
     desc:
       "Introducing guilt-free snacking with Too Yumm wheat thins. Once you begin, you’ll eat with no sharam. Wondering why? This roasted super snack is filled with fibre, protein and the mouth-watering taste of desi tadka. So yummy and healthy that you’ll eat with no qualms and no sharam. Anytime, anywhere and as much as your heart (and taste buds) desires. So before this pack reaches you, get ready for no sharam eating.",
     img:
@@ -86,7 +104,7 @@ export const data = [
         img1: "/Images/tooyumm acchari karare/tooyumm  acchari karare.jpg"
       }
     ],
-    id: 5,
+    id: 6,
     desc:
       "Introducing guilt-free snacking with Too Yumm wheat thins. Once you begin, you’ll eat with no sharam. Wondering why? This roasted super snack is filled with fibre, protein and the mouth-watering taste of desi tadka. So yummy and healthy that you’ll eat with no qualms and no sharam. Anytime, anywhere and as much as your heart (and taste buds) desires. So before this pack reaches you, get ready for no sharam eating.",
     img: "/Images/tooyumm acchari karare/tooyumm  acchari karare.jpg"
@@ -96,7 +114,7 @@ export const data = [
     author: "Too Yumm! Multigrain Chips, Chinese Hot and Sour",
     price: 20,
     cartQuantity: 0,
-    id: 6,
+    id: 7,
     images: [
       {
         img1:
@@ -112,7 +130,7 @@ export const data = [
     author: "TooYumm! Karare, Munchy Masala",
     price: 20,
     cartQuantity: 0,
-    id: 7,
+    id: 8,
     images: [
       {
         img1: "/Images/tooyumm munchy masala/tooyumm munchy masala.jpg"
@@ -127,7 +145,7 @@ export const data = [
     author: "TooYumm! Multigrain Chips, Tangy Tomato",
     price: 20,
     cartQuantity: 0,
-    id: 8,
+    id: 9,
     images: [
       {
         img1: "/Images/tooyumm tangy tomato/tooyumm tangy tomato.jpg"
@@ -142,7 +160,7 @@ export const data = [
     author: "Yoga bar Whey Protein Bar - Cranberry Blast",
     price: 50,
     cartQuantity: 0,
-    id: 9,
+    id: 10,
     images: [
       {
         img1: "/Images/yoga bar cranberry/yoga bar cranberry.jpg"
@@ -165,7 +183,7 @@ export const data = [
     desc:
       "To provide you with surplus energy for your workout sessions, the yoga bar protein bars contain: 20g complete protein: whey protein concentrate high biological value, pdcaas 1, lentil protein and almonds. The bars have 0 soy. 10g prebiotic fibre: provides gut microflora and gut health 300 mg omega 3s: alpha-linolenic acid from flax seeds healthy fats: 4: 1 unsaturated to saturated fats ratio lowest net carb: 7 – 8g depending on flavour.",
     img: "/Images/yoga bar almond fudge/yoga bar almond fudge.jpg",
-    id: 10
+    id: 11
   },
   {
     name: "YogaBar",
@@ -190,7 +208,7 @@ export const data = [
       "To provide you with surplus energy for your workout sessions, the yoga bar protein bars contain: 20g complete protein: whey protein concentrate high biological value, pdcaas 1, lentil protein and almonds. The bars have 0 soy. 10g prebiotic fibre: provides gut microflora and gut health 300 mg omega 3s: alpha-linolenic acid from flax seeds healthy fats: 4: 1 unsaturated to saturated fats ratio lowest net carb: 7 – 8g depending on flavour.",
     img:
       "/Images/yogabar/Yoga bar Whey Protein Bar - Baked Brownie, 50 g/yogabarwheypro1.jpg",
-    id: 11
+    id: 12
   },
   /*{
     
@@ -228,7 +246,7 @@ export const data = [
     desc:
       "Cornitos nacho crisps is a mexican snack in international flavors catering to the indian palate. These flavored tortilla corn chips are made by the traditional mexican lime-treatment process, along with the contract farming of special food grade non-gmo corn.												",
     img: "/Images/cornitos cheese n herbs/cornitos cheese n herbs.jpg",
-    id: 12
+    id: 13
   },
   {
     name: "Cornitos",
@@ -252,7 +270,7 @@ export const data = [
     desc:
       "Cornitos nacho crisps is a mexican snack in international flavors catering to the indian palate. These flavored tortilla corn chips are made by the traditional mexican lime-treatment process, along with the contract farming of special food grade non-gmo corn.",
     img: "/Images/cornitos/barbeque/cornitosbarb1.jpg",
-    id: 13
+    id: 14
   },
   {
     name: "Unibic Cookies",
@@ -268,7 +286,7 @@ export const data = [
     desc:
       "These delightful cookies blend the richness of butter, coconut and chocolate in every bite. Warning: These Cookies are known to induce euphoria and in some cases you can’t put the pack down if there is a cookie remaining.",
     img: "/Images/unibic/Unibic Chocolate Chip Cookies, 75g/unibicchoco1.jpg",
-    id: 14
+    id: 15
   },
   {
     name: "Unibic Cookies",
@@ -285,7 +303,7 @@ export const data = [
       "These delightful cookies blend the richness of butter, coconut and chocolate in every bite. Warning: These Cookies are known to induce euphoria and in some cases you can’t put the pack down if there is a cookie remaining.",
     img:
       "https://www.kobster.com/64035-large_default/unibic-butter-cookies-150-grams-in-pillow-pack-pack-of-36.jpg",
-    id: 15
+    id: 16
   },
   {
     name: "Unibic Cookies",
@@ -302,7 +320,7 @@ export const data = [
       "These delightful cookies blend the richness of butter, coconut and chocolate in every bite. Warning: These Cookies are known to induce euphoria and in some cases you can’t put the pack down if there is a cookie remaining.",
     img:
       "https://images-na.ssl-images-amazon.com/images/I/81EpbC4yJjL._SX466_.jpg",
-    id: 16
+    id: 17
   },
   {
     name: "Unibic Cookies",
@@ -319,7 +337,7 @@ export const data = [
       "These delightful cookies blend the richness of butter, coconut and chocolate in every bite. Warning: These Cookies are known to induce euphoria and in some cases you can’t put the pack down if there is a cookie remaining.",
     img:
       "https://images-na.ssl-images-amazon.com/images/I/71NO8U%2B6mcL._SX466_.jpg",
-    id: 17
+    id: 18
   },
   /*{
     
@@ -360,7 +378,7 @@ export const data = [
     desc:
       "These delightful cookies blend the richness of honey and oats in every bite. Warning: These Cookies are known to induce euphoria and in some cases you can’t put the pack down if there is a cookie remaining.										",
     img: "/Images/unibic/Unibic Honey Oatmeal, 75g/unibichoney1.jpg",
-    id: 18
+    id: 19
   },
 
   {
@@ -390,7 +408,7 @@ export const data = [
       "In the quest for healthy eating, people have finally discovered Greek yoghurt which is known to be quite nutritious and has numerous benefits for the body, hair and skin. With so many health benefits to offer, ‘Greek Yogurt’ is rightly touted as a superfood. Greek Yogurt is actually quite similar to our traditional dahi but Greek yoghurt is thicker and creamy with the extra whey being drained out. Greek Yogurt is also more nutritious than our curd and while a single medium-sized bowl of curd contains 3 – 4 gms of protein, the same quantity of Greek Yoghurt contains around 8 – 10 gms of protein. )",
     img:
       "/Images/epigamia/Epigamia Greek Yogurt - Alphonso Mango, 90 g/epigamiamango1.jpeg",
-    id: 19
+    id: 20
   },
   {
     name: "Epigamia Yogurt",
@@ -405,7 +423,7 @@ export const data = [
     desc:
       "In the quest for healthy eating, people have finally discovered Greek yoghurt which is known to be quite nutritious and has numerous benefits for the body, hair and skin. With so many health benefits to offer, ‘Greek Yogurt’ is rightly touted as a superfood. Greek Yogurt is actually quite similar to our traditional dahi but Greek yoghurt is thicker and creamy with the extra whey being drained out. Greek Yogurt is also more nutritious than our curd and while a single medium-sized bowl of curd contains 3 – 4 gms of protein, the same quantity of Greek Yoghurt contains around 8 – 10 gms of protein. )",
     img: "/Images/epigamia blueberry/blueberry.jpg",
-    id: 20
+    id: 21
   },
   {
     name: "Epigamia Yogurt",
@@ -420,7 +438,7 @@ export const data = [
     desc:
       "In the quest for healthy eating, people have finally discovered Greek yoghurt which is known to be quite nutritious and has numerous benefits for the body, hair and skin. With so many health benefits to offer, ‘Greek Yogurt’ is rightly touted as a superfood. Greek Yogurt is actually quite similar to our traditional dahi but Greek yoghurt is thicker and creamy with the extra whey being drained out. Greek Yogurt is also more nutritious than our curd and while a single medium-sized bowl of curd contains 3 – 4 gms of protein, the same quantity of Greek Yoghurt contains around 8 – 10 gms of protein. )",
     img: "/Images/epigamia mulberry/mulberry.jpg",
-    id: 21
+    id: 22
   },
   {
     name: "Epigamia Yogurt",
@@ -435,7 +453,7 @@ export const data = [
     desc:
       "In the quest for healthy eating, people have finally discovered Greek yoghurt which is known to be quite nutritious and has numerous benefits for the body, hair and skin. With so many health benefits to offer, ‘Greek Yogurt’ is rightly touted as a superfood. Greek Yogurt is actually quite similar to our traditional dahi but Greek yoghurt is thicker and creamy with the extra whey being drained out. Greek Yogurt is also more nutritious than our curd and while a single medium-sized bowl of curd contains 3 – 4 gms of protein, the same quantity of Greek Yoghurt contains around 8 – 10 gms of protein. )",
     img: "/Images/epigamia strawberry/strawberry.jpg",
-    id: 22
+    id: 23
   },
   {
     name: "Snickers",
@@ -465,7 +483,7 @@ export const data = [
     desc:
       "Add some peanut power to your day with a Snickers Chocolate Bar. Made with real crunchy peanuts and milk chocolate, this peanut candy perfectly satisfies your taste buds and helps you fuel up during a busy day. Serving as an energy bar, Snickers keeps hunger away, so you can rather concentrate on what matters. Snickers bar also contains nougat and caramel to add to its delicious and wholesome taste, creating a flavour that’s enough to rock your taste buds and power up your mind! Reach out for a Snickers hunger bar to tackle snack time in the bus. Do not let hunger change you, have a Snickers!																						",
     img: "/Images/snickers/snickers.jpg",
-    id: 23
+    id: 24
   },
   {
     name: "Oreo Biscuits",
@@ -497,7 +515,7 @@ export const data = [
     desc:
       "Oreo sandwich creme biscuit brings together the rich, smooth taste of chocolate creme filling with the bold taste of two crunchy chocolate wafers. Take a delicious break with an Oreo cookie, the perfect anytime snack.",
     img: "/Images/oreo/Cadbury Oreo Vanilla Crème Biscuit, 120 gm/oreov1.jpg",
-    id: 24
+    id: 25
   },
   {
     name: "Oreo Biscuits",
@@ -525,7 +543,7 @@ export const data = [
     desc:
       "Oreo sandwich creme biscuit brings together the rich, smooth taste of chocolate creme filling with the bold taste of two crunchy chocolate wafers. Take a delicious break with an Oreo cookie, the perfect anytime snack.",
     img: "/Images/oreo/Cadbury Oreo Chocolate Crème Biscuit, 120 gm/oreoc1.jpg",
-    id: 25
+    id: 26
   },
 
   {
@@ -547,7 +565,7 @@ export const data = [
     desc:
       "Red Bull Energy Drink is a functional beverage that vitalizes body and mind. With billions of cans consumed all across the world, Red Bull is appreciated by top athletes, busy professionals, college students and travelers on long journeys. For those who have to stay on top of their game during intesnse meetings or creative brainstorming sessions, in action with teammates or competitors, or simply want to get the most out of life, a chilled can of Red Bull Energy Drink gives you wings when you need them.																						",
     img: "/Images/redbull/redbull1.jpg",
-    id: 26
+    id: 27
   },
   {
     name: "Brewhouse Ice Tea",
@@ -580,7 +598,7 @@ export const data = [
       "Refresh and re-energize with Brewhouse Classic Lemon Ice Tea! Made with fresh lemon juice, real tea leaves and just the right amount of sugar. Their Classic Lemon Ice Tea is an all-time favorite.									",
     img:
       "/Images/brewhouseicetea/Brewhouse Classic Lemon Ice Tea 350 ML/brewicetealemon2.jpg",
-    id: 27
+    id: 28
   },
   {
     name: "Brewhouse Ice Tea",
@@ -598,7 +616,7 @@ export const data = [
     desc:
       "Made with fresh peach juice, whole tea leaves from the Nilgiris and just the perfect level of sweetness to it, their Classic Peach Ice Tea will get you addicted to its taste in a snap!								",
     img: "/Images/Brewhouse mint ice tea/mint ice tea.jpg",
-    id: 28
+    id: 29
   },
   /*{
     name: "Nescafe Cold Coffee",
@@ -630,7 +648,7 @@ export const data = [
     ],
     desc: "Refreshing tasty coldcoffee by amul",
     img: "/Images/Amul Cold coffee/51ULGCDCZKL.jpg",
-    id: 29
+    id: 30
   },
   /*{
     name: "Nescafe Cold Coffee",
@@ -664,7 +682,7 @@ export const data = [
     desc:
       "It is most refreshing and healthy fusion of aloevera gel, juice, pulp and fruit blends. Aloevera is known worldwide as a rich source of vitamins, minerals and essential amino acids. This is unique fusion of health and taste. Extracted from the finest of fruit pulp. Perfect thirst quencher, full of awesomeness, amalgamated with nutriments of aloevera, made for curious tongues.",
     img: "/Images/alofrutjuice/Alofrut Orange Aloevera Juice 300ml/afj1.jpg",
-    id: 30
+    id: 31
   },
   {
     name: "Alo Frut Juice",
@@ -679,7 +697,7 @@ export const data = [
     desc:
       "It is most refreshing and healthy fusion of aloevera gel, juice, pulp and fruit blends. Aloevera is known worldwide as a rich source of vitamins, minerals and essential amino acids. This is unique fusion of health and taste. Extracted from the finest of fruit pulp. Perfect thirst quencher, full of awesomeness, amalgamated with nutriments of aloevera, made for curious tongues.",
     img: "/Images/alofrutjuice/Alofrut Kiwi Aloevera Juice 300ml/afj2.jpg",
-    id: 31
+    id: 32
   },
   {
     name: "Alo Frut Juice",
@@ -698,7 +716,7 @@ export const data = [
     desc:
       "It is most refreshing and healthy fusion of aloevera gel, juice, pulp and fruit blends. Aloevera is known worldwide as a rich source of vitamins, minerals and essential amino acids. This is unique fusion of health and taste. Extracted from the finest of fruit pulp. Perfect thirst quencher, full of awesomeness, amalgamated with nutriments of aloevera, made for curious tongues.",
     img: "/Images/alofrutjuice/Alofrut Mango Aloevera Juice 300ml/afj3.jpg",
-    id: 32
+    id: 33
   },
   {
     name: "Alo Frut Juice",
@@ -715,7 +733,7 @@ export const data = [
       "It is most refreshing and healthy fusion of aloevera gel, juice, pulp and fruit blends. Aloevera is known worldwide as a rich source of vitamins, minerals and essential amino acids. This is unique fusion of health and taste. Extracted from the finest of fruit pulp. Perfect thirst quencher, full of awesomeness, amalgamated with nutriments of aloevera, made for curious tongues.",
     img:
       "/Images/alo frut anar/alofrut-anaar-aloevera-juice-200ml-851592403.jpg",
-    id: 33
+    id: 34
   },
   {
     name: "Orbit",
@@ -732,26 +750,9 @@ export const data = [
     ],
     img:
       "/Images/orbit/Orbit Wrigleys Spearmint Sugar-free Chewing Gum/orbit1.jpg",
-    id: 34
-  },
-  {
-    name: "Brownie",
-    author: "Chocolate Walnut Brownie",
-    price: 70,
-    cartQuantity: 0,
-    images: [
-      {
-        img1: "/Images/brownie/brownie 2.jpg"
-      },
-      {
-        img1: "/Images/brownie/brownie.jpg"
-      }
-    ],
-    desc:
-      "The Popular Brownie is a unique handcrafted chocolate dessert, where the smooth taste marries the right blend of cakey and gooey to create an experience that reflects your own sense of pleasure and richness. The very first bite revels the bold blend of coca with rich walnuts leaving your palate enhanced with aromatic notes giving you a completely satisfying experience. Prepare yourself to experience this outstanding Chocolate walnut Brownie elevating you to a higher level of self-satisfaction",
-    img: "/Images/brownie/brownie 2.jpg",
     id: 35
   }
+
   /*{
     name: "Orbit",
     author: "Orbit Wrigleys Peppermint Sugar-free Chewing Gum",
