@@ -75,6 +75,7 @@ class Main extends React.Component {
   componentDidMount() {
     localStorage.clear();
     this.setState({ Loader: false });
+    window.scrollTo(0, 0);
   }
 
   addCart() {
