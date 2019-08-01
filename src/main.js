@@ -164,7 +164,7 @@ class Main extends React.Component {
                 style={{ textAlign: "center", font: "bold 20px  Avenir" }}
                 inverted
                 color="orange"
-                content="KINDLY COLLECT YOUR PRODUCTS FROM THE CONDUCTOR"
+                content="KINDLY ASK ABOUT PAYMENT AND COLLECT YOUR PRODUCTS FROM THE CONDUCTOR"
               />
               <Modal.Content>
                 {obj.length != 0 ? <Bill obj={obj} /> : null}
@@ -190,7 +190,7 @@ class Main extends React.Component {
                 style={{ textAlign: "center", font: "bold 20px  Avenir" }}
                 inverted
                 color="orange"
-                content="KINDLY COLLECT YOUR PRODUCTS FROM THE CONDUCTOR"
+                content="KINDLY ASK ABOUT PAYMENT AND COLLECT YOUR PRODUCTS FROM THE CONDUCTOR"
               />
             </Modal>
           </div>

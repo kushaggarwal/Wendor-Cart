@@ -1,5 +1,5 @@
 export const data = [
-  {
+  /*{
     name: "Popcorn",
     author: "ACT II Salted Popcorn",
     price: 20,
@@ -31,7 +31,7 @@ export const data = [
         img1: "/Images/popicorn butter/popicorn.png"
       }
     ]
-  },
+  },*/
   {
     name: "Popcorn",
     author: "Popicorn Piri Masala",
@@ -305,6 +305,7 @@ export const data = [
       "https://www.kobster.com/64035-large_default/unibic-butter-cookies-150-grams-in-pillow-pack-pack-of-36.jpg",
     id: 16
   },
+  /*
   {
     name: "Unibic Cookies",
     author: "Unibic Cashew Cookies",
@@ -338,7 +339,7 @@ export const data = [
     img:
       "https://images-na.ssl-images-amazon.com/images/I/71NO8U%2B6mcL._SX466_.jpg",
     id: 18
-  },
+  },*/
   /*{
     
     name: "Unibic Cookies",
@@ -567,6 +568,7 @@ export const data = [
     img: "/Images/redbull/redbull1.jpg",
     id: 27
   },
+  /*
   {
     name: "Brewhouse Ice Tea",
     author: "Brewhouse Classic Lemon Ice Tea 350 ML",
@@ -600,6 +602,7 @@ export const data = [
       "/Images/brewhouseicetea/Brewhouse Classic Lemon Ice Tea 350 ML/brewicetealemon2.jpg",
     id: 28
   },
+  */
   {
     name: "Brewhouse Ice Tea",
     author: "Brewhouse Classic Mint Ice Tea 350 ML",
