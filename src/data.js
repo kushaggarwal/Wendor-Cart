@@ -326,7 +326,7 @@ export const data = [
       "NESCAFÉ Chilled latte brings out a delicious coffee indulgence with an extra creamy flavour, perfect for those who enjoy their coffee light and milky. Discover this exciting range of Ready-to-Drink coffees from one of the world’s biggest coffee brands, NESCAFÉ. This range of deliciously brewed cold coffees comes in a convenient ready to drink format in Intense Café and Chilled Latte flavours, and tastes best when chilled.",
     img: "/Images/nescafe cold coffee/ncf2.jpg",
     id: 26
-  },*/
+  },
 
   {
     name: "Popcorn",
@@ -342,7 +342,7 @@ export const data = [
         img1: "/Images/popicorn piri piri/piri masala.jpg"
       }
     ]
-  },
+  },*/
   {
     name: "Brownie",
     author: "Chocolate Walnut Brownie",
