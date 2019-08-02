@@ -34,7 +34,7 @@ export const data = [
   },*/
   {
     name: "Alo Frut Juice",
-    author: "Alofrut Orange Aloevera Juice 300ml",
+    author: "Alofrut Orange ",
     price: 40,
     cartQuantity: 0,
     images: [
@@ -50,7 +50,7 @@ export const data = [
   },
   {
     name: "Alo Frut Juice",
-    author: "Alofrut Kiwi Aloevera Juice 300ml",
+    author: "Alofrut Kiwi ",
     price: 40,
     cartQuantity: 0,
     images: [
@@ -65,7 +65,7 @@ export const data = [
   },
   {
     name: "Alo Frut Juice",
-    author: "Alofrut Mango Aloevera Juice 300ml",
+    author: "Alofrut Mango",
     price: 40,
     cartQuantity: 0,
     images: [
@@ -84,7 +84,7 @@ export const data = [
   },
   {
     name: "Alo Frut Juice",
-    author: "Alofrut Anar Aloevera Juice 300ml",
+    author: "Alofrut Anar ",
     price: 40,
     cartQuantity: 0,
     images: [
@@ -102,7 +102,7 @@ export const data = [
   {
     name: "Red Bull",
     author: "Red Bull Energy Drink, 250 ml Can",
-    price: 99,
+    price: 90,
     cartQuantity: 0,
     images: [
       {
@@ -119,6 +119,110 @@ export const data = [
       "Red Bull Energy Drink is a functional beverage that vitalizes body and mind. With billions of cans consumed all across the world, Red Bull is appreciated by top athletes, busy professionals, college students and travelers on long journeys. For those who have to stay on top of their game during intesnse meetings or creative brainstorming sessions, in action with teammates or competitors, or simply want to get the most out of life, a chilled can of Red Bull Energy Drink gives you wings when you need them.																						",
     img: "/Images/redbull/redbull1.jpg",
     id: 27
+  },
+  {
+    name: "Epigamia Yogurt",
+    author: "Epigamia Greek Yogurt - Alphonso Mango",
+    price: 40,
+    cartQuantity: 0,
+    images: [
+      {
+        img1:
+          "/Images/epigamia/Epigamia Greek Yogurt - Alphonso Mango, 90 g/epigamiamango1.jpeg"
+      },
+      {
+        img1:
+          "/Images/epigamia/Epigamia Greek Yogurt - Alphonso Mango, 90 g/epigamiamango2.jpeg"
+      },
+      {
+        img1:
+          "/Images/epigamia/Epigamia Greek Yogurt - Alphonso Mango, 90 g/epigamiamango3.jpeg"
+      },
+      {
+        img1:
+          "/Images/epigamia/Epigamia Greek Yogurt - Alphonso Mango, 90 g/epigamiamango4.jpeg"
+      }
+    ],
+    desc:
+      "In the quest for healthy eating, people have finally discovered Greek yoghurt which is known to be quite nutritious and has numerous benefits for the body, hair and skin. With so many health benefits to offer, ‘Greek Yogurt’ is rightly touted as a superfood. Greek Yogurt is actually quite similar to our traditional dahi but Greek yoghurt is thicker and creamy with the extra whey being drained out. Greek Yogurt is also more nutritious than our curd and while a single medium-sized bowl of curd contains 3 – 4 gms of protein, the same quantity of Greek Yoghurt contains around 8 – 10 gms of protein. )",
+    img:
+      "/Images/epigamia/Epigamia Greek Yogurt - Alphonso Mango, 90 g/epigamiamango1.jpeg",
+    id: 20
+  },
+  {
+    name: "Epigamia Yogurt",
+    author: "Epigamia Greek Yogurt - Blueberry",
+    price: 40,
+    cartQuantity: 0,
+    images: [
+      {
+        img1: "/Images/epigamia blueberry/blueberry.jpg"
+      }
+    ],
+    desc:
+      "In the quest for healthy eating, people have finally discovered Greek yoghurt which is known to be quite nutritious and has numerous benefits for the body, hair and skin. With so many health benefits to offer, ‘Greek Yogurt’ is rightly touted as a superfood. Greek Yogurt is actually quite similar to our traditional dahi but Greek yoghurt is thicker and creamy with the extra whey being drained out. Greek Yogurt is also more nutritious than our curd and while a single medium-sized bowl of curd contains 3 – 4 gms of protein, the same quantity of Greek Yoghurt contains around 8 – 10 gms of protein. )",
+    img: "/Images/epigamia blueberry/blueberry.jpg",
+    id: 21
+  },
+  {
+    name: "Epigamia Yogurt",
+    author: "Epigamia Greek Yogurt - Mulberry",
+    price: 40,
+    cartQuantity: 0,
+    images: [
+      {
+        img1: "/Images/epigamia mulberry/mulberry.jpg"
+      }
+    ],
+    desc:
+      "In the quest for healthy eating, people have finally discovered Greek yoghurt which is known to be quite nutritious and has numerous benefits for the body, hair and skin. With so many health benefits to offer, ‘Greek Yogurt’ is rightly touted as a superfood. Greek Yogurt is actually quite similar to our traditional dahi but Greek yoghurt is thicker and creamy with the extra whey being drained out. Greek Yogurt is also more nutritious than our curd and while a single medium-sized bowl of curd contains 3 – 4 gms of protein, the same quantity of Greek Yoghurt contains around 8 – 10 gms of protein. )",
+    img: "/Images/epigamia mulberry/mulberry.jpg",
+    id: 22
+  },
+  {
+    name: "Epigamia Yogurt",
+    author: "Epigamia Greek Yogurt - Strawberry",
+    price: 40,
+    cartQuantity: 0,
+    images: [
+      {
+        img1: "/Images/epigamia strawberry/strawberry.jpg"
+      }
+    ],
+    desc:
+      "In the quest for healthy eating, people have finally discovered Greek yoghurt which is known to be quite nutritious and has numerous benefits for the body, hair and skin. With so many health benefits to offer, ‘Greek Yogurt’ is rightly touted as a superfood. Greek Yogurt is actually quite similar to our traditional dahi but Greek yoghurt is thicker and creamy with the extra whey being drained out. Greek Yogurt is also more nutritious than our curd and while a single medium-sized bowl of curd contains 3 – 4 gms of protein, the same quantity of Greek Yoghurt contains around 8 – 10 gms of protein. )",
+    img: "/Images/epigamia strawberry/strawberry.jpg",
+    id: 23
+  },
+  {
+    name: "Snickers",
+    author: "Snickers Chocolate Bar, 50g",
+    price: 35,
+    cartQuantity: 0,
+    images: [
+      {
+        img1: "/Images/snickers/snickers.jpg"
+      },
+      {
+        img1: "/Images/snickers/snickers1.jpg"
+      },
+      {
+        img1: "/Images/snickers/snickers2.jpg"
+      },
+      {
+        img1: "/Images/snickers/snickers3.jpg"
+      },
+      {
+        img1: "/Images/snickers/snickers4.jpg"
+      },
+      {
+        img1: "/Images/snickers/snickers5.jpg"
+      }
+    ],
+    desc:
+      "Add some peanut power to your day with a Snickers Chocolate Bar. Made with real crunchy peanuts and milk chocolate, this peanut candy perfectly satisfies your taste buds and helps you fuel up during a busy day. Serving as an energy bar, Snickers keeps hunger away, so you can rather concentrate on what matters. Snickers bar also contains nougat and caramel to add to its delicious and wholesome taste, creating a flavour that’s enough to rock your taste buds and power up your mind! Reach out for a Snickers hunger bar to tackle snack time in the bus. Do not let hunger change you, have a Snickers!																						",
+    img: "/Images/snickers/snickers.jpg",
+    id: 24
   },
   /*
   {
@@ -463,7 +567,7 @@ export const data = [
       "Cornitos nacho crisps is a mexican snack in international flavors catering to the indian palate. These flavored tortilla corn chips are made by the traditional mexican lime-treatment process, along with the contract farming of special food grade non-gmo corn.",
     img: "/Images/cornitos/barbeque/cornitosbarb1.jpg",
     id: 14
-  },
+  } /*
   {
     name: "Unibic Cookies",
     author: "Unibic Chocolate Chip Cookies",
@@ -479,7 +583,7 @@ export const data = [
       "These delightful cookies blend the richness of butter, coconut and chocolate in every bite. Warning: These Cookies are known to induce euphoria and in some cases you can’t put the pack down if there is a cookie remaining.",
     img: "/Images/unibic/Unibic Chocolate Chip Cookies, 75g/unibicchoco1.jpg",
     id: 15
-  },
+  },*/,
   {
     name: "Unibic Cookies",
     author: "Unibic Butter Cookies",
@@ -574,110 +678,6 @@ export const data = [
     id: 19
   },
 
-  {
-    name: "Epigamia Yogurt",
-    author: "Epigamia Greek Yogurt - Alphonso Mango",
-    price: 40,
-    cartQuantity: 0,
-    images: [
-      {
-        img1:
-          "/Images/epigamia/Epigamia Greek Yogurt - Alphonso Mango, 90 g/epigamiamango1.jpeg"
-      },
-      {
-        img1:
-          "/Images/epigamia/Epigamia Greek Yogurt - Alphonso Mango, 90 g/epigamiamango2.jpeg"
-      },
-      {
-        img1:
-          "/Images/epigamia/Epigamia Greek Yogurt - Alphonso Mango, 90 g/epigamiamango3.jpeg"
-      },
-      {
-        img1:
-          "/Images/epigamia/Epigamia Greek Yogurt - Alphonso Mango, 90 g/epigamiamango4.jpeg"
-      }
-    ],
-    desc:
-      "In the quest for healthy eating, people have finally discovered Greek yoghurt which is known to be quite nutritious and has numerous benefits for the body, hair and skin. With so many health benefits to offer, ‘Greek Yogurt’ is rightly touted as a superfood. Greek Yogurt is actually quite similar to our traditional dahi but Greek yoghurt is thicker and creamy with the extra whey being drained out. Greek Yogurt is also more nutritious than our curd and while a single medium-sized bowl of curd contains 3 – 4 gms of protein, the same quantity of Greek Yoghurt contains around 8 – 10 gms of protein. )",
-    img:
-      "/Images/epigamia/Epigamia Greek Yogurt - Alphonso Mango, 90 g/epigamiamango1.jpeg",
-    id: 20
-  },
-  {
-    name: "Epigamia Yogurt",
-    author: "Epigamia Greek Yogurt - Blueberry",
-    price: 40,
-    cartQuantity: 0,
-    images: [
-      {
-        img1: "/Images/epigamia blueberry/blueberry.jpg"
-      }
-    ],
-    desc:
-      "In the quest for healthy eating, people have finally discovered Greek yoghurt which is known to be quite nutritious and has numerous benefits for the body, hair and skin. With so many health benefits to offer, ‘Greek Yogurt’ is rightly touted as a superfood. Greek Yogurt is actually quite similar to our traditional dahi but Greek yoghurt is thicker and creamy with the extra whey being drained out. Greek Yogurt is also more nutritious than our curd and while a single medium-sized bowl of curd contains 3 – 4 gms of protein, the same quantity of Greek Yoghurt contains around 8 – 10 gms of protein. )",
-    img: "/Images/epigamia blueberry/blueberry.jpg",
-    id: 21
-  },
-  {
-    name: "Epigamia Yogurt",
-    author: "Epigamia Greek Yogurt - Mulberry",
-    price: 40,
-    cartQuantity: 0,
-    images: [
-      {
-        img1: "/Images/epigamia mulberry/mulberry.jpg"
-      }
-    ],
-    desc:
-      "In the quest for healthy eating, people have finally discovered Greek yoghurt which is known to be quite nutritious and has numerous benefits for the body, hair and skin. With so many health benefits to offer, ‘Greek Yogurt’ is rightly touted as a superfood. Greek Yogurt is actually quite similar to our traditional dahi but Greek yoghurt is thicker and creamy with the extra whey being drained out. Greek Yogurt is also more nutritious than our curd and while a single medium-sized bowl of curd contains 3 – 4 gms of protein, the same quantity of Greek Yoghurt contains around 8 – 10 gms of protein. )",
-    img: "/Images/epigamia mulberry/mulberry.jpg",
-    id: 22
-  },
-  {
-    name: "Epigamia Yogurt",
-    author: "Epigamia Greek Yogurt - Strawberry",
-    price: 40,
-    cartQuantity: 0,
-    images: [
-      {
-        img1: "/Images/epigamia strawberry/strawberry.jpg"
-      }
-    ],
-    desc:
-      "In the quest for healthy eating, people have finally discovered Greek yoghurt which is known to be quite nutritious and has numerous benefits for the body, hair and skin. With so many health benefits to offer, ‘Greek Yogurt’ is rightly touted as a superfood. Greek Yogurt is actually quite similar to our traditional dahi but Greek yoghurt is thicker and creamy with the extra whey being drained out. Greek Yogurt is also more nutritious than our curd and while a single medium-sized bowl of curd contains 3 – 4 gms of protein, the same quantity of Greek Yoghurt contains around 8 – 10 gms of protein. )",
-    img: "/Images/epigamia strawberry/strawberry.jpg",
-    id: 23
-  },
-  {
-    name: "Snickers",
-    author: "Snickers Chocolate Bar, 50g",
-    price: 35,
-    cartQuantity: 0,
-    images: [
-      {
-        img1: "/Images/snickers/snickers.jpg"
-      },
-      {
-        img1: "/Images/snickers/snickers1.jpg"
-      },
-      {
-        img1: "/Images/snickers/snickers2.jpg"
-      },
-      {
-        img1: "/Images/snickers/snickers3.jpg"
-      },
-      {
-        img1: "/Images/snickers/snickers4.jpg"
-      },
-      {
-        img1: "/Images/snickers/snickers5.jpg"
-      }
-    ],
-    desc:
-      "Add some peanut power to your day with a Snickers Chocolate Bar. Made with real crunchy peanuts and milk chocolate, this peanut candy perfectly satisfies your taste buds and helps you fuel up during a busy day. Serving as an energy bar, Snickers keeps hunger away, so you can rather concentrate on what matters. Snickers bar also contains nougat and caramel to add to its delicious and wholesome taste, creating a flavour that’s enough to rock your taste buds and power up your mind! Reach out for a Snickers hunger bar to tackle snack time in the bus. Do not let hunger change you, have a Snickers!																						",
-    img: "/Images/snickers/snickers.jpg",
-    id: 24
-  },
   {
     name: "Oreo Biscuits",
     author: "Cadbury Oreo Vanilla Crème Biscuit, 120 gm",
