@@ -258,7 +258,7 @@ export const data = [
       "/Images/brewhouseicetea/Brewhouse Classic Lemon Ice Tea 350 ML/brewicetealemon2.jpg",
     id: 28
   },
-  */
+  
   {
     name: "Brewhouse Ice Tea",
     author: "Brewhouse Classic Mint Ice Tea 350 ML",
@@ -277,7 +277,7 @@ export const data = [
     img: "/Images/Brewhouse mint ice tea/mint ice tea.jpg",
     id: 29
   },
-  /*{
+  {
     name: "Nescafe Cold Coffee",
     author: "Nescafe Coffee Can - Latte, 240ml",
     price: 60,
