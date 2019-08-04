@@ -13,7 +13,6 @@ class How extends Component {
       <div>
         <h1
           data-aos="fade-down"
-          //data-aos-anchor-placement="top-center"
           style={{
             textAlign: "center",
             marginBottom: "30px",
@@ -28,11 +27,7 @@ class How extends Component {
           <br />
           HOW IT WORKS
         </h1>
-        <Grid
-          style={{ marginTop: "70px" }}
-          data-aos="zoom-in"
-          //data-aos-anchor-placement="top-center"
-        >
+        <Grid style={{ marginTop: "70px" }} data-aos="zoom-in">
           <Grid.Column mobile={8} computer={4}>
             <Image
               style={{ marginTop: "25px" }}

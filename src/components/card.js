@@ -131,75 +131,91 @@ export default class ShowCard extends React.Component {
               <Header
                 as="h5"
                 image="https://img.icons8.com/windows/32/000000/info.png"
-                content={"Rs " + book.price}
               />
             }
             content={book.desc}
             on="click"
             position="top right"
           />
-
+          <div>
+            {book.discount == null ? (
+              <Header as="h5" style={{ marginBottom: "10px" }}>
+                {"Rs" + book.price}
+              </Header>
+            ) : (
+              <Header as="h5" style={{ marginBottom: "10px" }}>
+                {"Rs" + book.price}
+                <strike style={{ marginLeft: "5px" }}>
+                  {"Rs" + book.discount}{" "}
+                </strike>
+              </Header>
+            )}
+          </div>
           <div style={{ textAlign: "center" }} />
         </Card.Content>
         <Card.Content extra>
-          {this.state.showCart ? (
-            <Button
-              onClick={() => {
-                this.setState({
-                  counter: this.state.counter + 1
-                });
-                book.cartQuantity = this.state.counter + 1;
-                add();
-                this.setState({
-                  showCart: false
-                });
-                cartHandler(book);
-              }}
-              color="orange"
-              fluid
-            >
-              Add to cart
-            </Button>
-          ) : (
-            <Button.Group fluid>
+          {book.available ? (
+            this.state.showCart ? (
               <Button
-                icon="minus"
-                color="red"
                 onClick={() => {
                   this.setState({
-                    counter: this.state.counter - 1
+                    counter: this.state.counter + 1
                   });
-                  book.cartQuantity = this.state.counter - 1;
-                  this.pushCart(book, 1);
-                  {
-                    book.cartQuantity === 0
-                      ? this.deleteHandler(book)
-                      : this.setState({
-                          showCart: false
-                        });
-                  }
+                  book.cartQuantity = this.state.counter + 1;
+                  add();
+                  this.setState({
+                    showCart: false
+                  });
+                  cartHandler(book);
                 }}
-              />
-              <Label size="large">{book.cartQuantity}</Label>
-              <Button
-                icon="plus"
-                color="green"
-                onClick={() => {
-                  if (book.cartQuantity < 3) {
-                    book.cartQuantity = this.state.counter + 1;
-                    this.pushCart(book, 0);
+                color="orange"
+                fluid
+              >
+                Add to cart
+              </Button>
+            ) : (
+              <Button.Group fluid>
+                <Button
+                  icon="minus"
+                  color="red"
+                  onClick={() => {
                     this.setState({
-                      counter: this.state.counter + 1
+                      counter: this.state.counter - 1
                     });
+                    book.cartQuantity = this.state.counter - 1;
+                    this.pushCart(book, 1);
+                    {
+                      book.cartQuantity === 0
+                        ? this.deleteHandler(book)
+                        : this.setState({
+                            showCart: false
+                          });
+                    }
+                  }}
+                />
+                <Label size="large">{book.cartQuantity}</Label>
+                <Button
+                  icon="plus"
+                  color="green"
+                  onClick={() => {
+                    if (book.cartQuantity < 3) {
+                      book.cartQuantity = this.state.counter + 1;
+                      this.pushCart(book, 0);
+                      this.setState({
+                        counter: this.state.counter + 1
+                      });
 
-                    console.log(this.state.counter);
-                    console.log(book.cartQuantity);
-                  } else {
-                    alert("You cannot add more than 3 items");
-                  }
-                }}
-              />
-            </Button.Group>
+                      console.log(this.state.counter);
+                      console.log(book.cartQuantity);
+                    } else {
+                      alert("You cannot add more than 3 items");
+                    }
+                  }}
+                />
+              </Button.Group>
+            )
+          ) : (
+            <Header as="h3" color="orange" content="Not Available" />
           )}
         </Card.Content>
       </Card>
