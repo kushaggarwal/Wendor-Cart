@@ -164,11 +164,17 @@ class Main extends React.Component {
                 style={{ textAlign: "center", font: "bold 20px  Avenir" }}
                 inverted
                 color="orange"
-                content="KINDLY ASK ABOUT PAYMENT AND COLLECT YOUR PRODUCTS FROM THE CONDUCTOR"
+                content="KINDLY COLLECT YOUR PRODUCTS FROM THE CONDUCTOR"
               />
               <Modal.Content>
-                {obj.length != 0 ? <Bill obj={obj} /> : null}
-                <Card.Group>
+                {obj.length != 0 ? (
+                  <Bill obj={obj} />
+                ) : (
+                  <div className="header">
+                    <h3>Your Cart is Empty</h3>
+                  </div>
+                )}
+                {/*<Card.Group>
                   {obj.length != 0 ? (
                     obj.map((item, index) => {
                       return (
@@ -184,13 +190,13 @@ class Main extends React.Component {
                       <h3>Your Cart is Empty</h3>
                     </div>
                   )}
-                </Card.Group>
+                  </Card.Group>*/}
               </Modal.Content>
               <Header
                 style={{ textAlign: "center", font: "bold 20px  Avenir" }}
                 inverted
                 color="orange"
-                content="KINDLY ASK ABOUT PAYMENT AND COLLECT YOUR PRODUCTS FROM THE CONDUCTOR"
+                content="KINDLY COLLECT YOUR PRODUCTS FROM THE CONDUCTOR"
               />
             </Modal>
           </div>

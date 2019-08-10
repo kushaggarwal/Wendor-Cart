@@ -4,6 +4,7 @@ import "../App.css";
 import Carousel from "nuka-carousel";
 import Cart from "./cart";
 import AOS from "aos";
+import "./home.css";
 
 import { data } from "../data";
 import AwesomeSlider from "react-awesome-slider";
@@ -88,7 +89,16 @@ export default class ShowCard extends React.Component {
     const subtract = this.props.subtract;
 
     return (
-      <Card className="styles">
+      <Card
+        className="styles"
+        label={{
+          as: "a",
+          color: "red",
+          content: "Discount",
+          icon: "hotel",
+          ribbon: true
+        }}
+      >
         <Modal
           trigger={
             <img src={book.img} wrapped ui={false} className="img_styles" />
@@ -116,7 +126,7 @@ export default class ShowCard extends React.Component {
           <div
             style={{
               textAlign: "center",
-              height: "50px",
+              height: "55px",
               fontSize: "12pt",
               fontFamily: "'Quicksand', sans-serif",
               color: "grey",
@@ -139,16 +149,25 @@ export default class ShowCard extends React.Component {
           />
           <div>
             {book.discount == null ? (
-              <Header as="h5" style={{ marginBottom: "10px" }}>
+              <Header as="h4" style={{ marginBottom: "10px" }}>
                 {"Rs" + book.price}
               </Header>
             ) : (
-              <Header as="h5" style={{ marginBottom: "10px" }}>
-                {"Rs" + book.price}
-                <strike style={{ marginLeft: "5px" }}>
-                  {"Rs" + book.discount}{" "}
-                </strike>
-              </Header>
+              <div>
+                <Header as="h4" style={{ marginBottom: "10px" }}>
+                  {"Rs" + book.price}
+
+                  <strike
+                    style={{
+                      marginLeft: "5px",
+                      color: "red",
+                      fontSize: "18pt"
+                    }}
+                  >
+                    {"Rs" + book.discount}{" "}
+                  </strike>
+                </Header>
+              </div>
             )}
           </div>
           <div style={{ textAlign: "center" }} />
@@ -215,7 +234,7 @@ export default class ShowCard extends React.Component {
               </Button.Group>
             )
           ) : (
-            <Header as="h3" color="orange" content="Not Available" />
+            <Header as="h3" color="orange" content="Sold Out" />
           )}
         </Card.Content>
       </Card>

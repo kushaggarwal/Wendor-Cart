@@ -1,12 +1,35 @@
 export const data = [
   {
+    name: "Red Bull",
+    author: "Red Bull Energy Drink, 250 ml Can",
+    price: 90,
+    cartQuantity: 0,
+    discount: 99,
+    available: true,
+    images: [
+      {
+        img1: "/Images/redbull/redbull1.jpg"
+      },
+      {
+        img1: "/Images/redbull/redbull2.jpg"
+      },
+      {
+        img1: "/Images/redbull/redbull3.jpg"
+      }
+    ],
+    desc:
+      "Red Bull Energy Drink is a functional beverage that vitalizes body and mind. With billions of cans consumed all across the world, Red Bull is appreciated by top athletes, busy professionals, college students and travelers on long journeys. For those who have to stay on top of their game during intesnse meetings or creative brainstorming sessions, in action with teammates or competitors, or simply want to get the most out of life, a chilled can of Red Bull Energy Drink gives you wings when you need them.																						",
+    img: "/Images/redbull/redbull1.jpg",
+    id: 26
+  },
+  {
     name: "Popcorn",
     author: "ACT II Salted Popcorn",
     price: 20,
     id: 1,
     cartQuantity: 0,
     discount: null,
-    available: false,
+    available: true,
     desc:
       "Act II Ready to Eat Popcorn is an all-time snacking Partner. Crunchy and Crisply, Ready to eat Popcorn is a healthy snacking option. ACT II Popcorn is a wholesome tasty snacking option for people on the move. It is the perfect snack to have with friends and family to multiply your moments of joy.",
     img: "/Images/popcorn/Classic Butter Popcorn/popcornbutter1.jpg",
@@ -598,29 +621,6 @@ export const data = [
     id: 25
   },
 
-  {
-    name: "Red Bull",
-    author: "Red Bull Energy Drink, 250 ml Can",
-    price: 90,
-    cartQuantity: 0,
-    discount: 99,
-    available: true,
-    images: [
-      {
-        img1: "/Images/redbull/redbull1.jpg"
-      },
-      {
-        img1: "/Images/redbull/redbull2.jpg"
-      },
-      {
-        img1: "/Images/redbull/redbull3.jpg"
-      }
-    ],
-    desc:
-      "Red Bull Energy Drink is a functional beverage that vitalizes body and mind. With billions of cans consumed all across the world, Red Bull is appreciated by top athletes, busy professionals, college students and travelers on long journeys. For those who have to stay on top of their game during intesnse meetings or creative brainstorming sessions, in action with teammates or competitors, or simply want to get the most out of life, a chilled can of Red Bull Energy Drink gives you wings when you need them.																						",
-    img: "/Images/redbull/redbull1.jpg",
-    id: 26
-  },
   {
     name: "Brewhouse Ice Tea",
     author: "Brewhouse Classic Lemon Ice Tea 350 ML",

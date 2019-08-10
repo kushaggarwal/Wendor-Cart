@@ -2,7 +2,7 @@ import React from "react";
 
 import "../App.css";
 
-import { List, Icon } from "semantic-ui-react";
+import { List, Icon, Button } from "semantic-ui-react";
 
 export default class Bill extends React.Component {
   constructor(props) {
@@ -31,6 +31,11 @@ export default class Bill extends React.Component {
             Total Bill : <Icon name="rupee" />
             {this.state.price}{" "}
           </h3>
+          <Button color="red">
+            <a style={{ color: "white" }} href={"/testtxn/" + this.state.price}>
+              Pay Now
+            </a>
+          </Button>
         </div>
 
         {this.props.obj.map((item, index) => {
