@@ -1,5 +1,22 @@
 export const data = [
   {
+    name: "Popcorn",
+    author: "Popicorn Yummy Butter",
+    price: 20,
+    id: 2,
+    cartQuantity: 0,
+    discount: null,
+    available: true,
+    desc:
+      "We hand-pop our farm fresh corn to perfection in honest -to-goodness kettle. Then we lightly sprinkle gourmet quality seasonings at just the right time to enhance the crunch and provide a flavour that you’ll have to try to believe.",
+    img: "/Images/popicorn butter/popicorn.png",
+    images: [
+      {
+        img1: "/Images/popicorn butter/popicorn.png"
+      }
+    ]
+  },
+  {
     name: "Red Bull",
     author: "Red Bull Energy Drink, 250 ml Can",
     price: 90,
@@ -21,43 +38,6 @@ export const data = [
       "Red Bull Energy Drink is a functional beverage that vitalizes body and mind. With billions of cans consumed all across the world, Red Bull is appreciated by top athletes, busy professionals, college students and travelers on long journeys. For those who have to stay on top of their game during intesnse meetings or creative brainstorming sessions, in action with teammates or competitors, or simply want to get the most out of life, a chilled can of Red Bull Energy Drink gives you wings when you need them.																						",
     img: "/Images/redbull/redbull1.jpg",
     id: 26
-  },
-  {
-    name: "Popcorn",
-    author: "ACT II Salted Popcorn",
-    price: 20,
-    id: 1,
-    cartQuantity: 0,
-    discount: null,
-    available: true,
-    desc:
-      "Act II Ready to Eat Popcorn is an all-time snacking Partner. Crunchy and Crisply, Ready to eat Popcorn is a healthy snacking option. ACT II Popcorn is a wholesome tasty snacking option for people on the move. It is the perfect snack to have with friends and family to multiply your moments of joy.",
-    img: "/Images/popcorn/Classic Butter Popcorn/popcornbutter1.jpg",
-    images: [
-      {
-        img1: "/Images/popcorn/Classic Butter Popcorn/popcornbutter1.jpg"
-      },
-      {
-        img1: "/Images/popcorn/Classic Butter Popcorn/popcornbutter2.jpg"
-      }
-    ]
-  },
-  {
-    name: "Popcorn",
-    author: "Popicorn Yummy Butter",
-    price: 20,
-    id: 2,
-    cartQuantity: 0,
-    discount: null,
-    available: true,
-    desc:
-      "We hand-pop our farm fresh corn to perfection in honest -to-goodness kettle. Then we lightly sprinkle gourmet quality seasonings at just the right time to enhance the crunch and provide a flavour that you’ll have to try to believe.",
-    img: "/Images/popicorn butter/popicorn.png",
-    images: [
-      {
-        img1: "/Images/popicorn butter/popicorn.png"
-      }
-    ]
   },
   {
     name: "Popcorn",
@@ -95,6 +75,39 @@ export const data = [
       "The Popular Brownie is a unique handcrafted chocolate dessert, where the smooth taste marries the right blend of cakey and gooey to create an experience that reflects your own sense of pleasure and richness. The very first bite revels the bold blend of coca with rich walnuts leaving your palate enhanced with aromatic notes giving you a completely satisfying experience. Prepare yourself to experience this outstanding Chocolate walnut Brownie elevating you to a higher level of self-satisfaction",
     img: "/Images/brownie/brownie 2.jpg",
     id: 35
+  },
+
+  {
+    name: "Snickers",
+    author: "Snickers Chocolate Bar, 50g",
+    price: 35,
+    cartQuantity: 0,
+    discount: null,
+    available: true,
+    images: [
+      {
+        img1: "/Images/snickers/snickers.jpg"
+      },
+      {
+        img1: "/Images/snickers/snickers1.jpg"
+      },
+      {
+        img1: "/Images/snickers/snickers2.jpg"
+      },
+      {
+        img1: "/Images/snickers/snickers3.jpg"
+      },
+      {
+        img1: "/Images/snickers/snickers4.jpg"
+      },
+      {
+        img1: "/Images/snickers/snickers5.jpg"
+      }
+    ],
+    desc:
+      "Add some peanut power to your day with a Snickers Chocolate Bar. Made with real crunchy peanuts and milk chocolate, this peanut candy perfectly satisfies your taste buds and helps you fuel up during a busy day. Serving as an energy bar, Snickers keeps hunger away, so you can rather concentrate on what matters. Snickers bar also contains nougat and caramel to add to its delicious and wholesome taste, creating a flavour that’s enough to rock your taste buds and power up your mind! Reach out for a Snickers hunger bar to tackle snack time in the bus. Do not let hunger change you, have a Snickers!																						",
+    img: "/Images/snickers/snickers.jpg",
+    id: 23
   },
   {
     name: "Too Yumm Chips ",
@@ -525,37 +538,26 @@ export const data = [
     id: 22
   },
   {
-    name: "Snickers",
-    author: "Snickers Chocolate Bar, 50g",
-    price: 35,
+    name: "Popcorn",
+    author: "ACT II Salted Popcorn",
+    price: 20,
+    id: 1,
     cartQuantity: 0,
     discount: null,
     available: true,
+    desc:
+      "Act II Ready to Eat Popcorn is an all-time snacking Partner. Crunchy and Crisply, Ready to eat Popcorn is a healthy snacking option. ACT II Popcorn is a wholesome tasty snacking option for people on the move. It is the perfect snack to have with friends and family to multiply your moments of joy.",
+    img: "/Images/popcorn/Classic Butter Popcorn/popcornbutter1.jpg",
     images: [
       {
-        img1: "/Images/snickers/snickers.jpg"
+        img1: "/Images/popcorn/Classic Butter Popcorn/popcornbutter1.jpg"
       },
       {
-        img1: "/Images/snickers/snickers1.jpg"
-      },
-      {
-        img1: "/Images/snickers/snickers2.jpg"
-      },
-      {
-        img1: "/Images/snickers/snickers3.jpg"
-      },
-      {
-        img1: "/Images/snickers/snickers4.jpg"
-      },
-      {
-        img1: "/Images/snickers/snickers5.jpg"
+        img1: "/Images/popcorn/Classic Butter Popcorn/popcornbutter2.jpg"
       }
-    ],
-    desc:
-      "Add some peanut power to your day with a Snickers Chocolate Bar. Made with real crunchy peanuts and milk chocolate, this peanut candy perfectly satisfies your taste buds and helps you fuel up during a busy day. Serving as an energy bar, Snickers keeps hunger away, so you can rather concentrate on what matters. Snickers bar also contains nougat and caramel to add to its delicious and wholesome taste, creating a flavour that’s enough to rock your taste buds and power up your mind! Reach out for a Snickers hunger bar to tackle snack time in the bus. Do not let hunger change you, have a Snickers!																						",
-    img: "/Images/snickers/snickers.jpg",
-    id: 23
+    ]
   },
+
   {
     name: "Oreo Biscuits",
     author: "Cadbury Oreo Vanilla Crème Biscuit, 120 gm",
