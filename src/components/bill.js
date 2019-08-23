@@ -1,17 +1,36 @@
 import React from "react";
-
+import randomstring from "randomstring";
 import "../App.css";
-
+import axios from "axios";
+import User from "./user.js";
+import mongoose from "mongoose";
 import { List, Icon, Button } from "semantic-ui-react";
 
 export default class Bill extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      price: 0
+      price: 0,
+      orderid: ""
     };
   }
+  saveData() {
+    console.log("function called");
 
+    axios({
+      method: "post",
+      url: "/testtxn/" + this.state.price + "/" + this.state.orderid,
+      data: {
+        bill: this.props.obj
+      }
+    })
+      .then(function(response) {
+        console.log(response);
+      })
+      .catch(function(error) {
+        console.log(error);
+      });
+  }
   componentDidMount() {
     var item;
     var sum = 0;
@@ -19,9 +38,12 @@ export default class Bill extends React.Component {
       var sum = sum + this.props.obj[i].price * this.props.obj[i].cartQuantity;
     }
     this.setState({
+      orderid: randomstring.generate({ length: 50 }),
       price: sum
     });
   }
+
+  dataStore() {}
 
   render() {
     return (
@@ -31,8 +53,16 @@ export default class Bill extends React.Component {
             Total Bill : <Icon name="rupee" />
             {this.state.price}{" "}
           </h3>
-          <Button color="red">
-            <a style={{ color: "white" }} href={"/testtxn/" + this.state.price}>
+          <Button
+            color="red"
+            onClick={() => {
+              this.saveData();
+            }}
+          >
+            <a
+              style={{ color: "white" }}
+              href={"/testtxn/" + this.state.price + "/" + this.state.orderid}
+            >
               Pay Now
             </a>
           </Button>

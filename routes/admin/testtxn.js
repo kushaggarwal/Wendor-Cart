@@ -1,16 +1,55 @@
 var checksum = require("../../model/checksum");
 var config = require("../../config/config");
 var randomstring = require("randomstring");
+var User = require("./user");
+var express = require("express");
+var app = express();
+var bodyParser = require("body-parser");
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+var mongoose = require("mongoose");
 
+const connectionString =
+  "mongodb+srv://user:Password@cluster1-xenqr.mongodb.net/test?retryWrites=true&w=majority";
+mongoose.connect(connectionString, {
+  useNewUrlParser: true
+});
 module.exports = function(app) {
-  app.get("/testtxn/:price", function(req, res) {
+  app.post("/testtxn/:price/:orderid", function(req, res) {
+    console.log(req.body.bill);
+    req.body.bill.map((item, index) => {
+      var product = new User({
+        name: item.author,
+        price: item.price,
+        quantity: item.cartQuantity,
+        orderid: req.params.orderid
+      });
+      product.save(function(err) {
+        if (err) throw err;
+
+        console.log("User saved successfully!");
+      });
+    });
+  });
+  app.get("/testtxn/:price/:orderid", function(req, res) {
     console.log(req.params.price);
+    console.log(req.params.orderid);
+    /*var chris = new User({
+      name: "kush",
+      username: "sevilayha",
+      password: "password"
+    });
+    chris.save(function(err) {
+      if (err) throw err;
+
+      console.log("User saved successfully!");
+    });*/
     console.log("in restaurant");
     console.log("--------testtxnjs----");
     res.render("testtxn.ejs", {
       config: config,
       price: req.params.price,
-      orderid: randomstring.generate({ length: 50 })
+      orderid: req.params.orderid
     });
   });
 
