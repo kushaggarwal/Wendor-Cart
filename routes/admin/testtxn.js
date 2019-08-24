@@ -14,18 +14,10 @@ const connectionString =
 /*mongoose.connect(connectionString, {
   useNewUrlParser: true
 });*/
-mongoose
-  .connect(connectionString, {
-    useNewUrlParser: true
-  })
-  .then(() => {
-    console.log("Connection Successull");
-  })
-  .catch(err => {
-    // mongoose connection error will be handled here
-    console.error("App starting error:", err.stack);
-    process.exit(1);
-  });
+mongoose.connect(connectionString, {
+  useNewUrlParser: true
+});
+
 module.exports = function(app) {
   app.post("/testtxn/:price/:orderid", function(req, res) {
     console.log(req.body.bill);
