@@ -11,9 +11,21 @@ var mongoose = require("mongoose");
 
 const connectionString =
   "mongodb+srv://user:Password@cluster1-xenqr.mongodb.net/test?retryWrites=true&w=majority";
-mongoose.connect(connectionString, {
+/*mongoose.connect(connectionString, {
   useNewUrlParser: true
-});
+});*/
+mongoose
+  .connect(connectionString, {
+    useNewUrlParser: true
+  })
+  .then(() => {
+    console.log("Connection Successull");
+  })
+  .catch(err => {
+    // mongoose connection error will be handled here
+    console.error("App starting error:", err.stack);
+    process.exit(1);
+  });
 module.exports = function(app) {
   app.post("/testtxn/:price/:orderid", function(req, res) {
     console.log(req.body.bill);
