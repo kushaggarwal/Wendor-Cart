@@ -14,17 +14,23 @@ const connectionString =
 /*mongoose.connect(connectionString, {
   useNewUrlParser: true
 });*/
-mongoose.connect(
-  connectionString,
-  {
-    useNewUrlParser: true
-  },
-  function(error) {
-    if (error) {
-      console.log("Could not connect to DB: %s", error);
-    }
-  }
-);
+mongoose.connect(connectionString, {
+  useNewUrlParser: true
+});
+
+mongoose.connection.on("connected", function() {
+  console.log("Mongoose default connection open to ");
+});
+
+// If the connection throws an error
+mongoose.connection.on("error", function(err) {
+  console.log("Mongoose default connection error: ");
+});
+
+// When the connection is disconnected
+mongoose.connection.on("disconnected", function() {
+  console.log("Mongoose default connection disconnected");
+});
 
 module.exports = function(app) {
   app.post("/testtxn/:price/:orderid", function(req, res) {
