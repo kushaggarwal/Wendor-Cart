@@ -30,6 +30,9 @@ module.exports = function(app) {
         console.log("User saved successfully!");
       });
     });
+    res.status(200).send({
+      error: false
+    });
   });
   app.get("/testtxn/:price/:orderid", function(req, res) {
     console.log(req.params.price);
@@ -66,7 +69,7 @@ module.exports = function(app) {
       }
     }
     console.log(paramarray);
-    paramarray["CALLBACK_URL"] = "https://www.happytrip.store/response"; // in case if you want to send callback
+    paramarray["CALLBACK_URL"] = "http://localhost:8080/response"; // in case if you want to send callback
     console.log(PAYTM_MERCHANT_KEY);
     checksum.genchecksum(paramarray, PAYTM_MERCHANT_KEY, function(err, result) {
       console.log("                       it works                ");
