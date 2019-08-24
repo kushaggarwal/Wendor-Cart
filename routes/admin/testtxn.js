@@ -14,9 +14,17 @@ const connectionString =
 /*mongoose.connect(connectionString, {
   useNewUrlParser: true
 });*/
-mongoose.connect(connectionString, {
-  useNewUrlParser: true
-});
+mongoose.connect(
+  connectionString,
+  {
+    useNewUrlParser: true
+  },
+  function(error) {
+    if (error) {
+      console.log("Could not connect to DB: %s", error);
+    }
+  }
+);
 
 module.exports = function(app) {
   app.post("/testtxn/:price/:orderid", function(req, res) {
