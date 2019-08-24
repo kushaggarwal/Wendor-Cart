@@ -1,150 +1,138 @@
-<html>
-  <head>
-    <title>Receipt</title>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-      crossorigin="anonymous"
-    />
-  </head>
+<!DOCTYPE html>
+<html lang="en">
 
-  <body style="background-color:rgb(255, 115, 0)">
-    <div class="container">
-      <div class="row">
-        <div class="col-1"></div>
-        <div
-          class="col"
-          style="margin : 100px auto; background-color : white;width:500px"
-        >
-          <div class="container" style="text-align: center">
-            <% if (restdata == 'true') { %>
-            <center>
-              <img
-                src="https://img.icons8.com/plasticine/100/000000/billing-machine.png"
-              />
-              <h3 style="text-decoration:bold;font-family:Avenir">THANK YOU</h3>
-              <h6>Your Payment has been received</h6>
-            </center>
-            <% }else { %>
-            <center>
-              <img
-                src="https://img.icons8.com/plasticine/100/000000/billing-machine.png"
-              />
-              <h3 style="text-decoration:bold;font-family:Avenir">THANK YOU</h3>
-              <h6>Your Payment has not completed</h6>
-            </center>
-            <% } %>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>Receipt</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous" />
+</head>
+<style>
+  @media screen and (min-width: 576px) {
+  .form-view{
+width:300px
+  }
+}
+@media screen and (min-width: 992px) {
+  .form-view{
+width:700px
+  }
+}
+  
+  
+  </style>
 
-            <table class="table table-borderless" style="marign-top:30px">
-              <thead>
-                <tr style="border-bottom:3px solid rgb(255, 115, 0)">
-                  <th scope="col">Name</th>
-                  <th scope="col">Quantity</th>
-                  <th scope="col">Price</th>
-                </tr>
-              </thead>
-              <tbody>
-                <%products.map((item,index)=>{%>
-                <tr>
-                  <td>
-                    <%=item.name%>
-                  </td>
+<body style="background-color:rgb(255, 115, 0)">
+  <div class="container">
 
-                  <td>
-                    <%=item.quantity%>
-                  </td>
-                  <td>Rs <%=item.price * item.quantity%></td>
-                </tr>
 
-                <% })%>
+    <div class="form-view" style="margin : 80px auto; background-color : white">
+      <div class="container" style="text-align: center">
+        <% if (restdata == 'true') { %>
+        <center>
+          <img src="https://img.icons8.com/plasticine/100/000000/billing-machine.png" />
+          <h3 style="text-decoration:bold;font-family:Avenir">THANK YOU</h3>
+          <h6>Your Payment has been received</h6>
+        </center>
+        <% }else { %>
+        <center>
+          <img src="https://img.icons8.com/plasticine/100/000000/billing-machine.png" />
+          <h3 style="text-decoration:bold;font-family:Avenir">THANK YOU</h3>
+          <h6>Your Payment has not completed</h6>
+        </center>
+        <% } %>
 
-                <tr>
-                  <td></td>
-                  <td></td>
-                  <td style="font-weight:bold">
-                    <%= "TOTAL : RS " + paramlist.TXNAMOUNT%>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-
-            <div style="margin:20px 0;">
-              <h6 style="font-weight: bold">Invoice Date</h6>
-              <h6>2018-08-24</h6>
-              <h6 style="font-weight: bold">
-                Incase of any emergency
-                <h6></h6>
-                Contact +91 999996666644
-              </h6>
-              <center>
-                <button
-                  type="button"
-                  class="btn btn-success"
-                  style="margin:10px auto"
-                >
-                  <a href="https://www.happytrip.store" style="color:white"
-                    >Go to home</a
-                  >
-                </button>
-              </center>
-            </div>
-          </div>
-        </div>
-        <div class="col-1"></div>
-      </div>
-
-      <form method="post" name="f1" style="display: none">
-        <table class="table" style="margin:30px">
-          <thead class="thead-dark">
-            <tr>
-              <th scope="col">Label</th>
-              <th scope="col">Value</th>
+        <table class="table table-borderless" style="marign-top:30px">
+          <thead>
+            <tr style="border-bottom:3px solid rgb(255, 115, 0)">
+              <th scope="col">Name</th>
+              <th scope="col">Quantity</th>
+              <th scope="col">Price</th>
             </tr>
           </thead>
-
           <tbody>
-            <% for (name in paramlist) { %>
-
+            <%products.map((item,index)=>{%>
             <tr>
-              <td><label> <%= name %></label></td>
               <td>
-                <input
-                  id="<%= name %>"
-                  tabindex="1"
-                  maxlength="30"
-                  size="30"
-                  name="<%= name %>"
-                  autocomplete="off"
-                  value="<%= paramlist[name] %>"
-                  readonly
-                />
+                <%=item.name%>
+              </td>
+
+              <td>
+                <%=item.quantity%>
+              </td>
+              <td>Rs
+                <%=item.price * item.quantity%>
               </td>
             </tr>
-            <!-- <input type="label" name='<%= name %>' value='<%= paramlist[name] %>'>
-				</br> -->
-            <%}%>
+
+            <% })%>
+
+            <tr>
+              <td></td>
+              <td></td>
+              <td style="font-weight:bold">
+                <%= "TOTAL " + paramlist.TXNAMOUNT%>
+              </td>
+            </tr>
           </tbody>
         </table>
-        <script type="text/javascript">
-          //document.f1.submit();
-        </script>
-      </form>
+
+        <div style="margin:20px 0;">
+          <h6 style="font-weight: bold">Invoice Date</h6>
+          <h6>2018-08-24</h6>
+          <h6 style="font-weight: bold">
+            Incase of any emergency
+            <h6></h6>
+            Contact +91 999996666644
+          </h6>
+          <center>
+            <button type="button" class="btn btn-success" style="margin:10px auto">
+              <a href="https://www.happytrip.store" style="color:white">Go to home</a>
+            </button>
+          </center>
+        </div>
+      </div>
     </div>
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+
+
+    <form method="post" name="f1" style="display: none">
+      <table class="table" style="margin:30px">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">Label</th>
+            <th scope="col">Value</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <% for (name in paramlist) { %>
+
+          <tr>
+            <td><label>
+                <%= name %></label></td>
+            <td>
+              <input id="<%= name %>" tabindex="1" maxlength="30" size="30" name="<%= name %>" autocomplete="off" value="<%= paramlist[name] %>"
+                readonly />
+            </td>
+          </tr>
+          <!-- <input type="label" name='<%= name %>' value='<%= paramlist[name] %>'>
+				</br> -->
+          <%}%>
+        </tbody>
+      </table>
+      <script type="text/javascript">
+            //document.f1.submit();
+      </script>
+    </form>
+  </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
