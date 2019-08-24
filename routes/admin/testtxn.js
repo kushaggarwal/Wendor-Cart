@@ -24,7 +24,7 @@ mongoose.connection.on("connected", function() {
 
 // If the connection throws an error
 mongoose.connection.on("error", function(err) {
-  console.log("Mongoose default connection error: ");
+  console.log("Mongoose default connection error: " + error);
 });
 
 // When the connection is disconnected
