@@ -33,7 +33,7 @@ module.exports = function(app) {
         });
       }
     });
-    //return res.send()
+    return res.send(console.log("it runs"));
     //vidisha
   });
 };
