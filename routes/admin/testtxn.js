@@ -30,9 +30,7 @@ module.exports = function(app) {
         console.log("User saved successfully!");
       });
     });
-    res.status(200).send({
-      error: false
-    });
+    return res.send(console.log("saved successfully"));
   });
   app.get("/testtxn/:price/:orderid", function(req, res) {
     console.log(req.params.price);
