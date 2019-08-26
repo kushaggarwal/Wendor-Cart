@@ -112,8 +112,8 @@ export default class ShowCard extends React.Component {
                   <img
                     src={image.img1}
                     style={{
-                      height: "300px",
-                      width: "300px",
+                      height: "250px",
+                      width: "250px",
                       margin: "0 auto"
                     }}
                   />
