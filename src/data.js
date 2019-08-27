@@ -29,6 +29,252 @@ It is best served chilled and bubbling
     ]
   },
   {
+    name: "Red Bull",
+    author: "Red Bull Energy Drink, 250 ml Can",
+    price: 90,
+    cartQuantity: 0,
+    discount: 99,
+    available: true,
+    images: [
+      {
+        img1: "/Images/redbull/redbull1.jpg"
+      },
+      {
+        img1: "/Images/redbull/redbull2.jpg"
+      },
+      {
+        img1: "/Images/redbull/redbull3.jpg"
+      }
+    ],
+    desc:
+      "Red Bull Energy Drink is a functional beverage that vitalizes body and mind. With billions of cans consumed all across the world, Red Bull is appreciated by top athletes, busy professionals, college students and travelers on long journeys. For those who have to stay on top of their game during intesnse meetings or creative brainstorming sessions, in action with teammates or competitors, or simply want to get the most out of life, a chilled can of Red Bull Energy Drink gives you wings when you need them.																						",
+    img: "/Images/redbull/redbull1.jpg",
+    id: 26
+  },
+  {
+    name: "Cornitos",
+    author: "Cornitos Nachos Cheese and Herb",
+    price: 35,
+    cartQuantity: 0,
+    discount: null,
+    available: true,
+    images: [
+      {
+        img1: "/Images/cornitos cheese n herbs/cornitos cheese n herbs.jpg"
+      },
+      {
+        img1: "/Images/cornitos cheese n herbs/cornitos cheese n herbs2 .jpg"
+      }
+    ],
+    desc:
+      "Cornitos nacho crisps is a mexican snack in international flavors catering to the indian palate. These flavored tortilla corn chips are made by the traditional mexican lime-treatment process, along with the contract farming of special food grade non-gmo corn.												",
+    img: "/Images/cornitos cheese n herbs/cornitos cheese n herbs.jpg",
+    id: 12
+  },
+  {
+    name: "Brownie",
+    author: "Chocolate Walnut Brownie",
+    price: 70,
+    cartQuantity: 0,
+    discount: null,
+    available: true,
+    images: [
+      {
+        img1: "/Images/brownie/brownie 2.jpg"
+      },
+      {
+        img1: "/Images/brownie/brownie.jpg"
+      }
+    ],
+    desc:
+      "The Popular Brownie is a unique handcrafted chocolate dessert, where the smooth taste marries the right blend of cakey and gooey to create an experience that reflects your own sense of pleasure and richness. The very first bite revels the bold blend of coca with rich walnuts leaving your palate enhanced with aromatic notes giving you a completely satisfying experience. Prepare yourself to experience this outstanding Chocolate walnut Brownie elevating you to a higher level of self-satisfaction",
+    img: "/Images/brownie/brownie 2.jpg",
+    id: 35
+  },
+  {
+    name: "Cornitos",
+    author: "Cornitos Nachos Crisps, Barbeque",
+    price: 35,
+    cartQuantity: 0,
+    discount: null,
+    available: true,
+    images: [
+      {
+        img1: "/Images/cornitos/barbeque/cornitosbarb1.jpg"
+      },
+      {
+        img1: "/Images/cornitos/barbeque/cornitosbarb2.jpg"
+      },
+      {
+        img1: "/Images/cornitos/barbeque/cornitosbarb3.jpg"
+      },
+      {
+        img1: "/Images/cornitos/barbeque/cornitosbarb4.jpg"
+      }
+    ],
+    desc:
+      "Cornitos nacho crisps is a mexican snack in international flavors catering to the indian palate. These flavored tortilla corn chips are made by the traditional mexican lime-treatment process, along with the contract farming of special food grade non-gmo corn.",
+    img: "/Images/cornitos/barbeque/cornitosbarb1.jpg",
+    id: 13
+  },
+  {
+    name: "Alo Frut Juice",
+    author: "Alofrut Orange Aloevera Juice 300ml",
+    price: 40,
+    cartQuantity: 0,
+    discount: null,
+    available: true,
+    images: [
+      {
+        img1:
+          "/Images/alofrutjuice/Alofrut Orange Aloevera Juice 300ml/afj1.jpg"
+      }
+    ],
+    desc:
+      "It is most refreshing and healthy fusion of aloevera gel, juice, pulp and fruit blends. Aloevera is known worldwide as a rich source of vitamins, minerals and essential amino acids. This is unique fusion of health and taste. Extracted from the finest of fruit pulp. Perfect thirst quencher, full of awesomeness, amalgamated with nutriments of aloevera, made for curious tongues.",
+    img: "/Images/alofrutjuice/Alofrut Orange Aloevera Juice 300ml/afj1.jpg",
+    id: 30
+  },
+  {
+    name: "Alo Frut Juice",
+    author: "Alofrut Kiwi Aloevera Juice 300ml",
+    price: 40,
+    cartQuantity: 0,
+    discount: null,
+    available: true,
+    images: [
+      {
+        img1: "/Images/alofrutjuice/Alofrut Kiwi Aloevera Juice 300ml/afj2.jpg"
+      }
+    ],
+    desc:
+      "It is most refreshing and healthy fusion of aloevera gel, juice, pulp and fruit blends. Aloevera is known worldwide as a rich source of vitamins, minerals and essential amino acids. This is unique fusion of health and taste. Extracted from the finest of fruit pulp. Perfect thirst quencher, full of awesomeness, amalgamated with nutriments of aloevera, made for curious tongues.",
+    img: "/Images/alofrutjuice/Alofrut Kiwi Aloevera Juice 300ml/afj2.jpg",
+    id: 31
+  },
+  {
+    name: "Alo Frut Juice",
+    author: "Alofrut Mango Aloevera Juice 300ml",
+    price: 40,
+    cartQuantity: 0,
+    discount: null,
+    available: true,
+    images: [
+      {
+        img1: "/Images/alofrutjuice/Alofrut Mango Aloevera Juice 300ml/afj3.jpg"
+      },
+      {
+        img1:
+          "/Images/alofrutjuice/Alofrut Mango Aloevera Juice 300ml/afj31.jpg"
+      }
+    ],
+    desc:
+      "It is most refreshing and healthy fusion of aloevera gel, juice, pulp and fruit blends. Aloevera is known worldwide as a rich source of vitamins, minerals and essential amino acids. This is unique fusion of health and taste. Extracted from the finest of fruit pulp. Perfect thirst quencher, full of awesomeness, amalgamated with nutriments of aloevera, made for curious tongues.",
+    img: "/Images/alofrutjuice/Alofrut Mango Aloevera Juice 300ml/afj3.jpg",
+    id: 32
+  },
+  {
+    name: "Alo Frut Juice",
+    author: "Alofrut Anar Aloevera Juice 300ml",
+    price: 40,
+    cartQuantity: 0,
+    discount: null,
+    available: true,
+    images: [
+      {
+        img1:
+          "/Images/alo frut anar/alofrut-anaar-aloevera-juice-200ml-851592403.jpg"
+      }
+    ],
+    desc:
+      "It is most refreshing and healthy fusion of aloevera gel, juice, pulp and fruit blends. Aloevera is known worldwide as a rich source of vitamins, minerals and essential amino acids. This is unique fusion of health and taste. Extracted from the finest of fruit pulp. Perfect thirst quencher, full of awesomeness, amalgamated with nutriments of aloevera, made for curious tongues.",
+    img:
+      "/Images/alo frut anar/alofrut-anaar-aloevera-juice-200ml-851592403.jpg",
+    id: 33
+  },
+  {
+    name: "Epigamia Yogurt",
+    author: "Epigamia Greek Yogurt - Alphonso Mango",
+    price: 40,
+    cartQuantity: 0,
+    discount: null,
+    available: true,
+    images: [
+      {
+        img1:
+          "/Images/epigamia/Epigamia Greek Yogurt - Alphonso Mango, 90 g/epigamiamango1.jpeg"
+      },
+      {
+        img1:
+          "/Images/epigamia/Epigamia Greek Yogurt - Alphonso Mango, 90 g/epigamiamango2.jpeg"
+      },
+      {
+        img1:
+          "/Images/epigamia/Epigamia Greek Yogurt - Alphonso Mango, 90 g/epigamiamango3.jpeg"
+      },
+      {
+        img1:
+          "/Images/epigamia/Epigamia Greek Yogurt - Alphonso Mango, 90 g/epigamiamango4.jpeg"
+      }
+    ],
+    desc:
+      "In the quest for healthy eating, people have finally discovered Greek yoghurt which is known to be quite nutritious and has numerous benefits for the body, hair and skin. With so many health benefits to offer, ‘Greek Yogurt’ is rightly touted as a superfood. Greek Yogurt is actually quite similar to our traditional dahi but Greek yoghurt is thicker and creamy with the extra whey being drained out. Greek Yogurt is also more nutritious than our curd and while a single medium-sized bowl of curd contains 3 – 4 gms of protein, the same quantity of Greek Yoghurt contains around 8 – 10 gms of protein. )",
+    img:
+      "/Images/epigamia/Epigamia Greek Yogurt - Alphonso Mango, 90 g/epigamiamango1.jpeg",
+    id: 19
+  },
+  {
+    name: "Epigamia Yogurt",
+    author: "Epigamia Greek Yogurt - Blueberry",
+    price: 40,
+    cartQuantity: 0,
+    discount: null,
+    available: true,
+    images: [
+      {
+        img1: "/Images/epigamia blueberry/blueberry.jpg"
+      }
+    ],
+    desc:
+      "In the quest for healthy eating, people have finally discovered Greek yoghurt which is known to be quite nutritious and has numerous benefits for the body, hair and skin. With so many health benefits to offer, ‘Greek Yogurt’ is rightly touted as a superfood. Greek Yogurt is actually quite similar to our traditional dahi but Greek yoghurt is thicker and creamy with the extra whey being drained out. Greek Yogurt is also more nutritious than our curd and while a single medium-sized bowl of curd contains 3 – 4 gms of protein, the same quantity of Greek Yoghurt contains around 8 – 10 gms of protein. )",
+    img: "/Images/epigamia blueberry/blueberry.jpg",
+    id: 20
+  },
+  {
+    name: "Epigamia Yogurt",
+    author: "Epigamia Greek Yogurt - Mulberry",
+    price: 40,
+    cartQuantity: 0,
+    discount: null,
+    available: true,
+    images: [
+      {
+        img1: "/Images/epigamia mulberry/mulberry.jpg"
+      }
+    ],
+    desc:
+      "In the quest for healthy eating, people have finally discovered Greek yoghurt which is known to be quite nutritious and has numerous benefits for the body, hair and skin. With so many health benefits to offer, ‘Greek Yogurt’ is rightly touted as a superfood. Greek Yogurt is actually quite similar to our traditional dahi but Greek yoghurt is thicker and creamy with the extra whey being drained out. Greek Yogurt is also more nutritious than our curd and while a single medium-sized bowl of curd contains 3 – 4 gms of protein, the same quantity of Greek Yoghurt contains around 8 – 10 gms of protein. )",
+    img: "/Images/epigamia mulberry/mulberry.jpg",
+    id: 21
+  },
+  {
+    name: "Epigamia Yogurt",
+    author: "Epigamia Greek Yogurt - Strawberry",
+    price: 40,
+    cartQuantity: 0,
+    discount: null,
+    available: true,
+    images: [
+      {
+        img1: "/Images/epigamia strawberry/strawberry.jpg"
+      }
+    ],
+    desc:
+      "In the quest for healthy eating, people have finally discovered Greek yoghurt which is known to be quite nutritious and has numerous benefits for the body, hair and skin. With so many health benefits to offer, ‘Greek Yogurt’ is rightly touted as a superfood. Greek Yogurt is actually quite similar to our traditional dahi but Greek yoghurt is thicker and creamy with the extra whey being drained out. Greek Yogurt is also more nutritious than our curd and while a single medium-sized bowl of curd contains 3 – 4 gms of protein, the same quantity of Greek Yoghurt contains around 8 – 10 gms of protein. )",
+    img: "/Images/epigamia strawberry/strawberry.jpg",
+    id: 22
+  },
+  {
     name: "Lays American Slice",
     author: "Lays American Slice",
     price: 20,
@@ -102,29 +348,7 @@ From the everyday snack to the impromptu get-togethers, LAY’S chips are the pe
       }
     ]
   },
-  {
-    name: "Red Bull",
-    author: "Red Bull Energy Drink, 250 ml Can",
-    price: 90,
-    cartQuantity: 0,
-    discount: 99,
-    available: true,
-    images: [
-      {
-        img1: "/Images/redbull/redbull1.jpg"
-      },
-      {
-        img1: "/Images/redbull/redbull2.jpg"
-      },
-      {
-        img1: "/Images/redbull/redbull3.jpg"
-      }
-    ],
-    desc:
-      "Red Bull Energy Drink is a functional beverage that vitalizes body and mind. With billions of cans consumed all across the world, Red Bull is appreciated by top athletes, busy professionals, college students and travelers on long journeys. For those who have to stay on top of their game during intesnse meetings or creative brainstorming sessions, in action with teammates or competitors, or simply want to get the most out of life, a chilled can of Red Bull Energy Drink gives you wings when you need them.																						",
-    img: "/Images/redbull/redbull1.jpg",
-    id: 26
-  },
+
   {
     name: "Popcorn",
     author: "Popicorn Piri Masala",
@@ -141,26 +365,6 @@ From the everyday snack to the impromptu get-togethers, LAY’S chips are the pe
         img1: "/Images/popicorn piri piri/piri masala.jpg"
       }
     ]
-  },
-  {
-    name: "Brownie",
-    author: "Chocolate Walnut Brownie",
-    price: 70,
-    cartQuantity: 0,
-    discount: null,
-    available: true,
-    images: [
-      {
-        img1: "/Images/brownie/brownie 2.jpg"
-      },
-      {
-        img1: "/Images/brownie/brownie.jpg"
-      }
-    ],
-    desc:
-      "The Popular Brownie is a unique handcrafted chocolate dessert, where the smooth taste marries the right blend of cakey and gooey to create an experience that reflects your own sense of pleasure and richness. The very first bite revels the bold blend of coca with rich walnuts leaving your palate enhanced with aromatic notes giving you a completely satisfying experience. Prepare yourself to experience this outstanding Chocolate walnut Brownie elevating you to a higher level of self-satisfaction",
-    img: "/Images/brownie/brownie 2.jpg",
-    id: 35
   },
 
   {
@@ -376,52 +580,7 @@ From the everyday snack to the impromptu get-togethers, LAY’S chips are the pe
     img: "/Images/trailmix/trailmix1.jpg",
     id: 10
   },
-  {
-    name: "Cornitos",
-    author: "Cornitos Nachos Cheese and Herb",
-    price: 35,
-    cartQuantity: 0,
-    discount: null,
-    available: true,
-    images: [
-      {
-        img1: "/Images/cornitos cheese n herbs/cornitos cheese n herbs.jpg"
-      },
-      {
-        img1: "/Images/cornitos cheese n herbs/cornitos cheese n herbs2 .jpg"
-      }
-    ],
-    desc:
-      "Cornitos nacho crisps is a mexican snack in international flavors catering to the indian palate. These flavored tortilla corn chips are made by the traditional mexican lime-treatment process, along with the contract farming of special food grade non-gmo corn.												",
-    img: "/Images/cornitos cheese n herbs/cornitos cheese n herbs.jpg",
-    id: 12
-  },
-  {
-    name: "Cornitos",
-    author: "Cornitos Nachos Crisps, Barbeque",
-    price: 35,
-    cartQuantity: 0,
-    discount: null,
-    available: true,
-    images: [
-      {
-        img1: "/Images/cornitos/barbeque/cornitosbarb1.jpg"
-      },
-      {
-        img1: "/Images/cornitos/barbeque/cornitosbarb2.jpg"
-      },
-      {
-        img1: "/Images/cornitos/barbeque/cornitosbarb3.jpg"
-      },
-      {
-        img1: "/Images/cornitos/barbeque/cornitosbarb4.jpg"
-      }
-    ],
-    desc:
-      "Cornitos nacho crisps is a mexican snack in international flavors catering to the indian palate. These flavored tortilla corn chips are made by the traditional mexican lime-treatment process, along with the contract farming of special food grade non-gmo corn.",
-    img: "/Images/cornitos/barbeque/cornitosbarb1.jpg",
-    id: 13
-  },
+
   {
     name: "Unibic Cookies",
     author: "Unibic Chocolate Chip Cookies",
@@ -541,88 +700,6 @@ From the everyday snack to the impromptu get-togethers, LAY’S chips are the pe
     id: 18
   },
 
-  {
-    name: "Epigamia Yogurt",
-    author: "Epigamia Greek Yogurt - Alphonso Mango",
-    price: 40,
-    cartQuantity: 0,
-    discount: null,
-    available: true,
-    images: [
-      {
-        img1:
-          "/Images/epigamia/Epigamia Greek Yogurt - Alphonso Mango, 90 g/epigamiamango1.jpeg"
-      },
-      {
-        img1:
-          "/Images/epigamia/Epigamia Greek Yogurt - Alphonso Mango, 90 g/epigamiamango2.jpeg"
-      },
-      {
-        img1:
-          "/Images/epigamia/Epigamia Greek Yogurt - Alphonso Mango, 90 g/epigamiamango3.jpeg"
-      },
-      {
-        img1:
-          "/Images/epigamia/Epigamia Greek Yogurt - Alphonso Mango, 90 g/epigamiamango4.jpeg"
-      }
-    ],
-    desc:
-      "In the quest for healthy eating, people have finally discovered Greek yoghurt which is known to be quite nutritious and has numerous benefits for the body, hair and skin. With so many health benefits to offer, ‘Greek Yogurt’ is rightly touted as a superfood. Greek Yogurt is actually quite similar to our traditional dahi but Greek yoghurt is thicker and creamy with the extra whey being drained out. Greek Yogurt is also more nutritious than our curd and while a single medium-sized bowl of curd contains 3 – 4 gms of protein, the same quantity of Greek Yoghurt contains around 8 – 10 gms of protein. )",
-    img:
-      "/Images/epigamia/Epigamia Greek Yogurt - Alphonso Mango, 90 g/epigamiamango1.jpeg",
-    id: 19
-  },
-  {
-    name: "Epigamia Yogurt",
-    author: "Epigamia Greek Yogurt - Blueberry",
-    price: 40,
-    cartQuantity: 0,
-    discount: null,
-    available: true,
-    images: [
-      {
-        img1: "/Images/epigamia blueberry/blueberry.jpg"
-      }
-    ],
-    desc:
-      "In the quest for healthy eating, people have finally discovered Greek yoghurt which is known to be quite nutritious and has numerous benefits for the body, hair and skin. With so many health benefits to offer, ‘Greek Yogurt’ is rightly touted as a superfood. Greek Yogurt is actually quite similar to our traditional dahi but Greek yoghurt is thicker and creamy with the extra whey being drained out. Greek Yogurt is also more nutritious than our curd and while a single medium-sized bowl of curd contains 3 – 4 gms of protein, the same quantity of Greek Yoghurt contains around 8 – 10 gms of protein. )",
-    img: "/Images/epigamia blueberry/blueberry.jpg",
-    id: 20
-  },
-  {
-    name: "Epigamia Yogurt",
-    author: "Epigamia Greek Yogurt - Mulberry",
-    price: 40,
-    cartQuantity: 0,
-    discount: null,
-    available: true,
-    images: [
-      {
-        img1: "/Images/epigamia mulberry/mulberry.jpg"
-      }
-    ],
-    desc:
-      "In the quest for healthy eating, people have finally discovered Greek yoghurt which is known to be quite nutritious and has numerous benefits for the body, hair and skin. With so many health benefits to offer, ‘Greek Yogurt’ is rightly touted as a superfood. Greek Yogurt is actually quite similar to our traditional dahi but Greek yoghurt is thicker and creamy with the extra whey being drained out. Greek Yogurt is also more nutritious than our curd and while a single medium-sized bowl of curd contains 3 – 4 gms of protein, the same quantity of Greek Yoghurt contains around 8 – 10 gms of protein. )",
-    img: "/Images/epigamia mulberry/mulberry.jpg",
-    id: 21
-  },
-  {
-    name: "Epigamia Yogurt",
-    author: "Epigamia Greek Yogurt - Strawberry",
-    price: 40,
-    cartQuantity: 0,
-    discount: null,
-    available: true,
-    images: [
-      {
-        img1: "/Images/epigamia strawberry/strawberry.jpg"
-      }
-    ],
-    desc:
-      "In the quest for healthy eating, people have finally discovered Greek yoghurt which is known to be quite nutritious and has numerous benefits for the body, hair and skin. With so many health benefits to offer, ‘Greek Yogurt’ is rightly touted as a superfood. Greek Yogurt is actually quite similar to our traditional dahi but Greek yoghurt is thicker and creamy with the extra whey being drained out. Greek Yogurt is also more nutritious than our curd and while a single medium-sized bowl of curd contains 3 – 4 gms of protein, the same quantity of Greek Yoghurt contains around 8 – 10 gms of protein. )",
-    img: "/Images/epigamia strawberry/strawberry.jpg",
-    id: 22
-  },
   {
     name: "Popcorn",
     author: "ACT II Salted Popcorn",
@@ -820,81 +897,7 @@ From the everyday snack to the impromptu get-togethers, LAY’S chips are the pe
     img: "/Images/nescafe cold coffee/ncf2.jpg",
     id: 26
   },
-  {
-    name: "Alo Frut Juice",
-    author: "Alofrut Orange Aloevera Juice 300ml",
-    price: 40,
-    cartQuantity: 0,
-    discount: null,
-    available: true,
-    images: [
-      {
-        img1:
-          "/Images/alofrutjuice/Alofrut Orange Aloevera Juice 300ml/afj1.jpg"
-      }
-    ],
-    desc:
-      "It is most refreshing and healthy fusion of aloevera gel, juice, pulp and fruit blends. Aloevera is known worldwide as a rich source of vitamins, minerals and essential amino acids. This is unique fusion of health and taste. Extracted from the finest of fruit pulp. Perfect thirst quencher, full of awesomeness, amalgamated with nutriments of aloevera, made for curious tongues.",
-    img: "/Images/alofrutjuice/Alofrut Orange Aloevera Juice 300ml/afj1.jpg",
-    id: 30
-  },
-  {
-    name: "Alo Frut Juice",
-    author: "Alofrut Kiwi Aloevera Juice 300ml",
-    price: 40,
-    cartQuantity: 0,
-    discount: null,
-    available: true,
-    images: [
-      {
-        img1: "/Images/alofrutjuice/Alofrut Kiwi Aloevera Juice 300ml/afj2.jpg"
-      }
-    ],
-    desc:
-      "It is most refreshing and healthy fusion of aloevera gel, juice, pulp and fruit blends. Aloevera is known worldwide as a rich source of vitamins, minerals and essential amino acids. This is unique fusion of health and taste. Extracted from the finest of fruit pulp. Perfect thirst quencher, full of awesomeness, amalgamated with nutriments of aloevera, made for curious tongues.",
-    img: "/Images/alofrutjuice/Alofrut Kiwi Aloevera Juice 300ml/afj2.jpg",
-    id: 31
-  },
-  {
-    name: "Alo Frut Juice",
-    author: "Alofrut Mango Aloevera Juice 300ml",
-    price: 40,
-    cartQuantity: 0,
-    discount: null,
-    available: true,
-    images: [
-      {
-        img1: "/Images/alofrutjuice/Alofrut Mango Aloevera Juice 300ml/afj3.jpg"
-      },
-      {
-        img1:
-          "/Images/alofrutjuice/Alofrut Mango Aloevera Juice 300ml/afj31.jpg"
-      }
-    ],
-    desc:
-      "It is most refreshing and healthy fusion of aloevera gel, juice, pulp and fruit blends. Aloevera is known worldwide as a rich source of vitamins, minerals and essential amino acids. This is unique fusion of health and taste. Extracted from the finest of fruit pulp. Perfect thirst quencher, full of awesomeness, amalgamated with nutriments of aloevera, made for curious tongues.",
-    img: "/Images/alofrutjuice/Alofrut Mango Aloevera Juice 300ml/afj3.jpg",
-    id: 32
-  },
-  {
-    name: "Alo Frut Juice",
-    author: "Alofrut Anar Aloevera Juice 300ml",
-    price: 40,
-    cartQuantity: 0,
-    discount: null,
-    available: true,
-    images: [
-      {
-        img1:
-          "/Images/alo frut anar/alofrut-anaar-aloevera-juice-200ml-851592403.jpg"
-      }
-    ],
-    desc:
-      "It is most refreshing and healthy fusion of aloevera gel, juice, pulp and fruit blends. Aloevera is known worldwide as a rich source of vitamins, minerals and essential amino acids. This is unique fusion of health and taste. Extracted from the finest of fruit pulp. Perfect thirst quencher, full of awesomeness, amalgamated with nutriments of aloevera, made for curious tongues.",
-    img:
-      "/Images/alo frut anar/alofrut-anaar-aloevera-juice-200ml-851592403.jpg",
-    id: 33
-  },
+
   {
     name: "Orbit",
     author: "Orbit Wrigleys Spearmint Sugar-free Chewing Gum",
