@@ -1,5 +1,91 @@
 export const data = [
   {
+    name: "Coca Cola",
+    author: "Coca Cola",
+    price: 35,
+    id: 35,
+    cartQuantity: 0,
+    discount: null,
+    available: true,
+    desc: `One of the most popular and loved soft drink brands around the world
+The original cola flavoured refreshment to be enjoyed with loved ones
+Share happy moments with friends & family, share a Coca-Cola
+Enjoy Coca-Cola’s delicious taste with meals, on the go, or to share
+The perfect accompaniment to your celebrations and family gatherings
+It is best served chilled and bubbling
+`,
+    img: "/Images/Coke/coke1.jpg",
+    images: [
+      {
+        img1: "/Images/Coke/coke1.jpg"
+      },
+      {
+        img1: "/Images/Coke/coke2.jpg"
+      },
+
+      {
+        img1: "/Images/Coke/coke3.jpg"
+      }
+    ]
+  },
+  {
+    name: "Lays American Slice",
+    author: "Lays American Slice",
+    price: 20,
+    id: 36,
+    cartQuantity: 0,
+    discount: null,
+    available: true,
+    desc: `Relish the delectable combination of sour and cream perfectly blended with herb and onion flavor. Delicious individual bags: perfect for snacking at work, home or school.
+From the everyday snack to the impromptu get-togethers, LAY’S chips are the perfect addition to any occasion.
+100% vegetarian, best quality potatoes, finest quality of spices and edible vegetable oils. Trans-fat free.
+`,
+    img: "/Images/Lays/Green/LG.jpg",
+    images: [
+      {
+        img1: "/Images/Lays/Green/LG.jpg"
+      }
+    ]
+  },
+  {
+    name: "Lays Blue",
+    author: "Lays Blue",
+    price: 20,
+    id: 37,
+    cartQuantity: 0,
+    discount: null,
+    available: true,
+    desc: `Taste the unbeatable blend of delectable Indian spices with best quality potatoes
+From the everyday snack to the impromptu get-togethers, LAY’S chips are the perfect addition to any occasion.
+100% vegetarian, best quality potatoes, finest quality of spices and edible vegetable oils. Trans-fat free.
+`,
+    img: "/Images/Lays/Blue/LB1.jpg",
+    images: [
+      {
+        img1: "/Images/Lays/Blue/LB1.jpg"
+      },
+      {
+        img1: "/Images/Lays/Blue/LB2.jpg"
+      }
+    ]
+  },
+  {
+    name: "Dairy Milk",
+    author: "Dairy Milk Silk",
+    price: 60,
+    id: 2,
+    cartQuantity: 0,
+    discount: null,
+    available: true,
+    desc: "",
+    img: "/Images/Cadbury Silk/Silk.jpg",
+    images: [
+      {
+        img1: "/Images/Cadbury Silk/Silk.jpg"
+      }
+    ]
+  },
+  {
     name: "Popcorn",
     author: "Popicorn Yummy Butter",
     price: 20,
@@ -341,7 +427,7 @@ export const data = [
     author: "Unibic Chocolate Chip Cookies",
     price: 25,
     cartQuantity: 0,
-    discount: 30,
+    discount: null,
     available: true,
     images: [
       {
