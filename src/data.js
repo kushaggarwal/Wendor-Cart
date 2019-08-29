@@ -214,7 +214,7 @@ It is best served chilled and bubbling
     price: 40,
     cartQuantity: 0,
     discount: null,
-    available: true,
+    available: false,
     images: [
       {
         img1:
@@ -246,7 +246,7 @@ It is best served chilled and bubbling
     price: 40,
     cartQuantity: 0,
     discount: null,
-    available: true,
+    available: false,
     images: [
       {
         img1: "/Images/epigamia strawberry/strawberry.jpg"
@@ -287,7 +287,7 @@ From the everyday snack to the impromptu get-togethers, LAY’S chips are the pe
     id: 2,
     cartQuantity: 0,
     discount: null,
-    available: true,
+    available: false,
     desc: "",
     img: "/Images/Cadbury Silk/Silk.jpg",
     images: [
@@ -694,7 +694,7 @@ From the everyday snack to the impromptu get-togethers, LAY’S chips are the pe
     price: 30,
     cartQuantity: 0,
     discount: null,
-    available: true,
+    available: false,
     images: [
       {
         img1:
@@ -728,7 +728,7 @@ From the everyday snack to the impromptu get-togethers, LAY’S chips are the pe
     price: 30,
     cartQuantity: 0,
     discount: null,
-    available: true,
+    available: false,
     images: [
       {
         img1:
