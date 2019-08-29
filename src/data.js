@@ -587,7 +587,7 @@ From the everyday snack to the impromptu get-togethers, LAY’S chips are the pe
     price: 40,
     cartQuantity: 0,
     discount: null,
-    available: true,
+    available: false,
     images: [
       {
         img1: "/Images/alofrutjuice/Alofrut Mango Aloevera Juice 300ml/afj3.jpg"
