@@ -28,11 +28,12 @@
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.1",
     "react-router-hash-link": "^1.2.2",
-    "react-scripts": "3.0.1",
+    "react-scripts": "^3.0.1",
     "semantic-ui-react": "^0.87.2"
   },
   "scripts": {
     "start": "node server.js",
+    "start-app": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
